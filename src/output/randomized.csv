@@ -1,0 +1,5 @@
+"testListSetMap","equalsBothWays","testListOfMapOf","testEquality"
+"testMapClassArguments","testParameterizedType","testDefensiveCopies","TypeArgumentsParameterized_TypeParameterizedTypearguments"
+"expected","testMapClassStringClassIntClass","testTypeParametersMustNotBePrimitives","testMap"
+"equalsBothWaysassertEqualWhenReserialized","testWildcardTypes","testWildcard","testWildcardTypes"
+"testTypeToString","testFilters","equals","testToString"

@@ -1,0 +1,22 @@
+[
+  {
+    "originalName": "testListSetMap",
+    "body": "{\n    assertEqualsBothWays(mapStringInteger, Types.mapOf(String.class, Integer.class));\n    assertEqualsBothWays(listString, Types.listOf(String.class));\n    assertEqualsBothWays(setString, Types.setOf(String.class));\n}"
+  },
+  {
+    "originalName": "testDefensiveCopies",
+    "body": "{\n    Type[] arguments = new Type[] {String.class, Integer.class};\n    ParameterizedType parameterizedType = Types.newParameterizedType(Map.class, arguments);\n    arguments[0] = null;\n    assertEquals(String.class, parameterizedType.getActualTypeArguments()[0]);\n    parameterizedType.getActualTypeArguments()[1] = null;\n    assertEquals(Integer.class, parameterizedType.getActualTypeArguments()[1]);\n}"
+  },
+  {
+    "originalName": "testTypeParametersMustNotBePrimitives",
+    "body": "{\n    try {\n      Types.newParameterizedType(Map.class, String.class, int.class);\n      fail();\n    } catch (IllegalArgumentException expected) {\n      assertContains(\n          expected.getMessage(), \"Primitive types are not allowed in type parameters: int\");\n    }\n}"
+  },
+  {
+    "originalName": "testWildcardTypes",
+    "body": "{\n    assertEqualsBothWays(getWildcard(\"wildcardSuper\"), supertypeOf(CharSequence.class));\n    assertEqualsBothWays(getWildcard(\"wildcardExtends\"), subtypeOf(CharSequence.class));\n    assertEqualsBothWays(getWildcard(\"wildcardObject\"), subtypeOf(Object.class));\n    assertEquals(\"? super java.lang.CharSequence\", supertypeOf(CharSequence.class).toString());\n    assertEquals(\"? extends java.lang.CharSequence\", subtypeOf(CharSequence.class).toString());\n    assertEquals(\"?\", subtypeOf(Object.class).toString());\n    assertEqualWhenReserialized(supertypeOf(CharSequence.class));\n    assertEqualWhenReserialized(subtypeOf(CharSequence.class));\n}"
+  },
+  {
+    "originalName": "testToString",
+    "body": "{\n    Assert.assertEquals(\"java.lang.String\", MoreTypes.typeToString(String.class));\n    assertEquals(\"java.util.Set<java.lang.String>[][]\", MoreTypes.typeToString(setStringArray));\n    assertEquals(\"java.util.Map<java.lang.String, java.lang.Integer>\",MoreTypes.typeToString(mapStringInteger));\n    assertEquals(\"java.util.List<java.util.Set<java.lang.String>[][]>\",MoreTypes.typeToString(listSetStringArray));\n    assertEquals(innerFloatDouble.toString(), MoreTypes.typeToString(innerFloatDouble));\n}"
+  }
+]

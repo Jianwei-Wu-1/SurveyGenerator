@@ -1,0 +1,252 @@
+[
+  {
+    "oldName": "addEdge_existingNodes",
+    "newName": "putEdge_existingNodes",
+    "body": "{addNode(N1);addNode(N2);assertThat(putEdge(N1,N2)).isTrue();}"
+  },
+  {
+    "oldName": "testSetFuture_misbehavingFutureThrows",
+    "newName": "testSetFuture_misbehavingFuture",
+    "body": "{SettableFuture\\u003cString\\u003e future\\u003dSettableFuture.create();ListenableFuture\\u003cString\\u003e badFuture\\u003dnew ListenableFuture\\u003cString\\u003e(){@Override public boolean cancel(boolean interrupt){return false;}@Override public boolean isDone(){return true;}@Override public boolean isCancelled(){return false;}@Override public String get(){throw new CancellationException();}@Override public String get(long time, TimeUnit unit){throw new CancellationException();}@Override public void addListener(Runnable runnable, Executor executor){executor.execute(runnable);}};future.setFuture(badFuture);ExecutionException expected\\u003dgetExpectingExecutionException(future);assertThat(expected).hasCauseThat().isInstanceOf(IllegalArgumentException.class);assertThat(expected).hasCauseThat().hasMessageThat().contains(badFuture.toString());}"
+  },
+  {
+    "oldName": "testTransformAsync_toString",
+    "newName": "testTransformAsync_functionToString",
+    "body": "{final CountDownLatch functionCalled\\u003dnew CountDownLatch(1);final CountDownLatch functionBlocking\\u003dnew CountDownLatch(1);AsyncFunction\\u003cObject,Object\\u003e function\\u003dnew AsyncFunction\\u003cObject,Object\\u003e(){@Override public ListenableFuture\\u003cObject\\u003e apply(Object input) throws Exception {functionCalled.countDown();functionBlocking.await();return immediateFuture(null);}@Override public String toString(){return \\\"Called my toString\\\";}};ExecutorService executor\\u003dExecutors.newSingleThreadExecutor();try {ListenableFuture\\u003c?\\u003e output\\u003dFutures.transformAsync(immediateFuture(null),function,executor);functionCalled.await();assertThat(output.toString()).contains(\\\"Called my toString\\\");} finally {functionBlocking.countDown();executor.shutdown();}}"
+  },
+  {
+    "oldName": "testBuilderAddAllMultiset",
+    "newName": "testBuilderAddAllHashMultiset",
+    "body": "{Multiset\\u003cString\\u003e a\\u003dHashMultiset.create(asList(\\\"a\\\",\\\"b\\\",\\\"b\\\"));Multiset\\u003cString\\u003e b\\u003dHashMultiset.create(asList(\\\"c\\\",\\\"b\\\"));ImmutableMultiset\\u003cString\\u003e multiset\\u003dnew ImmutableMultiset.Builder\\u003cString\\u003e().addAll(a).addAll(b).build();assertEquals(HashMultiset.create(asList(\\\"a\\\",\\\"b\\\",\\\"b\\\",\\\"b\\\",\\\"c\\\")),multiset);}"
+  },
+  {
+    "oldName": "testExclusion",
+    "newName": "testPublicSuffixExclusion",
+    "body": "{InternetDomainName domain\\u003dInternetDomainName.from(\\\"foo.city.yokohama.jp\\\");assertTrue(domain.hasPublicSuffix());assertEquals(\\\"yokohama.jp\\\",domain.publicSuffix().toString());assertFalse(domain.publicSuffix().isPublicSuffix());}"
+  },
+  {
+    "oldName": "testCopy",
+    "newName": "testCopy_toStringBuilder_fromReader",
+    "body": "{StringBuilder builder\\u003dnew StringBuilder();long copied\\u003dCharStreams.copy(new StringReader(ASCII),builder);assertEquals(ASCII,builder.toString());assertEquals(ASCII.length(),copied);StringBuilder builder2\\u003dnew StringBuilder();copied\\u003dCharStreams.copy(new StringReader(I18N),builder2);assertEquals(I18N,builder2.toString());assertEquals(I18N.length(),copied);}"
+  },
+  {
+    "oldName": "testToJavaUtil",
+    "newName": "testToJavaUtil_static",
+    "body": "{assertNull(Optional.toJavaUtil(null));assertEquals(java.util.Optional.empty(),Optional.toJavaUtil(Optional.absent()));assertEquals(java.util.Optional.of(\\\"abc\\\"),Optional.toJavaUtil(Optional.of(\\\"abc\\\")));}"
+  },
+  {
+    "oldName": "endpoints_directedGraph",
+    "newName": "edges_directedGraph",
+    "body": "{MutableBasicGraph\\u003cInteger\\u003e directedGraph\\u003dBasicGraphBuilder.directed().build();directedGraph.addNode(N0);directedGraph.putEdge(N1,N2);directedGraph.putEdge(N2,N1);directedGraph.putEdge(N1,N3);directedGraph.putEdge(N4,N4);containsExactlySanityCheck(directedGraph.edges(),Endpoints.ofDirected(N1,N2),Endpoints.ofDirected(N2,N1),Endpoints.ofDirected(N1,N3),Endpoints.ofDirected(N4,N4));}"
+  },
+  {
+    "oldName": "inducedSubgraph_partialEdgeIncidence",
+    "newName": "inducedSubgraph_Network",
+    "body": "{Set\\u003cInteger\\u003e nodeSubset\\u003dImmutableSet.of(N1,N2,N4);MutableNetwork\\u003cInteger,String\\u003e directedGraph\\u003dNetworkBuilder.directed().build();directedGraph.addEdge(N1,N2,E12);directedGraph.addEdge(N2,N1,E21);directedGraph.addEdge(N1,N3,E13);directedGraph.addEdge(N4,N4,E44);directedGraph.addEdge(5,6,\\\"5-6\\\");MutableNetwork\\u003cInteger,String\\u003e expectedSubgraph\\u003dNetworkBuilder.directed().build();expectedSubgraph.addEdge(N1,N2,E12);expectedSubgraph.addEdge(N2,N1,E21);expectedSubgraph.addEdge(N4,N4,E44);assertThat(inducedSubgraph(directedGraph,nodeSubset)).isEqualTo(expectedSubgraph);}"
+  },
+  {
+    "oldName": "addEdge_builder_selfLoop",
+    "newName": "addEdge_selfLoop",
+    "body": "{try {addEdge(E11,N1,N1);fail(ERROR_ADDED_SELF_LOOP);} catch (IllegalArgumentException e) {assertThat(e.getMessage()).contains(ERROR_SELF_LOOP);}}"
+  },
+  {
+    "oldName": "addEdge_builder_existingEdgeBetweenDifferentNodes_selfLoops",
+    "newName": "addEdge_existingEdgeBetweenDifferentNodes_selfLoops",
+    "body": "{addEdge(E11,N1,N1);try {addEdge(E11,N1,N2);fail(\\\"Reusing an existing self-loop edge to connect different nodes succeeded\\\");} catch (IllegalArgumentException e) {assertThat(e.getMessage()).contains(ERROR_REUSE_EDGE);}try {addEdge(E11,N2,N2);fail(\\\"Reusing an existing self-loop edge to make a different self-loop edge succeeded\\\");} catch (IllegalArgumentException e) {assertThat(e.getMessage()).contains(ERROR_REUSE_EDGE);}addEdge(E12,N1,N2);try {addEdge(E12,N1,N1);fail(\\\"Reusing an existing edge to add a self-loop edge between different nodes succeeded\\\");} catch (IllegalArgumentException e) {assertThat(e.getMessage()).contains(ERROR_REUSE_EDGE);}}"
+  },
+  {
+    "oldName": "testIsAssignableFrom_typeVariable",
+    "newName": "testisSupertypeOf_typeVariable",
+    "body": "{assertAssignable(TypeToken.of(new TypeCapture\\u003cN1\\u003e(){}.capture()),TypeToken.of(new TypeCapture\\u003cN1\\u003e(){}.capture()));assertNotAssignable(new TypeToken\\u003cList\\u003cN11\\u003e\\u003e(){},new TypeToken\\u003cList\\u003cN1\\u003e\\u003e(){});assertNotAssignable(new TypeToken\\u003cNumber\\u003e(){},TypeToken.of(new TypeCapture\\u003cN1\\u003e(){}.capture()));assertAssignable(TypeToken.of(new TypeCapture\\u003cN11\\u003e(){}.capture()),TypeToken.of(new TypeCapture\\u003cN1\\u003e(){}.capture()));assertNotAssignable(TypeToken.of(new TypeCapture\\u003cN2\\u003e(){}.capture()),TypeToken.of(new TypeCapture\\u003cN1\\u003e(){}.capture()));}"
+  },
+  {
+    "oldName": "testRemoveOccurrencesEmpty",
+    "newName": "testRemoveOccurrencesMultisetEmpty",
+    "body": "{Multiset\\u003cString\\u003e multiset\\u003dHashMultiset.create();Multiset\\u003cString\\u003e toRemove\\u003dHashMultiset.create(Arrays.asList(\\\"a\\\",\\\"b\\\",\\\"a\\\"));assertFalse(Multisets.retainOccurrences(multiset,toRemove));assertTrue(multiset.isEmpty());}"
+  },
+  {
+    "oldName": "testTryGate",
+    "newName": "testTryAcquire_noWaitAllowed",
+    "body": "{RateLimiter limiter\\u003dRateLimiter.create(stopwatch,5.0);assertTrue(limiter.tryAcquire(0,SECONDS));assertFalse(limiter.tryAcquire(0,SECONDS));assertFalse(limiter.tryAcquire(0,SECONDS));stopwatch.sleepMillis(100);assertFalse(limiter.tryAcquire(0,SECONDS));}"
+  },
+  {
+    "oldName": "testTransform_ListenableFuture_genericsHierarchy",
+    "newName": "testTransform_genericsHierarchy",
+    "body": "{ListenableFuture\\u003cFooChild\\u003e future\\u003dFutures.immediateFuture(null);final BarChild barChild\\u003dnew BarChild();Function\\u003cFoo,BarChild\\u003e function\\u003dnew Function\\u003cFoo,BarChild\\u003e(){@Override public BarChild apply(Foo unused){return barChild;}};Bar bar\\u003dFutures.transform(future,function).get();assertSame(barChild,bar);}"
+  },
+  {
+    "oldName": "testTailSet",
+    "newName": "testAsSetTailSet",
+    "body": "{ImmutableRangeSet\\u003cInteger\\u003e rangeSet\\u003dImmutableRangeSet.\\u003cInteger\\u003ebuilder().add(Range.closed(2,4)).add(Range.open(6,7)).add(Range.closedOpen(8,10)).add(Range.openClosed(15,17)).build();ImmutableSortedSet\\u003cInteger\\u003e expectedSet\\u003dImmutableSortedSet.of(2,3,4,8,9,16,17);ImmutableSortedSet\\u003cInteger\\u003e asSet\\u003drangeSet.asSet(DiscreteDomains.integers());for (int i\\u003d0; i \\u003c\\u003d 20; i++) {assertEquals(asSet.tailSet(i,false),expectedSet.tailSet(i,false));assertEquals(asSet.tailSet(i,true),expectedSet.tailSet(i,true));}}"
+  },
+  {
+    "oldName": "testAtEachSplitEmptyString",
+    "newName": "testFixedLengthSplitEmptyString",
+    "body": "{String simple\\u003d\\\"\\\";Iterable\\u003cString\\u003e letters\\u003dSplitter.fixedLength(3).split(simple);ASSERT.that(letters).hasContentsInOrder(\\\"\\\");}"
+  },
+  {
+    "oldName": "testEqualsAndValueOf",
+    "newName": "testEquals",
+    "body": "{EqualsTester equalsTester\\u003dnew EqualsTester();for (int a : TEST_INTS) {long value\\u003da \\u0026 0xffffffffL;equalsTester.addEqualityGroup(UnsignedInteger.asUnsigned(a),UnsignedInteger.valueOf(value),UnsignedInteger.valueOf(Long.toString(value)),UnsignedInteger.valueOf(Long.toString(value,16),16));}equalsTester.testEquals();}"
+  },
+  {
+    "oldName": "testEquality",
+    "newName": "testEquals",
+    "body": "{new EqualsTester().addEqualityGroup(Equivalence.equals(),Equivalence.equals()).addEqualityGroup(Equivalence.identity(),Equivalence.identity()).testEquals();}"
+  },
+  {
+    "oldName": "testLeastOf_ties",
+    "newName": "testLeastOfIterable_ties",
+    "body": "{Integer foo\\u003dnew Integer(Integer.MAX_VALUE - 10);Integer bar\\u003dnew Integer(Integer.MAX_VALUE - 10);assertNotSame(foo,bar);assertEquals(foo,bar);List\\u003cInteger\\u003e list\\u003dArrays.asList(3,foo,bar,-1);List\\u003cInteger\\u003e result\\u003dnumberOrdering.leastOf(list,list.size());assertEquals(ImmutableList.of(-1,3,foo,bar),result);}"
+  },
+  {
+    "oldName": "test_parserError",
+    "newName": "test_parserUndefined",
+    "body": "{String jsonString\\u003d\\\"{PayStatus:0,RunEmpId:undefined}\\\";Object json\\u003dJSON.parse(jsonString);Assert.assertEquals(\\\"{\\\\\\\"PayStatus\\\\\\\":0}\\\",json.toString());}"
+  },
+  {
+    "oldName": "test_emptyIgnore",
+    "newName": "test_for_issue",
+    "body": "{String text\\u003d\\\"{\\\\\\\"value\\\\\\\":2147483649}\\\";Exception error\\u003dnull;try {JSON.parseObject(text,VO.class);} catch (JSONException ex) {error\\u003dex;}Assert.assertNotNull(error);Assert.assertTrue(error.getMessage().contains(\\\"field : value\\\"));}"
+  },
+  {
+    "oldName": "shouldSayTooLittleInvocations",
+    "newName": "shouldSayTooFewInvocations",
+    "body": "{mock.simpleMethod();verify(mock,times(2)).simpleMethod();}"
+  },
+  {
+    "oldName": "can_match_on_equals",
+    "newName": "can_match_on_equals_matcher",
+    "body": "{IMethods mock\\u003dmock(IMethods.class);when((Function\\u003cString,String\\u003e)mock::oneArg).invokedWith(\\\"Hello World\\\").thenAnswer((string) -\\u003e string + \\\"!\\\");assertThat(mock.oneArg(\\\"Hello World\\\")).isEqualTo(\\\"Hello World!\\\");}"
+  },
+  {
+    "oldName": "testInjectMocks",
+    "newName": "no_warning_for_stubbing_arg_mismatch",
+    "body": "{when(mock.simpleMethod(1)).thenReturn(\\\"1\\\");mock.simpleMethod(2);}"
+  },
+  {
+    "oldName": "forAndroidResourceUriWithId",
+    "newName": "forAndroidBitmapResourceUriWithId",
+    "body": "{Action action\\u003dmockAction(RESOURCE_ID_URI_KEY,RESOURCE_ID_URI);BitmapHunter hunter\\u003dforRequest(mockPicasso(new ResourceRequestHandler(context)),dispatcher,cache,stats,action);assertThat(hunter.requestHandler).isInstanceOf(ResourceRequestHandler.class);}"
+  },
+  {
+    "oldName": "cancelRemovesAttachListener",
+    "newName": "cancelWhileAttachedRemovesAttachListener",
+    "body": "{ImageView target\\u003dmockFitImageViewTarget(true);DeferredRequestCreator request\\u003dnew DeferredRequestCreator(mock(RequestCreator.class),target);verify(target).addOnAttachStateChangeListener(attachListenerCaptor.capture());request.cancel();verify(target).removeOnAttachStateChangeListener(attachListenerCaptor.getValue());}"
+  },
+  {
+    "oldName": "initAttachesLayoutListener",
+    "newName": "initAttachesLayoutListenerApi11",
+    "body": "{ImageView target\\u003dmockFitImageViewTarget(true);ViewTreeObserver observer\\u003dtarget.getViewTreeObserver();DeferredRequestCreator request\\u003dnew DeferredRequestCreator(mock(RequestCreator.class),target);verify(observer).addOnPreDrawListener(request);}"
+  },
+  {
+    "oldName": "onGlobalLayoutSubmitsRequestAndCleansUp",
+    "newName": "preDrawSubmitsRequestAndCleansUp",
+    "body": "{Picasso picasso\\u003dmock(Picasso.class);when(picasso.transformRequest(any(Request.class))).thenAnswer(TRANSFORM_REQUEST_ANSWER);RequestCreator creator\\u003dnew RequestCreator(picasso,URI_1,0);ImageView target\\u003dmockFitImageViewTarget(true);when(target.getWidth()).thenReturn(100);when(target.getHeight()).thenReturn(100);ViewTreeObserver observer\\u003dtarget.getViewTreeObserver();DeferredRequestCreator request\\u003dnew DeferredRequestCreator(creator,target);request.onPreDraw();verify(observer).removeOnPreDrawListener(request);verify(picasso).enqueueAndSubmit(actionCaptor.capture());Action value\\u003dactionCaptor.getValue();assertThat(value).isInstanceOf(ImageViewAction.class);assertThat(value.getRequest().targetWidth).isEqualTo(100);assertThat(value.getRequest().targetHeight).isEqualTo(100);}"
+  },
+  {
+    "oldName": "nullBitmapOptionsIfNoResizing",
+    "newName": "nullBitmapOptionsIfNoResizingOrPurgeable",
+    "body": "{final Request noResize\\u003dnew Request.Builder(URI_1).build();final BitmapFactory.Options noResizeOptions\\u003dcreateBitmapOptions(noResize);assertThat(noResizeOptions).isNull();}"
+  },
+  {
+    "oldName": "responseSourceHeaderSetsResponseValue",
+    "newName": "cachedResponse",
+    "body": "{server.enqueue(new MockResponse().setHeader(\\\"Cache-Control\\\",\\\"max-age\\u003d31536000\\\").setBody(\\\"Hi\\\"));Downloader.Response response1\\u003ddownloader.load(uri,false);assertThat(response1.cached).isFalse();Okio.buffer(Okio.source(response1.getInputStream())).readByteArray();Downloader.Response response2\\u003ddownloader.load(uri,true);assertThat(response2.cached).isTrue();}"
+  },
+  {
+    "oldName": "nullResourceDoesNotSubmitRequest",
+    "newName": "noImageDoesNotSubmitRequest",
+    "body": "{Picasso picasso\\u003dmock(Picasso.class);ImageView target\\u003dmock(ImageView.class);new RequestBuilder(picasso,null,0).into(target);verifyZeroInteractions(picasso);verifyZeroInteractions(target);}"
+  },
+  {
+    "oldName": "cacheOnlyInstalledOnApi13",
+    "newName": "cacheNotInstalledWhenUnavailable",
+    "body": "{UrlConnectionLoader.cache\\u003dnull;server.enqueue(new MockResponse());loader.load(\\\"/\\\",false);Object cache\\u003dUrlConnectionLoader.cache;assertThat(cache).isNull();}"
+  },
+  {
+    "oldName": "testReadFormatDeduplicated",
+    "newName": "testEqualFormatsDeduplicated",
+    "body": "{sampleQueue.format(FORMAT_1);assertReadFormat(false,FORMAT_1);sampleQueue.format(FORMAT_1);assertNoSamplesToRead(FORMAT_1);sampleQueue.format(FORMAT_1_COPY);assertNoSamplesToRead(FORMAT_1);}"
+  },
+  {
+    "oldName": "getTasks_returnTasks",
+    "newName": "getCurrentDownloads_returnsCurrentDownloads",
+    "body": "{TaskWrapper task1\\u003dnew DownloadRunner(uri1).postDownloadRequest().getTask();TaskWrapper task2\\u003dnew DownloadRunner(uri2).postDownloadRequest().getTask();TaskWrapper task3\\u003dnew DownloadRunner(uri3).postDownloadRequest().postRemoveRequest().getTask();task3.assertRemoving();List\\u003cDownload\\u003e downloads\\u003ddownloadManager.getCurrentDownloads();assertThat(downloads).hasSize(3);String [] taskIds\\u003d{task1.taskId,task2.taskId,task3.taskId};String [] downloadIds\\u003d{downloads.get(0).request.id,downloads.get(1).request.id,downloads.get(2).request.id};assertThat(downloadIds).isEqualTo(taskIds);}"
+  },
+  {
+    "oldName": "manuallyStopAndResumeSingleDownload",
+    "newName": "setAndClearSingleDownloadStopReason",
+    "body": "{DownloadRunner runner\\u003dnew DownloadRunner(uri1).postDownloadRequest();TaskWrapper task\\u003drunner.getTask();task.assertDownloading();runOnMainThread(() -\\u003e downloadManager.setStopReason(task.taskId,APP_STOP_REASON));task.assertStopped();runOnMainThread(() -\\u003e downloadManager.setStopReason(task.taskId,Download.STOP_REASON_NONE));runner.getDownloader(1).assertStarted().unblock();downloadManagerListener.blockUntilTasksCompleteAndThrowAnyDownloadError();}"
+  },
+  {
+    "oldName": "manuallyStoppedDownloadCanBeCancelled",
+    "newName": "setSingleDownloadStopReasonThenRemove_removesDownload",
+    "body": "{DownloadRunner runner\\u003dnew DownloadRunner(uri1).postDownloadRequest();TaskWrapper task\\u003drunner.getTask();task.assertDownloading();runOnMainThread(() -\\u003e downloadManager.setStopReason(task.taskId,APP_STOP_REASON));task.assertStopped();runner.postRemoveRequest();runner.getDownloader(1).assertStarted().unblock();task.assertRemoved();downloadManagerListener.blockUntilTasksCompleteAndThrowAnyDownloadError();}"
+  },
+  {
+    "oldName": "getTasks_returnTasks",
+    "newName": "getCurrentDownloads_returnsCurrentDownloads",
+    "body": "{TaskWrapper task1\\u003dnew DownloadRunner(uri1).postDownloadRequest().getTask();TaskWrapper task2\\u003dnew DownloadRunner(uri2).postDownloadRequest().getTask();TaskWrapper task3\\u003dnew DownloadRunner(uri3).postDownloadRequest().postRemoveRequest().getTask();task3.assertRemoving();List\\u003cDownload\\u003e downloads\\u003ddownloadManager.getCurrentDownloads();assertThat(downloads).hasSize(3);String [] taskIds\\u003d{task1.taskId,task2.taskId,task3.taskId};String [] downloadIds\\u003d{downloads.get(0).request.id,downloads.get(1).request.id,downloads.get(2).request.id};assertThat(downloadIds).isEqualTo(taskIds);}"
+  },
+  {
+    "oldName": "manuallyStopAndResumeSingleDownload",
+    "newName": "setAndClearSingleDownloadStopReason",
+    "body": "{DownloadRunner runner\\u003dnew DownloadRunner(uri1).postDownloadRequest();TaskWrapper task\\u003drunner.getTask();task.assertDownloading();runOnMainThread(() -\\u003e downloadManager.setStopReason(task.taskId,APP_STOP_REASON));task.assertStopped();runOnMainThread(() -\\u003e downloadManager.setStopReason(task.taskId,Download.STOP_REASON_NONE));runner.getDownloader(1).assertStarted().unblock();downloadManagerListener.blockUntilTasksCompleteAndThrowAnyDownloadError();}"
+  },
+  {
+    "oldName": "testAttachPlayer_setsAdUiViewGroup",
+    "newName": "testStart_setsAdUiViewGroup",
+    "body": "{setupPlayback(CONTENT_TIMELINE,PREROLL_ADS_DURATIONS_US,PREROLL_CUE_POINTS_SECONDS);imaAdsLoader.start(adsLoaderListener,adUiViewGroup);verify(adDisplayContainer,atLeastOnce()).setAdContainer(adUiViewGroup);}"
+  },
+  {
+    "oldName": "testAttachAfterRelease",
+    "newName": "testStartAfterRelease",
+    "body": "{setupPlayback(CONTENT_TIMELINE,PREROLL_ADS_DURATIONS_US,PREROLL_CUE_POINTS_SECONDS);imaAdsLoader.release();imaAdsLoader.start(adsLoaderListener,adUiViewGroup);}"
+  },
+  {
+    "oldName": "testStreamSerialization",
+    "newName": "testSerializerWriteRead",
+    "body": "{assertStreamSerializationRoundTrip(DownloadAction.createDownloadAction(TYPE_DASH,uri1,toList(new StreamKey(0,1,2),new StreamKey(3,4,5)),\\\"key123\\\",data));assertStreamSerializationRoundTrip(DownloadAction.createRemoveAction(TYPE_DASH,uri1,\\\"key123\\\",data));}"
+  },
+  {
+    "oldName": "testSideloadedShuffleOrder",
+    "newName": "testDefaultShuffleOrderSideloaded",
+    "body": "{int [] shuffledIndices\\u003dnew int[]{2,1,0,4,3};ShuffleOrder shuffleOrder\\u003dnew DefaultShuffleOrder(shuffledIndices,RANDOM_SEED);assertThat(shuffleOrder.getFirstIndex()).isEqualTo(2);assertThat(shuffleOrder.getLastIndex()).isEqualTo(3);for (int i\\u003d0; i \\u003c 4; i++) {assertThat(shuffleOrder.getNextIndex(shuffledIndices[i])).isEqualTo(shuffledIndices[i + 1]);}assertThat(shuffleOrder.getNextIndex(3)).isEqualTo(C.INDEX_UNSET);for (int i\\u003d4; i \\u003e 0; i--) {assertThat(shuffleOrder.getPreviousIndex(shuffledIndices[i])).isEqualTo(shuffledIndices[i - 1]);}assertThat(shuffleOrder.getPreviousIndex(2)).isEqualTo(C.INDEX_UNSET);}"
+  },
+  {
+    "oldName": "buildMediaItem_testClear",
+    "newName": "buildAndClear_assertDefaultValues",
+    "body": "{MediaItem.Builder builder\\u003dnew MediaItem.Builder();builder.setMedia(\\\"http://example.com\\\").setTitle(\\\"title\\\").setMimeType(MimeTypes.AUDIO_MP4).setStartPositionUs(3).setEndPositionUs(4).buildAndClear();assertDefaultValues(builder.build());}"
+  },
+  {
+    "oldName": "disabledTestCacheAndReadUnboundedRequestUnknownLength",
+    "newName": "testCacheAndReadUnboundedRequestUnknownLength",
+    "body": "{assertCacheAndRead(true,true);}"
+  },
+  {
+    "oldName": "testBindingNullProviderAnnotatedNullable",
+    "newName": "testBindingNullableNullProvider",
+    "body": "{Object instance\\u003dnew Object(){@Bind @Nullable private Provider\\u003cInteger\\u003e anIntProvider\\u003dnull;};BoundFieldModule module\\u003dBoundFieldModule.of(instance);try {Guice.createInjector(module);fail();} catch (CreationException e) {assertContains(e.getMessage(),\\\"Binding to null is not allowed. Use Providers.of(null) if this is your intended \\\" + \\\"behavior.\\\");}}"
+  },
+  {
+    "oldName": "testModuleConfig",
+    "newName": "testModuleConfigUsingJpa",
+    "body": "{new InjectorBuilder().addModules(new JpaPersistModule(\\\"myunit\\\")).stage(Stage.PRODUCTION).requireExplicitBindings().build();}"
+  },
+  {
+    "oldName": "testSpringIntegration",
+    "newName": "testBindFromSpring",
+    "body": "{final DefaultListableBeanFactory beanFactory\\u003dnew DefaultListableBeanFactory();RootBeanDefinition singleton\\u003dnew RootBeanDefinition(Singleton.class);beanFactory.registerBeanDefinition(\\\"singleton\\\",singleton);RootBeanDefinition prototype\\u003dnew RootBeanDefinition(Prototype.class,false);beanFactory.registerBeanDefinition(\\\"prototype\\\",prototype);Injector injector\\u003dGuice.createInjector(new AbstractModule(){protected void configure(){bind(BeanFactory.class).toInstance(beanFactory);bind(Singleton.class).toProvider(fromSpring(Singleton.class,\\\"singleton\\\"));bind(Prototype.class).toProvider(fromSpring(Prototype.class,\\\"prototype\\\"));}});assertNotNull(injector.getInstance(Singleton.class));assertSame(injector.getInstance(Singleton.class),injector.getInstance(Singleton.class));assertNotNull(injector.getInstance(Prototype.class));assertNotSame(injector.getInstance(Prototype.class),injector.getInstance(Prototype.class));}"
+  },
+  {
+    "oldName": "testBitmapWithRegion",
+    "newName": "testBitmapPercentageRegion",
+    "body": "{TtmlSubtitle subtitle\\u003dgetSubtitle(BITMAP_REGION_FILE);List\\u003cCue\\u003e output\\u003dsubtitle.getCues(1000000);assertThat(output).hasSize(1);Cue ttmlCue\\u003doutput.get(0);assertThat(ttmlCue.text).isEqualTo(null);assertThat(ttmlCue.bitmap).isNotNull();assertThat(ttmlCue.position).isEqualTo(24f / 100f);assertThat(ttmlCue.line).isEqualTo(28f / 100f);assertThat(ttmlCue.size).isEqualTo(51f / 100f);assertThat(ttmlCue.bitmapHeight).isEqualTo(Cue.DIMEN_UNSET);output\\u003dsubtitle.getCues(4000000);ttmlCue\\u003doutput.get(0);assertThat(ttmlCue.text).isEqualTo(null);assertThat(ttmlCue.bitmap).isNotNull();assertThat(ttmlCue.position).isEqualTo(21f / 100f);assertThat(ttmlCue.line).isEqualTo(35f / 100f);assertThat(ttmlCue.size).isEqualTo(57f / 100f);assertThat(ttmlCue.bitmapHeight).isEqualTo(Cue.DIMEN_UNSET);output\\u003dsubtitle.getCues(7500000);ttmlCue\\u003doutput.get(0);assertThat(ttmlCue.text).isEqualTo(null);assertThat(ttmlCue.bitmap).isNotNull();assertThat(ttmlCue.position).isEqualTo(24f / 100f);assertThat(ttmlCue.line).isEqualTo(28f / 100f);assertThat(ttmlCue.size).isEqualTo(51f / 100f);assertThat(ttmlCue.bitmapHeight).isEqualTo(Cue.DIMEN_UNSET);}"
+  },
+  {
+    "oldName": "testSample",
+    "newName": "testAc3Sample",
+    "body": "{ExtractorAsserts.assertBehavior(Ac3Extractor::new,\\\"ts/sample.ac3\\\");}"
+  }
+]

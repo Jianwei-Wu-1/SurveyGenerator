@@ -1,0 +1,1 @@
+data class NameBody(val originalName: String, val body: String)

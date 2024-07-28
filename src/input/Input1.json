@@ -1,0 +1,252 @@
+[
+  {
+    "oldName": "getIdentityLookup",
+    "newName": "getUserGroupManager",
+    "body": "@Override public IdentityLookup getIdentityLookup() { return identityLookup; }"
+  },
+  {
+    "oldName": "authorize",
+    "newName": "authenticate",
+    "body": "public void authorize(ActivitiUser user) { if (userGroupManager.exists(user.getUsername())) { SecurityContextHolder.setContext(new SecurityContextImpl(new Authentication() { @Override public Collection<? extends GrantedAuthority> getAuthorities() { return ((User) user).getAuthorities(); }  @Override public Object getCredentials() { return null; }  @Override public Object getDetails() { return null; }  @Override public Object getPrincipal() { return null; }  @Override public boolean isAuthenticated() { return true; }  @Override public void setAuthenticated(boolean b) throws IllegalArgumentException {  }  @Override public String getName() { return user.getUsername(); } })); } else { throw new IllegalStateException(\"Invalid user: User Doesn't exist!\"); } }"
+  },
+  {
+    "oldName": "findIntegrationContextByExecutionId",
+    "newName": "findById",
+    "body": "@Override public List<IntegrationContextEntity> findIntegrationContextByExecutionId(String executionId) { return commandExecutor.execute(new RetrieveIntegrationContextsCmd(executionId)); }"
+  },
+  {
+    "oldName": "isSignalEventSubscription",
+    "newName": "isSignalEventType",
+    "body": "protected boolean isSignalEventSubscription(EventSubscriptionEntity subscription) { return !\"signal\".equals(subscription.getEventType()); }"
+  },
+  {
+    "oldName": "getInterruptingBoundaryEventActivities",
+    "newName": "getBoundaryEventActivityBehaviors",
+    "body": "protected List<BoundaryEventActivityBehavior> getInterruptingBoundaryEventActivities(ActivityExecution execution) { List<BoundaryEventActivityBehavior> result = new ArrayList<BoundaryEventActivityBehavior>();  ActivityImpl activity = ((ExecutionEntity)execution).getActivity();  List<ActivityImpl> children = activity.getActivities();  for(ActivityImpl child: children) { if(child.getActivityBehavior() instanceof BoundaryEventActivityBehavior) { BoundaryEventActivityBehavior boundaryEventActivity = (BoundaryEventActivityBehavior) child.getActivityBehavior(); if(boundaryEventActivity.isInterrupting()) result.add(boundaryEventActivity); } }  return result; }"
+  },
+  {
+    "oldName": "getId",
+    "newName": "getSequenceFlowId",
+    "body": "@Override public String getId() { return id; }"
+  },
+  {
+    "oldName": "getDecisionTable",
+    "newName": "getExpression",
+    "body": "public DecisionTable getDecisionTable() { return decisionTable; }"
+  },
+  {
+    "oldName": "startJobAcquisitionThread",
+    "newName": "start",
+    "body": "@Override protected void startJobAcquisitionThread() { for (String tenantId : timerJobAcquisitionThreads.keySet()) { startTimerJobAcquisitionForTenant(tenantId); }  for (String tenantId : asyncJobAcquisitionThreads.keySet()) { asyncJobAcquisitionThreads.get(tenantId).start(); } }"
+  },
+  {
+    "oldName": "setJdbcMaxIdleTime",
+    "newName": "setJdbcMaxIdleConnections",
+    "body": "public DmnEngineConfiguration setJdbcMaxIdleTime(int jdbcMaxIdleTime) { this.jdbcMaxIdleTime = jdbcMaxIdleTime; return this; }"
+  },
+  {
+    "oldName": "getJdbcMaxIdleTimeExcessConnections",
+    "newName": "getJdbcMaxActiveConnections",
+    "body": "public int getJdbcMaxIdleTimeExcessConnections() { return jdbcMaxIdleTimeExcessConnections; }"
+  },
+  {
+    "oldName": "getModelsByModelTypeAndReferenceId",
+    "newName": "getModelsByModelType",
+    "body": "@Override public List<AbstractModel> getModelsByModelTypeAndReferenceId(Integer modelType, Long referenceId) { return new ArrayList<AbstractModel>(modelRepository.findModelsByModelTypeAndReferenceIdOrNullReferenceId(modelType, referenceId)); }"
+  },
+  {
+    "oldName": "addFormModel",
+    "newName": "addFormDefinition",
+    "body": "public FormDeploymentBuilder addFormModel(String resourceName, FormDefinition formDefinition) { FormJsonConverter formLConverter = new FormJsonConverter(); String dmn20Xml = formLConverter.convertToJson(formDefinition); addString(resourceName, dmn20Xml);  return this; }"
+  },
+  {
+    "oldName": "unacquireJob",
+    "newName": "resetExpiredJob",
+    "body": "@Override public void unacquireJob(String jobId) { Map<String, Object> params = new HashMap<String, Object>(2); params.put(\"id\", jobId); getDbSqlSession().update(\"unacquireJob\", params); }"
+  },
+  {
+    "oldName": "onKeepAlive",
+    "newName": "onSessionKeepAlive",
+    "body": "public void onKeepAlive(final long clusterSessionId) { final ClusterSession session = sessionByIdMap.get(clusterSessionId); if (null != session) { session.timeOfLastActivityMs(cachedEpochClock.time()); } }"
+  },
+  {
+    "oldName": "printCncInformation",
+    "newName": "printMarkInformation",
+    "body": "private static void printCncInformation(final ArchiveCncFile cncFile) { System.out.format( \"%1$tH:%1$tM:%1$tS (activity: %2$tH:%2$tM:%2$tS)%n\", new Date(), new Date(cncFile.activityTimestampVolatile())); System.out.println(cncFile.decoder()); }"
+  },
+  {
+    "oldName": "limitCounterId",
+    "newName": "upperBoundCounterId",
+    "body": "public int limitCounterId() { return limit.counterId(); }"
+  },
+  {
+    "oldName": "findReplayQuorumCounterId",
+    "newName": "findReplayCommitPositionCounterId",
+    "body": "private int findReplayQuorumCounterId(final CountersReader counters, final int replayStep) { int counterId = QuorumPos.findCounterIdByReplayStep(counters, replayStep);  while (CountersReader.NULL_COUNTER_ID == counterId) { checkInterruptedStatus(); idleStrategy.idle();  counterId = QuorumPos.findCounterIdByReplayStep(counters, replayStep); }  return counterId; }"
+  },
+  {
+    "oldName": "setupLogRecordingTracking",
+    "newName": "findLogRecording",
+    "body": "private long setupLogRecordingTracking(final int sessionId) { final CountersReader counters = aeron.countersReader();  idleStrategy.reset(); int recordingCounterId = RecordingPos.findCounterIdBySession(counters, sessionId); while (CountersReader.NULL_COUNTER_ID == recordingCounterId) { checkInterruptedStatus(); idleStrategy.idle();  recordingCounterId = RecordingPos.findCounterIdBySession(counters, sessionId); }  final long recordingId = RecordingPos.getRecordingId(counters, recordingCounterId);  logRecordingPosition = new ReadableCounter(counters, recordingCounterId); quorumPosition = QuorumPos.allocate( aeron, tempBuffer, recordingId, leadershipTermBeginPosition, leadershipTermId, sessionId, -1);  return recordingId; }"
+  },
+  {
+    "oldName": "controlToggle",
+    "newName": "controlToggleCounter",
+    "body": "/** * Set the counter for the control toggle for triggering actions on the cluster node. * * @param controlToggle the counter for triggering cluster node actions. * @return this for a fluent API. * @see ClusterControl */ public Context controlToggle(final Counter controlToggle) { this.controlToggle = controlToggle; return this; }"
+  },
+  {
+    "oldName": "assignSessionId",
+    "newName": "nextAvailableSessionId",
+    "body": "private int assignSessionId() { while (true) { final int sessionId = nextSessionId++; if (activeSessionIds.add(sessionId)) { return sessionId; } } }"
+  },
+  {
+    "oldName": "createRecoveryStateCounter",
+    "newName": "addRecoveryStateCounter",
+    "body": "private Counter createRecoveryStateCounter(final List<RecordingLog.ReplayStep> recoverySteps) { if (recoverySteps.isEmpty()) { return RecoveryState.allocate(aeron, tempBuffer, 0, 0, 0, 0); }  if (recoverySteps.get(0).entry.entryType == ENTRY_TYPE_SNAPSHOT) { final RecordingLog.Entry snapshot = recoverySteps.get(0).entry; final int replayTermCount = recoverySteps.size() - 1; cachedEpochClock.update(snapshot.timestamp); leadershipTermBeginPosition = snapshot.logPosition; messageIndex.setOrdered(snapshot.messageIndex);  return RecoveryState.allocate( aeron, tempBuffer, snapshot.logPosition, snapshot.messageIndex, snapshot.timestamp, replayTermCount); }  return RecoveryState.allocate(aeron, tempBuffer, 0, 0, 0, recoverySteps.size()); }"
+  },
+  {
+    "oldName": "checkForSnapshot",
+    "newName": "recoverFromSnapshot",
+    "body": "private void checkForSnapshot() { final RecordingIndex.Entry snapshot = ctx.recordingIndex().getLatestSnapshot();  if (null != snapshot) { cachedEpochClock.update(snapshot.timestamp); leadershipTermBeginPosition = snapshot.logPosition; messageIndex.setOrdered(snapshot.messageIndex);  try (Counter ignore = SnapshotPos.allocate( aeron, tempBuffer, snapshot.logPosition, snapshot.messageIndex, snapshot.timestamp)) { loadSnapshot(snapshot.recordingId); waitForState(ConsensusModule.State.REPLAY, ctx.idleStrategy()); } } else { final Counter counter = SnapshotPos.allocate(aeron, tempBuffer, 0, 0, 0); waitForState(ConsensusModule.State.REPLAY, ctx.idleStrategy()); counter.close(); } }"
+  },
+  {
+    "oldName": "findActiveRecordingCounterId",
+    "newName": "findActiveCounterIdByRecording",
+    "body": "/** * Find the active counter id for a stream based on the recording id. * * @param countersReader to search within. * @param recordingId    for the active recording. * @return the counter id if found otherwise {@link #NULL_COUNTER_ID}. */ public static int findActiveRecordingCounterId(final CountersReader countersReader, final long recordingId) { final DirectBuffer buffer = countersReader.metaDataBuffer();  for (int i = 0, size = countersReader.maxCounterId(); i < size; i++) { if (countersReader.getCounterState(i) == RECORD_ALLOCATED) { final int recordOffset = CountersReader.metaDataOffset(i);  if (buffer.getInt(recordOffset + TYPE_ID_OFFSET) == RECORDING_POSITION_TYPE_ID && buffer.getLong(recordOffset + KEY_OFFSET + RECORDING_ID_OFFSET) == recordingId) { return i; } } }  return NULL_COUNTER_ID; }"
+  },
+  {
+    "oldName": "getPublicationTermLength",
+    "newName": "getTermBufferLength",
+    "body": "private static int getPublicationTermLength(final AeronUri aeronUri, final int defaultTermLength) { final String termLengthParam = aeronUri.get(CommonContext.TERM_LENGTH_PARAM_NAME); int termLength = defaultTermLength; if (null != termLengthParam) { termLength = Integer.parseInt(termLengthParam); Configuration.validateTermBufferLength(termLength); }  return termLength; }"
+  },
+  {
+    "oldName": "countersMetadataBufferLengthOffset",
+    "newName": "countersMetaDataBufferLengthOffset",
+    "body": "public static int countersMetadataBufferLengthOffset(final int baseOffset) { return baseOffset + CNC_METADATA_OFFSET + COUNTERS_METADATA_BUFFER_LENGTH_FIELD_OFFSET; }"
+  },
+  {
+    "oldName": "receiverTransportPoller",
+    "newName": "dataTransportPoller",
+    "body": "public Context receiverTransportPoller(final DataTransportPoller transportPoller) { this.receiverTransportPoller = transportPoller; return this; }"
+  },
+  {
+    "oldName": "connectionHandler",
+    "newName": "imageHandler",
+    "body": "private void connectionHandler( final String channel, final int streamId, final int sessionId, final long position, final String sourceIdentity) { System.out.println(channel + \" \" + streamId); if (channel.equals(reflectChannel) && subStreamId == streamId) { connectionLatch.countDown(); System.out.println(\"Connected\"); } }"
+  },
+  {
+    "oldName": "onNewConnection",
+    "newName": "onNewImage",
+    "body": "public void onNewConnection( final String channel, final int streamId, final int sessionId, final long position, final String sourceIdentity) { if (channel.equals(pongChannel) && pongStreamId == streamId) { connectionLatch.countDown(); } }"
+  },
+  {
+    "oldName": "datagramChannel",
+    "newName": "receiveDatagramChannel",
+    "body": "/** * The {@link DatagramChannel} for this transport channel. * * @return {@link DatagramChannel} for this transport channel. */ public DatagramChannel datagramChannel() { return datagramChannel; }"
+  },
+  {
+    "oldName": "exceptionConsumer",
+    "newName": "errorHandler",
+    "body": "public Consumer<Throwable> exceptionConsumer() { return eventLogger::logException; }"
+  },
+  {
+    "oldName": "offset",
+    "newName": "fragmentsRead",
+    "body": "/** * Return the read offset * * @return offset */ public int offset() { return offset; }"
+  },
+  {
+    "oldName": "resultingOffset",
+    "newName": "computeResultingOffset",
+    "body": "private int resultingOffset(final UnsafeBuffer termBuffer, final int frameOffset, final int length, final int capacity) { int resultingOffset = frameOffset + length; if (resultingOffset > (capacity - HEADER_LENGTH)) { resultingOffset = FAILED;  if (frameOffset <= (capacity - HEADER_LENGTH)) { termBuffer.putBytes(frameOffset, defaultHeader, 0, HEADER_LENGTH);  frameType(termBuffer, frameOffset, PADDING_FRAME_TYPE); frameTermOffset(termBuffer, frameOffset, frameOffset); frameLengthOrdered(termBuffer, frameOffset, capacity - frameOffset);  resultingOffset = TRIPPED; } }  return resultingOffset; }"
+  },
+  {
+    "oldName": "conductorCommandQueue",
+    "newName": "toConductorFromSenderCommandQueue",
+    "body": "public Context conductorCommandQueue(final OneToOneConcurrentArrayQueue<DriverConductorCmd> conductorCommandQueue) { this.conductorCommandQueue = conductorCommandQueue; return this; }"
+  },
+  {
+    "oldName": "driverConductorProxy",
+    "newName": "fromSenderDriverConductorProxy",
+    "body": "public DriverConductorProxy driverConductorProxy() { return driverConductorProxy; }"
+  },
+  {
+    "oldName": "receiveChannelEndpoint",
+    "newName": "channelEndpoint",
+    "body": "public ReceiveChannelEndpoint receiveChannelEndpoint() { return channelEndpoint; }"
+  },
+  {
+    "oldName": "updatePositionLimitFromStatusMessage",
+    "newName": "senderPositionLimit",
+    "body": "public void updatePositionLimitFromStatusMessage(final long limit) { statusMessagesReceivedCount++; senderLimit = limit; }"
+  },
+  {
+    "oldName": "constructSetupFrame",
+    "newName": "initSetupFrame",
+    "body": "private void constructSetupFrame(final int activeTermId) { setupHeader.sessionId(sessionId) .streamId(streamId) .initialTermId(initialTermId) .activeTermId(activeTermId) .termOffset(0) .termLength(termLength) .mtuLength(mtuLength) .frameLength(SetupFlyweight.HEADER_LENGTH) .headerType(HeaderFlyweight.HDR_TYPE_SETUP) .flags((byte)0) .version(HeaderFlyweight.CURRENT_VERSION); }"
+  },
+  {
+    "oldName": "writeLogBufferLocation",
+    "newName": "writeTermBufferLocation",
+    "body": "public void writeLogBufferLocation(final int index, final BuffersReadyFlyweight buffersReadyFlyweight) { bufferLocation(index, buffersReadyFlyweight, mappedTermBuffer, termFile); }"
+  },
+  {
+    "oldName": "unifiedNetworkIdleStrategy",
+    "newName": "sharedNetworkIdleStrategy",
+    "body": "public Context unifiedNetworkIdleStrategy(final IdleStrategy strategy) { this.unifiedNetworkIdleStrategy = strategy; return this; }"
+  },
+  {
+    "oldName": "sendNewBufferNotification",
+    "newName": "sendPublicationReady",
+    "body": "private void sendNewBufferNotification(final int msgTypeId, final int sessionId, final int termId, final int streamId, final long correlationId) { newBufferMessage.streamId(streamId) .sessionId(sessionId) .correlationId(correlationId) .termId(termId);  IntStream.range(0, TermHelper.BUFFER_COUNT).forEach( (i) -> { newBufferMessage.location(i, sessionId + \"-log-\" + i); newBufferMessage.bufferOffset(i, 0); newBufferMessage.bufferLength(i, LOG_BUFFER_SZ); });  IntStream.range(0, TermHelper.BUFFER_COUNT).forEach( (i) -> { newBufferMessage.location(i + TermHelper.BUFFER_COUNT, sessionId + \"-state-\" + i); newBufferMessage.bufferOffset(i + TermHelper.BUFFER_COUNT, 0); newBufferMessage.bufferLength(i + TermHelper.BUFFER_COUNT, STATE_BUFFER_LENGTH); });  newBufferMessage.channel(CHANNEL);  toClientTransmitter.transmit(msgTypeId, atomicSendBuffer, 0, newBufferMessage.length()); }"
+  },
+  {
+    "oldName": "writeMsgLength",
+    "newName": "msgLength",
+    "body": "private static void writeMsgLength(final AtomicBuffer buffer, final int recordIndex, final int length) { buffer.putInt(msgLengthOffset(recordIndex), length); }"
+  },
+  {
+    "oldName": "onNewTermBuffers",
+    "newName": "onPublicationReady",
+    "body": "public void onNewTermBuffers( final int msgTypeId, final String channel, final int streamId, final int sessionId, final int termId, final long initialPosition, final TermBuffers termBuffers, final long correlationId, final int positionCounterId) { logBuffersMessage.wrap(tmpBuffer, 0); logBuffersMessage.sessionId(sessionId) .streamId(streamId) .initialPosition(initialPosition) .correlationId(correlationId) .termId(termId) .positionCounterId(positionCounterId); termBuffers.appendBufferLocationsTo(logBuffersMessage); logBuffersMessage.channel(channel);  final EventCode eventCode = msgTypeId == ON_NEW_PUBLICATION ? EventCode.CMD_OUT_NEW_PUBLICATION_BUFFER_NOTIFICATION : EventCode.CMD_OUT_NEW_SUBSCRIPTION_BUFFER_NOTIFICATION;  logger.log(eventCode, tmpBuffer, 0, logBuffersMessage.length());  transmitter.transmit(msgTypeId, tmpBuffer, 0, logBuffersMessage.length()); }"
+  },
+  {
+    "oldName": "frameLength",
+    "newName": "frameLengthVolatile",
+    "body": "/** * Get the length of a frame from the header. * * @param logBuffer   containing the frame. * @param frameOffset at which a frame begins. * @return the value for the frame length. */ public static int frameLength(final AtomicBuffer logBuffer, final int frameOffset) { int frameLength = logBuffer.getIntVolatile(lengthOffset(frameOffset));  if (ByteOrder.nativeOrder() != ByteOrder.LITTLE_ENDIAN) { frameLength = Integer.reverseBytes(frameLength); }  return frameLength; }"
+  },
+  {
+    "oldName": "eventByteBuffer",
+    "newName": "toEventReader",
+    "body": "public Context eventByteBuffer(final ByteBuffer buffer) { this.eventByteBuffer = buffer; return this; }"
+  },
+  {
+    "oldName": "addPublication",
+    "newName": "onNewPublication",
+    "body": "private void addPublication(final DriverPublication publication) { final DriverPublication[] oldPublications = publications; final int length = oldPublications.length; final DriverPublication[] newPublications = new DriverPublication[length + 1];  System.arraycopy(oldPublications, 0, newPublications, 0, length); newPublications[length] = publication;  publications = newPublications; }"
+  },
+  {
+    "oldName": "fragments",
+    "newName": "partitions",
+    "body": "public MappedRawLogFragment[] fragments() { return buffers; }"
+  },
+  {
+    "oldName": "recordingFileName",
+    "newName": "segmentFileName",
+    "body": "static String recordingFileName(final long recordingId, final int segmentIndex) { return recordingId + \".\" + segmentIndex + RECORDING_SEGMENT_POSTFIX; }"
+  },
+  {
+    "oldName": "parkSendResponse",
+    "newName": "queueResponse",
+    "body": "private void parkSendResponse( final long correlationId, final long relevantId, final ControlResponseCode code, final String message) { parkedSends.offer( () -> controlSessionProxy.sendResponse(correlationId, relevantId, code, message, controlPublication)); }"
+  },
+  {
+    "oldName": "singleResult",
+    "newName": "execute",
+    "body": "public TablePage singleResult() { return commandExecutor.execute(new Command<TablePage>() { public TablePage execute(CommandContext commandContext) { if (tableName == null || start == -1 || maxRows == -1) { throw new ActivitiException(\"Table name, offset and maxResults are \" + \"minimally needed to execute a TablePageQuery\"); } return commandContext.getManagementSession() .getTablePage(tableName, start, maxRows, sortColumn, sortOrder); }; }); }"
+  },
+  {
+    "oldName": "refreshProcessResources",
+    "newName": "deployResources",
+    "body": "protected void refreshProcessResources(RepositoryService repositoryService, Resource[] processResources) throws IOException { for (Resource resource : processResources) { String name = getResourceName(resource); DeploymentBuilder deploymentBuilder = repositoryService .createDeployment() .enableDuplicateFiltering() .name(name); deploy(deploymentBuilder, resource, name); } }"
+  }
+]

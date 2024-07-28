@@ -1,0 +1,427 @@
+[
+  {
+    "originalName": "testIsValidRule",
+    "generatedName": "test_IsValidRule",
+    "body": "{ AuthorityRule ruleA = new AuthorityRule();  AuthorityRule ruleB = null; AuthorityRule ruleC = new AuthorityRule(); ruleC.setResource(\"abc\"); AuthorityRule ruleD = new AuthorityRule();  ruleD.setResource(\"bcd\").setLimitApp(\"abc\"); assertFalse(AuthorityRuleManager.isValidRule(ruleA)); assertFalse(AuthorityRuleManager.isValidRule(ruleB)); assertFalse(AuthorityRuleManager.isValidRule(ruleC));  assertTrue(AuthorityRuleManager.isValidRule(ruleD));  }"
+  },
+  {
+    "originalName": "testReplaceContext",
+    "generatedName": "test_ReplaceContext",
+    "body": "{ final String contextName = \"contextA\";  final String origin = \"originA\";  ContextUtil.enter(contextName, origin); Context contextB = Context.newAsyncContext(null, \"contextB\").setOrigin(\"originA\"); Context contextA = ContextUtil.replaceContext(contextB);  assertEquals(contextName, contextA.getName()); assertEquals(origin, contextA.getOrigin());  assertFalse(contextA.isAsync()); Context curContextAfterReplace = ContextUtil.getContext(); assertEquals(contextB.getName(), curContextAfterReplace.getName());  assertEquals(contextB.getOrigin(), curContextAfterReplace.getOrigin());  assertTrue(curContextAfterReplace.isAsync()); ContextUtil.replaceContext(null);  assertNull(ContextUtil.getContext());   }"
+  },
+  {
+    "originalName": "testGetLastNode",
+    "generatedName": "test_CurNode_LastNode",
+    "body": "{ Context context = new NullContext(); CtEntry entry = new CtEntry(new StringResourceWrapper(\"testGetLastNode\", EntryType.IN),null, context); assertNull(entry.parent);  assertNull(entry.getLastNode());  Entry parentEntry = mock(Entry.class); Node node = mock(Node.class);  when(parentEntry.getCurNode()).thenReturn(node); entry.parent = parentEntry;  assertSame(node, entry.getLastNode()); }"
+  },
+  {
+    "originalName": "testCheckNotNull",
+    "generatedName": "test_CheckEagleEyeCoreUtilsCheckNotNullBar_CheckEagleEyeCoreUtilsCheckNotNullfooBar",
+    "body": "{ Assert.assertEquals(\"\", EagleEyeCoreUtils.checkNotNull(\"\", \"bar\"));  Assert.assertEquals(\" \", EagleEyeCoreUtils.checkNotNull(\" \", \"bar\"));  Assert.assertEquals(\"foo\",EagleEyeCoreUtils.checkNotNull(\"foo\", \"bar\"));  }"
+  },
+  {
+    "originalName": "testIsNotBlank",
+    "generatedName": "test_IsNotBlank",
+    "body": "{ Assert.assertFalse(EagleEyeCoreUtils.isNotBlank(\"\"));  Assert.assertFalse(EagleEyeCoreUtils.isNotBlank(\" \")); Assert.assertFalse(EagleEyeCoreUtils.isNotBlank(null)); Assert.assertTrue(EagleEyeCoreUtils.isNotBlank(\"foo\"));  }"
+  },
+  {
+    "originalName": "addAndRemoveUser",
+    "generatedName": "test_CheckTwoJedisAclListBinarySize",
+    "body": "{ String status = jedis.aclSetUser(USER_ZZZ); assertEquals(\"OK\", status); assertEquals(2, jedis.aclList().size()); assertEquals(2, jedis.aclListBinary().size()); jedis.aclDelUser(USER_ZZZ); assertEquals(1, jedis.aclList().size());  assertEquals(1, jedis.aclListBinary().size());}"
+  },
+  {
+    "originalName": "pingWithMessage",
+    "generatedName": "test_Argument_Bfoobar",
+    "body": "{ String argument = \"message\";  assertEquals(argument, jedis.ping(argument)); assertArrayEquals(bfoobar, jedis.ping(bfoobar)); }"
+  },
+  {
+    "originalName": "existsMany",
+    "generatedName": "test_CheckTwoReply",
+    "body": "{ String status = jedis.set(\"foo1\", \"bar1\"); assertEquals(\"OK\", status); status = jedis.set(\"foo2\", \"bar2\");  assertEquals(\"OK\", status); long reply = jedis.exists(\"foo1\", \"foo2\"); assertEquals(2, reply); long lreply = jedis.del(\"foo1\"); assertEquals(1, lreply); reply = jedis.exists(\"foo1\", \"foo2\"); assertEquals(1, reply); }"
+  },
+  {
+    "originalName": "clientIdReconnect",
+    "generatedName": "test_Connect_Disconnect",
+    "body": "{ long clientIdInitial = client.clientId(); client.disconnect(); client.connect(); long clientIdAfterReconnect = client.clientId(); assertTrue(clientIdInitial < clientIdAfterReconnect); }"
+  },
+  {
+    "originalName": "nonDefaultDatabase",
+    "generatedName": "test_CheckJedisZeroFoo_CheckJedisOneFoo_CheckPoolOneIsClosed",
+    "body": "{ JedisPool pool0 = new JedisPool(new JedisPoolConfig(), hnp.getHost(), hnp.getPort(), 2000,\"foobared\"); Jedis jedis0 = pool0.getResource(); jedis0.set(\"foo\", \"bar\"); assertEquals(\"bar\", jedis0.get(\"foo\")); jedis0.close(); pool0.destroy(); assertTrue(pool0.isClosed()); JedisPool pool1 = new JedisPool(new JedisPoolConfig(), hnp.getHost(), hnp.getPort(), 2000,\"foobared\", 1);  Jedis jedis1 = pool1.getResource();  assertNull(jedis1.get(\"foo\"));  jedis1.close();  pool1.destroy();  assertTrue(pool1.isClosed()); }"
+  },
+  {
+    "originalName": "testSerialization",
+    "generatedName": "test_Serialised",
+    "body": "{ EmptyBlock b1 = new EmptyBlock(1.0, 2.0);  EmptyBlock b2 = TestUtils.serialised(b1);  assertEquals(b1, b2);  }"
+  },
+  {
+    "originalName": "testSetSeriesToolTipGenerator",
+    "generatedName": "test_SeriesToolTipGenerator_ToolTipGenerator",
+    "body": "{ CategoryPlot plot = (CategoryPlot) this.chart.getPlot(); CategoryItemRenderer renderer = plot.getRenderer(); StandardCategoryToolTipGenerator tt = new StandardCategoryToolTipGenerator(); renderer.setSeriesToolTipGenerator(0, tt); CategoryToolTipGenerator tt2 = renderer.getToolTipGenerator(0, 0); assertSame(tt2, tt); }"
+  },
+  {
+    "originalName": "testSetSeriesURLGenerator",
+    "generatedName": "test_ItemURLGenerator_SeriesItemURLGenerator",
+    "body": "{ CategoryPlot plot = (CategoryPlot) this.chart.getPlot(); CategoryItemRenderer renderer = plot.getRenderer(); StandardCategoryURLGenerator url1  = new StandardCategoryURLGenerator(); renderer.setSeriesItemURLGenerator(0, url1); CategoryURLGenerator url2 = renderer.getItemURLGenerator(0, 0); assertSame(url2, url1); }"
+  },
+  {
+    "originalName": "testRemoveSubplot",
+    "generatedName": "test_Add_Remove",
+    "body": "{ CombinedRangeXYPlot plot = new CombinedRangeXYPlot(); XYPlot<String> plot1 = new XYPlot<>();  XYPlot<String> plot2 = new XYPlot<>();  plot.add(plot1); plot.add(plot2);  plot.remove(plot2); List<XYPlot> plots = plot.getSubplots(); assertTrue(plots.get(0) == plot1);  }"
+  },
+  {
+    "originalName": "testPublicCloneable",
+    "generatedName": "test_CheckDinstanceofPublicCloneable",
+    "body": "{ DefaultCategoryDataset<String,String> d = new DefaultCategoryDataset<>(); assertTrue(d instanceof PublicCloneable); }"
+  },
+  {
+    "originalName": "testClear",
+    "generatedName": "test_Clear",
+    "body": "{ RedisProcess runner = new RedisRunner().nosave().randomDir().port(6311).run(); URL configUrl = getClass().getResource(\"redisson-jcache.json\"); Config cfg = Config.fromJSON(configUrl); Configuration<String, String> config = RedissonConfiguration.fromConfig(cfg); Cache<String, String> cache = Caching.getCachingProvider().getCacheManager().createCache(\"test\", config);  cache.put(\"1\", \"2\"); cache.clear();  assertThat(cache.get(\"1\")).isNull(); cache.close();  runner.stop(); }"
+  },
+  {
+    "originalName": "testAsync",
+    "generatedName": "test_Async_PutAsync",
+    "body": "{ RedisProcess runner = new RedisRunner().nosave().randomDir().port(6311).run();  URL configUrl = getClass().getResource(\"redisson-jcache.json\");  Config cfg = Config.fromJSON(configUrl); Configuration<String, String> config = RedissonConfiguration.fromConfig(cfg); Cache<String, String> cache = Caching.getCachingProvider().getCacheManager().createCache(\"test\", config); CacheAsync<String, String> async = cache.unwrap(CacheAsync.class);  async.putAsync(\"1\", \"2\").get();  assertThat(async.getAsync(\"1\").get()).isEqualTo(\"2\");  cache.close(); runner.stop();  }"
+  },
+  {
+    "originalName": "testSyncSlavesWait",
+    "generatedName": "test_KeysStreamByPattern_ToArray",
+    "body": "{ Config config = createConfig(); config.useSingleServer().setConnectionMinimumIdleSize(1).setConnectionPoolSize(1);  RedissonClient redisson = Redisson.create(config);  try {batchOptions.skipResult().syncSlaves(2, 1, TimeUnit.SECONDS); RBatch batch = redisson.createBatch(batchOptions); RBucketAsync<Integer> bucket = batch.getBucket(\"1\"); bucket.setAsync(1);  batch.execute();  String[] t = redisson.getKeys().getKeysStreamByPattern(\"*\").toArray(String[]::new);  } catch (Exception ex) { ex.printStackTrace();    } }"
+  },
+  {
+    "originalName": "testTakeElements",
+    "generatedName": "test_TakeElements",
+    "body": "{ RBlockingQueueReactive<Integer> queue = redisson.getBlockingQueue(\"test\"); List<Integer> elements = new ArrayList<>(); queue.takeElements().subscribe(new Subscriber<Integer>() {  @Override  public void onSubscribe(Subscription s) {  s.request(4);   }  @Override public void onNext(Integer t) {  elements.add(t);  } @Override  public void onError(Throwable t) {   }  @Override   public void onComplete() { } });  for (int i = 0; i < 10; i++) {  sync(queue.add(i));  }  assertThat(elements).containsExactly(0, 1, 2, 3); }"
+  },
+  {
+    "originalName": "testPollFromAny",
+    "generatedName": "test_PollFromAny",
+    "body": "{  final RBlockingQueueReactive<Integer> queue1 = redisson.getBlockingQueue(\"queue:pollany\");   Executors.newSingleThreadScheduledExecutor().schedule(() -> {  RBlockingQueueReactive<Integer> queue2 = redisson.getBlockingQueue(\"queue:pollany1\");  RBlockingQueueReactive<Integer> queue3 = redisson.getBlockingQueue(\"queue:pollany2\");  sync(queue3.put(2)); sync(queue1.put(1)); sync(queue2.put(3));  }, 3, TimeUnit.SECONDS);  long s = System.currentTimeMillis();  int l = sync(queue1.pollFromAny(4, TimeUnit.SECONDS, \"queue:pollany1\", \"queue:pollany2\"));  Assert.assertEquals(2, l);  Assert.assertTrue(System.currentTimeMillis() - s > 2000); }"
+  },
+  {
+    "originalName": "test_decode",
+    "generatedName": "test_Decode",
+    "body": "{ String in = \"hello\"; String encode = Base64.encode(in); String decode = Base64.decode(encode); Assert.assertTrue(in.equals(decode));  }"
+  },
+  {
+    "originalName": "canGetBook",
+    "generatedName": "test_AfterFilterIs_BeforeFilterIs",
+    "body": "{ bookId = createBookViaPOST().body.trim(); UrlResponse response = doMethod(\"GET\", \"/books/\" + bookId, null);  String result = response.body;  assertNotNull(response); assertNotNull(response.body);  assertEquals(200, response.status);  assertTrue(result.contains(AUTHOR)); assertTrue(result.contains(TITLE));  assertTrue(beforeFilterIsSet(response)); assertTrue(afterFilterIsSet(response));  }"
+  },
+  {
+    "originalName": "testStaticFileCssStyleCssWithFirst",
+    "generatedName": "test_FirstClientDoMethodGETCssstyleCssNull",
+    "body": "{ SparkTestUtil.UrlResponse response = firstClient.doMethod(\"GET\", \"/css/style.css\", null); Assert.assertEquals(404, response.status); }"
+  },
+  {
+    "originalName": "testSetStatus",
+    "generatedName": "test_FinalStatusCode",
+    "body": "{ final int finalStatusCode = HttpServletResponse.SC_OK;  response.status(finalStatusCode);  verify(httpServletResponse).setStatus(finalStatusCode); }"
+  },
+  {
+    "originalName": "testSetBody",
+    "generatedName": "test_FinalBody",
+    "body": "{  final String finalBody = \"Hello world!\"; response.body(finalBody);  String returnBody = Whitebox.getInternalState(response, \"body\");  assertEquals(\"Should return body specified\", finalBody, returnBody);  }"
+  },
+  {
+    "originalName": "testMissHit",
+    "generatedName": "test_Runtime_CurrentTimeMillis_FreeMemory_Gc",
+    "body": "{ int times = 5000000;  DuplicateRemover duplicateRemover = new BloomFilterDuplicateRemover(times, 0.01);  int right = 0;  int wrong = 0;  int missCheck = 0;  for (int i = 0; i < times; i++) { boolean duplicate = duplicateRemover.isDuplicate(new Request(String.valueOf(i)), null); if (duplicate) {   wrong++;  } else { right++; }   duplicate = duplicateRemover.isDuplicate(new Request(String.valueOf(i)), null);  if (!duplicate) { missCheck++;   }  } System.out.println(\"Right count: \" + right + \" Wrong count: \" + wrong + \" Miss check: \" + missCheck);  }"
+  },
+  {
+    "originalName": "testDateFormatter",
+    "generatedName": "test_Format_InitParam",
+    "body": "{  DateFormatter dateFormatter = new DateFormatter(); String pattern = \"yyyy-MM-dd HH:mm\";  Date date = DateUtils.parseDate(\"2013-09-10 22:11\", new String[]{pattern}); dateFormatter.initParam(new String[]{pattern});  Date format = dateFormatter.format(DateFormatUtils.format(date, pattern)); assertThat(format).isEqualTo(date); }"
+  },
+  {
+    "originalName": "testDifferentPriority",
+    "generatedName": "test_SetPriority",
+    "body": "{ Request request = new Request(\"a\"); request.setPriority(100); priorityScheduler.push(request,task); request = new Request(\"b\"); request.setPriority(900);  priorityScheduler.push(request,task);  request = new Request(\"c\");  priorityScheduler.push(request,task); request = new Request(\"d\");  request.setPriority(-900); priorityScheduler.push(request,task); Request poll = priorityScheduler.poll(task); Assert.assertEquals(\"b\",poll.getUrl());  poll = priorityScheduler.poll(task); Assert.assertEquals(\"a\",poll.getUrl());  poll = priorityScheduler.poll(task);  Assert.assertEquals(\"c\",poll.getUrl()); poll = priorityScheduler.poll(task);  Assert.assertEquals(\"d\",poll.getUrl()); }"
+  },
+  {
+    "originalName": "testEqualsAndHashCode",
+    "generatedName": "test_Method_HashCode",
+    "body": "{ Request requestA = new Request(\"http://www.google.com/\"); Request requestB = new Request(\"http://www.google.com/\"); assertThat(requestA.hashCode()).isEqualTo(requestB.hashCode());  assertThat(requestA).isEqualTo(requestB); requestA.setMethod(HttpConstant.Method.GET);  requestA.setMethod(HttpConstant.Method.POST);  assertThat(requestA).isNotEqualTo(requestB);  assertThat(requestA.hashCode()).isNotEqualTo(requestB.hashCode());  }"
+  },
+  {
+    "originalName": "test_get_proxy",
+    "generatedName": "test_Proxy_From",
+    "body": "{ Proxy originProxy1 = new Proxy(\"127.0.0.1\", 1087);  Proxy originProxy2 = new Proxy(\"127.0.0.1\", 1088); SimpleProxyProvider proxyProvider = SimpleProxyProvider.from(originProxy1, originProxy2); Proxy proxy = proxyProvider.getProxy(TASK); assertThat(proxy).isEqualTo(originProxy1); proxy = proxyProvider.getProxy(TASK); assertThat(proxy).isEqualTo(originProxy2); proxy = proxyProvider.getProxy(TASK); assertThat(proxy).isEqualTo(originProxy1); }"
+  },
+  {
+    "originalName": "testGettingBarcodeWithNoTypeCreatesCode128Optimal",
+    "generatedName": "test_CheckServletBarcodeinstanceofCodeOneTwoEightBarcode",
+    "body": "{ req.setParameters(params);  servlet.doGet(req, res); assertTrue(servlet.getBarcode() instanceof Code128Barcode); }"
+  },
+  {
+    "originalName": "testGetReturnsBarcodeImage",
+    "generatedName": "test_getContentType_HasOutput_DoGet",
+    "body": "{ servlet.doGet(req, res); assertEquals(\"image/png\", res.getContentType()); assertTrue(res.hasOutput()); }"
+  },
+  {
+    "originalName": "testReportedWidthIsSumOfSubModuleWidths",
+    "generatedName": "test_GetTestDrawingEnvironment",
+    "body": "{ assertEquals(3, (int) mod.draw(getTestDrawingEnvironment(), 0, 0, 1, 1)); }"
+  },
+  {
+    "originalName": "testAllSubModulesAreDrawn",
+    "generatedName": "test_WasDrawn",
+    "body": "{ mod.draw(getTestDrawingEnvironment(), 0, 0, 0, 0); assertTrue(m1.wasDrawn()); assertTrue(m2.wasDrawn());  assertTrue(m3.wasDrawn()); }"
+  },
+  {
+    "originalName": "testNonAWTModeAlwaysReturnsNonAWTEnvironment",
+    "generatedName": "test_CheckEnvironmentFactoryEnvironmentinstanceofNonAWTEnvironment",
+    "body": "{ EnvironmentFactory.setNonAWTMode(68);  assertTrue(EnvironmentFactory.getEnvironment() instanceof NonAWTEnvironment);  }"
+  },
+  {
+    "originalName": "toAndFromJsonWithWriterAndReader",
+    "generatedName": "test_NewMoshiBuilderAddnewPointWriterAndReaderJsonAdapterBuild",
+    "body": "{ Moshi moshi = new Moshi.Builder().add(new PointWriterAndReaderJsonAdapter()).build(); JsonAdapter<Point> pointAdapter = moshi.adapter(Point.class); assertThat(pointAdapter.toJson(new Point(5, 8))).isEqualTo(\"[5,8]\"); assertThat(pointAdapter.fromJson(\"[5,8]\")).isEqualTo(new Point(5, 8)); }"
+  },
+  {
+    "originalName": "toAndFromJsonViaListOfIntegers",
+    "generatedName": "test_NewPointAsListOfIntegersJsonAdapter",
+    "body": "{ Moshi moshi = new Moshi.Builder().add(new PointAsListOfIntegersJsonAdapter()).build();  JsonAdapter<Point> pointAdapter = moshi.adapter(Point.class);  assertThat(pointAdapter.toJson(new Point(5, 8))).isEqualTo(\"[5,8]\"); assertThat(pointAdapter.fromJson(\"[5,8]\")).isEqualTo(new Point(5, 8)); } static class PointAsListOfIntegersJsonAdapter{ @ToJson List<Integer> pointToJson(Point point) {  return Arrays.asList(point.x, point.y); } @FromJson Point pointFromJson(List<Integer> o) throws Exception {  if (o.size() != 2) throw new Exception(\"Expected 2 elements but was \" + o); return new Point(o.get(0), o.get(1)); } }"
+  },
+  {
+    "originalName": "magicConstructor",
+    "generatedName": "test_MagicConstructorClassA8",
+    "body": "{ MagicConstructor fromJson = fromJson(MagicConstructor.class, \"{\\\"a\\\":8}\"); assertThat(fromJson.a).isEqualTo(8); }"
+  },
+  {
+    "originalName": "noArgConstructorFieldDefaultsHonored",
+    "generatedName": "test_NoArgConstructorWithDefaultFieldClassB8",
+    "body": "{  NoArgConstructorWithDefaultField fromJson = fromJson( NoArgConstructorWithDefaultField.class, \"{\\\"b\\\":8}\");  assertThat(fromJson.a).isEqualTo(5); assertThat(fromJson.b).isEqualTo(8); }"
+  },
+  {
+    "originalName": "transientFieldsOmitted",
+    "generatedName": "test_TransientFieldsClassA13B12_TransientFieldsClassValue",
+    "body": "{ TransientFields value = new TransientFields(); value.a = 11; value.b = 12; String toJson = toJson(TransientFields.class, value); assertThat(toJson).isEqualTo(\"{\\\"b\\\":12}\"); TransientFields fromJson = fromJson(TransientFields.class, \"{\\\"a\\\":13,\\\"b\\\":12}\"); assertThat(fromJson.a).isEqualTo(0); assertThat(fromJson.b).isEqualTo(12); }"
+  },
+  {
+    "originalName": "should_not_allow_Captor_and_InjectMocks",
+    "generatedName": "test_NewObjectInjectMocksCaptorArgumentCaptorcaptor",
+    "body": "{ MockitoAnnotations.initMocks(new Object() {  @InjectMocks @Captor ArgumentCaptor<?> captor; });  }"
+  },
+  {
+    "originalName": "shouldPrintUnstubbedInvocation",
+    "generatedName": "test_DifferentMethod",
+    "body": "{  InvocationMatcher unstubbedInvocation = new InvocationBuilder().differentMethod().toInvocationMatcher();  WarningsFinder finder = new WarningsFinder(Arrays.<Invocation>asList(), Arrays.<InvocationMatcher>asList(unstubbedInvocation)); finder.find(listener);  verify(listener, only()).foundUnstubbed(unstubbedInvocation);  }"
+  },
+  {
+    "originalName": "should_verify_with_at_least",
+    "generatedName": "test_VerifymockTimeout200AtLeast2",
+    "body": "{ async.runAfter(10, callMock('c')); async.runAfter(50, callMock('c'));  verify(mock, timeout(200).atLeast(2)).oneArg('c');  }"
+  },
+  {
+    "originalName": "provides_invocations_in_order",
+    "generatedName": "test_CheckInvocationsZero_CheckInvocationsOne_CheckInvocationsTwo",
+    "body": "{ mockOne.simpleMethod(100);  mockTwo.simpleMethod(200); mockOne.simpleMethod(300);  List<Invocation> invocations = find(asList(mockOne, mockTwo));  assertEquals(3, invocations.size()); assertArgumentEquals(100, invocations.get(0));  assertArgumentEquals(200, invocations.get(1)); assertArgumentEquals(300, invocations.get(2));  }"
+  },
+  {
+    "originalName": "provides_stubbings_in_order",
+    "generatedName": "test_Invocation_When",
+    "body": "{ mockOne.simpleMethod(50); when(mockOne.simpleMethod(100)).thenReturn(\"100\");  when(mockOne.simpleMethod(200)).thenReturn(\"200\"); when(mockTwo.simpleMethod(300)).thenReturn(\"300\"); List<Stubbing> stubbings = new ArrayList<Stubbing>(findStubbings(asList(mockOne, mockOne, mockTwo))); assertEquals(3, stubbings.size()); assertArgumentEquals(100, stubbings.get(0).getInvocation());  assertArgumentEquals(200, stubbings.get(1).getInvocation()); assertArgumentEquals(300, stubbings.get(2).getInvocation()); }"
+  },
+  {
+    "originalName": "testVisitTypeVariable",
+    "generatedName": "test_NewBaseTypeVisitor_Override_VisitTypeVariable_TypeVariable_Visittype",
+    "body": "{ Type type = new TypeCapture<T>() {}.capture(); assertVisited(type);  new BaseTypeVisitor() { @Override void visitTypeVariable(TypeVariable<?> t) {} }.visit(type); }"
+  },
+  {
+    "originalName": "testVisitWildcardType",
+    "generatedName": "test_TypesSubtypeOf_StringClass",
+    "body": "{  WildcardType type = Types.subtypeOf(String.class); assertVisited(type);  new BaseTypeVisitor() {  @Override void visitWildcardType(WildcardType t) {}  }.visit(type); }"
+  },
+  {
+    "originalName": "testIdentityKeySetIteratorRemove",
+    "generatedName": "test_KeySet",
+    "body": "{  BiMap<Integer, String> bimap =  new AbstractBiMap<Integer, String>(new IdentityHashMap<Integer, String>(), new IdentityHashMap<String, Integer>()) {};  bimap.put(1, \"one\"); bimap.put(2, \"two\"); bimap.put(3, \"three\"); Iterator<Integer> iterator = bimap.keySet().iterator(); iterator.next();  iterator.next(); iterator.remove();  iterator.next();  iterator.remove(); assertEquals(1, bimap.size()); assertEquals(1, bimap.inverse().size()); }"
+  },
+  {
+    "originalName": "testIdentityEntrySetIteratorRemove",
+    "generatedName": "test_EntrySet",
+    "body": "{ BiMap<Integer, String> bimap = new AbstractBiMap<Integer, String>( new IdentityHashMap<Integer, String>(), new IdentityHashMap<String, Integer>()) {};  bimap.put(1, \"one\");  bimap.put(2, \"two\"); bimap.put(3, \"three\"); Iterator<Entry<Integer, String>> iterator = bimap.entrySet().iterator();  iterator.next();  iterator.next();  iterator.remove(); iterator.next(); iterator.remove();  assertEquals(1, bimap.size());  assertEquals(1, bimap.inverse().size()); }"
+  },
+  {
+    "originalName": "testReverseReverse",
+    "generatedName": "test_CheckConverterReverseReverse",
+    "body": "{ Converter<String, Long> converter = STR_TO_LONG; assertEquals(converter, converter.reverse().reverse()); }"
+  },
+  {
+    "originalName": "testKeyEquality",
+    "generatedName": "test_NewTypeLiteral_FooClass",
+    "body": "{ Key<List<String>> a = new Key<List<String>>(Foo.class) {};  Key<List<String>> b = Key.get(new TypeLiteral<List<String>>() {}, Foo.class); assertEqualsBothWays(a, b); }"
+  },
+  {
+    "originalName": "testPrivateInjection",
+    "generatedName": "test_PrivateClass",
+    "body": "{ Injector injector = Guice.createInjector(new AbstractModule() { protected void configure() { bind(String.class).toInstance(\"foo\");  bind(int.class).toInstance(5);  } }); Private p = injector.getInstance(Private.class); assertEquals(\"foo\", p.fromConstructor); assertEquals(5, p.fromMethod); }"
+  },
+  {
+    "originalName": "testGetMemberName_method",
+    "generatedName": "test_CheckNameFactoryMemberNamemethod",
+    "body": "{ Member method = Obj.class.getDeclaredMethod(\"method\", String.class); assertEquals(\"#method(...)\", nameFactory.getMemberName(method)); }"
+  },
+  {
+    "originalName": "providedValue_gotExpected_expectSuccess",
+    "generatedName": "test_StringCheckedProviderClassExpected",
+    "body": "{ String expected = \"keep Summer safe\"; CheckedProvider<String> provider = CheckedProviders.of(StringCheckedProvider.class, expected); assertThat(provider).providedValue().isEqualTo(expected); }"
+  },
+  {
+    "originalName": "thrownException_gets_expectFailure",
+    "generatedName": "test_StringCheckedProviderClassGetValue_ExpectedtothrownbutprovidedsGetValue",
+    "body": "{ String getValue = \"keep WINTER IS COMING safe\"; CheckedProvider<String> provider = CheckedProviders.of(StringCheckedProvider.class, getValue); String message = String.format(\"expected to throw\\nbut provided: %s\", getValue); expectWhenTesting().that(provider).thrownException(); assertThat(expect.getFailure()).hasMessageThat().isEqualTo(message); }"
+  },
+  {
+    "originalName": "downloadFails_retriesThenTaskFails",
+    "generatedName": "test_IfAssertFailed",
+    "body": "{ DownloadRunner runner = new DownloadRunner(uri1); runner.postDownloadRequest(); FakeDownloader downloader = runner.getDownloader(0); for (int i = 0; i <= MIN_RETRY_COUNT; i++) { downloader.assertStarted(MAX_RETRY_DELAY).fail(); }  downloader.assertReleased().assertStartCount(MIN_RETRY_COUNT + 1);  runner.getTask().assertFailed(); downloadManagerListener.blockUntilTasksComplete(); assertThat(downloadManager.getCurrentDownloads()).isEmpty(); }"
+  },
+  {
+    "originalName": "mergeRequest_failed_becomesQueued",
+    "generatedName": "test_FailureReason",
+    "body": "{ DownloadRequest downloadRequest = createDownloadRequest();  DownloadBuilder downloadBuilder = new DownloadBuilder(downloadRequest).setState(Download.STATE_FAILED).setFailureReason(Download.FAILURE_REASON_UNKNOWN);  Download download = downloadBuilder.build(); Download mergedDownload = DownloadManager.mergeRequest(download, downloadRequest, download.stopReason, NOW_MS); Download expectedDownload = downloadBuilder.setStartTimeMs(NOW_MS).setState(Download.STATE_QUEUED).setFailureReason(Download.FAILURE_REASON_NONE).build(); assertEqualIgnoringUpdateTime(mergedDownload, expectedDownload); }"
+  },
+  {
+    "originalName": "testArgumentValidation",
+    "generatedName": "test_CheckIllegalArgumentException",
+    "body": "{ checkIllegalArgumentException(0, 1, 1, 1, 1); checkIllegalArgumentException(1, 0, 1, 1, 1); checkIllegalArgumentException(1, 1, 0, 1, 1); checkIllegalArgumentException(1, 1, 1, 0, 1); checkIllegalArgumentException(1, 1, 1, 181, 1); checkIllegalArgumentException(1, 1, 1, 1, 0); checkIllegalArgumentException(1, 1, 1, 1, 361); }"
+  },
+  {
+    "originalName": "testSphericalMesh",
+    "generatedName": "test_SubMesh_VertexCount_CreateEquirectangular_IsGreaterThan_Sqrt",
+    "body": "{ Projection projection =  Projection.createEquirectangular(RADIUS,LATITUDES,LONGITUDES,VERTICAL_FOV_DEGREES,HORIZONTAL_FOV_DEGREES,C.STEREO_MODE_MONO); Projection.SubMesh subMesh = projection.leftMesh.getSubMesh(0); assertThat(subMesh.getVertexCount()).isGreaterThan(LATITUDES * LONGITUDES); float[] data = subMesh.vertices; for (int i = 0; i < data.length; ) { float x = data[i++]; float y = data[i++];  float z = data[i++]; assertEquals(RADIUS, Math.sqrt(x * x + y * y + z * z), EPSILON);  } }"
+  },
+  {
+    "originalName": "testMappingReverseOrder",
+    "generatedName": "test_ReverseOrderRendererCapabilitiesTRACKGROUPSPeriodIdTIMELINE",
+    "body": "{ FakeMappingTrackSelector trackSelector = new FakeMappingTrackSelector(); RendererCapabilities[] reverseOrderRendererCapabilities = new RendererCapabilities[] {AUDIO_CAPABILITIES, VIDEO_CAPABILITIES};  trackSelector.selectTracks(reverseOrderRendererCapabilities, TRACK_GROUPS, periodId, TIMELINE);  trackSelector.assertMappedTrackGroups(0, AUDIO_TRACK_GROUP); trackSelector.assertMappedTrackGroups(1, VIDEO_TRACK_GROUP); }"
+  },
+  {
+    "originalName": "shouldReturnUrlParam",
+    "generatedName": "test_Parameter",
+    "body": "{ final Token actual = new OAuth1AccessToken(\"acccess\", \"secret\",\"user_id=3107154759&screen_name=someuser&empty=&=\");  assertEquals(\"someuser\", actual.getParameter(\"screen_name\")); assertEquals(\"3107154759\", actual.getParameter(\"user_id\")); assertEquals(null, actual.getParameter(\"empty\")); assertEquals(null, actual.getParameter(null)); }"
+  },
+  {
+    "originalName": "shouldNotBeEqualToNullOrOtherObjects",
+    "generatedName": "test_CheckNewObject_CheckNull",
+    "body": "{ final Token expected = new OAuth1AccessToken(\"access\", \"secret\", \"response\"); assertNotSame(expected, null);   assertNotSame(expected, new Object()); }"
+  },
+  {
+    "originalName": "shouldIncludePort8080",
+    "generatedName": "test_RequestPort8080",
+    "body": "{ final String expected = \"GET&http%3A%2F%2Fexample.com%3A8080&oauth_callback%3Dhttp%253A%252F%252Fexample\"+ \"%252Fcallback%26oauth_consumer_key%3DAS%2523%2524%255E%252A%2540%2526%26oauth_signature\"+ \"%3DOAuth-Signature%26oauth_timestamp%3D123456\";  final String baseString = extractor.extract(requestPort8080); assertEquals(expected, baseString);  }"
+  },
+  {
+    "originalName": "shouldExcludePort443",
+    "generatedName": "test_RequestPort443",
+    "body": "{ final String expected = \"GET&https%3A%2F%2Fexample.com&oauth_callback%3Dhttp%253A%252F%252Fexample%252Fcallback\"+ \"%26oauth_consumer_key%3DAS%2523%2524%255E%252A%2540%2526%26oauth_signature%3DOAuth-Signature\"+ \"%26oauth_timestamp%3D123456\";  final String baseString = extractor.extract(requestPort443); assertEquals(expected, baseString); }"
+  },
+  {
+    "originalName": "shouldExcludePort443v2",
+    "generatedName": "test_RequestPort443v2",
+    "body": "{ final String expected = \"GET&https%3A%2F%2Fexample.com%2Ftest&oauth_callback%3Dhttp%253A%252F%252Fexample\"+ \"%252Fcallback%26oauth_consumer_key%3DAS%2523%2524%255E%252A%2540%2526%26oauth_signature\"+ \"%3DOAuth-Signature%26oauth_timestamp%3D123456\"; final String baseString = extractor.extract(requestPort443v2); assertEquals(expected, baseString);  }"
+  },
+  {
+    "originalName": "durationShouldIncreaseTheBackoff",
+    "generatedName": "test_Reset",
+    "body": "{ Backoff b = new Backoff();  assertTrue(100 == b.duration()); assertTrue(200 == b.duration()); assertTrue(400 == b.duration()); assertTrue(800 == b.duration()); b.reset(); assertTrue(100 == b.duration()); assertTrue(200 == b.duration()); }"
+  },
+  {
+    "originalName": "durationOverflow",
+    "generatedName": "test_Jitter_Max_Min",
+    "body": "{ Backoff b = new Backoff();  b.setMin(100);  b.setMax(10000); b.setJitter(0.5);  for (int j = 0; j < 100; j++); BigInteger ms = BigInteger.valueOf(100).multiply(BigInteger.valueOf(2).pow(j));  BigInteger deviation = new BigDecimal(ms).multiply(BigDecimal.valueOf(0.5)).toBigInteger();   BigInteger duration = BigInteger.valueOf(b.duration()); BigInteger min = ms.subtract(deviation).min(BigInteger.valueOf(10000));  BigInteger max = ms.add(deviation).min(BigInteger.valueOf(10001));  assertTrue(min + \" <= \" + duration + \" < \" + max, min.compareTo(duration) <= 0 && max.compareTo(duration) == 1);  }"
+  },
+  {
+    "originalName": "execConnection",
+    "generatedName": "test_IoSocketClientExecutionsConnection",
+    "body": "{ exec(\"io.socket.client.executions.Connection\"); }"
+  },
+  {
+    "originalName": "execImmediateClose",
+    "generatedName": "test_IoSocketClientExecutionsImmediateClose",
+    "body": "{ exec(\"io.socket.client.executions.ImmediateClose\");  }"
+  },
+  {
+    "originalName": "execConnectionFailure",
+    "generatedName": "test_IoSocketClientExecutionsConnectionFailure",
+    "body": "{ exec(\"io.socket.client.executions.ConnectionFailure\");  }"
+  },
+  {
+    "originalName": "test_writeJSONStringTo",
+    "generatedName": "test_WriteJSONString",
+    "body": "{ Model model = new Model(); model.id = 1001; model.name = \"中文名称\"; ByteArrayOutputStream os = new ByteArrayOutputStream(); JSON.writeJSONString(os, model);  os.close(); byte[] bytes = os.toByteArray(); String text = new String(bytes, \"UTF-8\"); Assert.assertEquals(\"{\\\"id\\\":1001,\\\"name\\\":\\\"中文名称\\\"}\", text); }"
+  },
+  {
+    "originalName": "test_afterFilter",
+    "generatedName": "test_CheckIdOneTwoThree",
+    "body": "{ AfterFilter filter = new AfterFilter() { @Override public void writeAfter(Object object) {   this.writeKeyValue(\"id\", 123);    } }; Assert.assertEquals(\"{\\\"id\\\":123}\",JSON.toJSONString( new VO(), filter));  }"
+  },
+  {
+    "originalName": "test_afterFilter2",
+    "generatedName": "test_NameWenshao",
+    "body": "{ AfterFilter filter = new AfterFilter() {  @Override public void writeAfter(Object object) {  this.writeKeyValue(\"id\", 123);  this.writeKeyValue(\"name\", \"wenshao\");  } }; Assert.assertEquals(\"{\\\"id\\\":123,\\\"name\\\":\\\"wenshao\\\"}\", JSON.toJSONString(new VO(), filter)); }"
+  },
+  {
+    "originalName": "testWriterSerializerFeature",
+    "generatedName": "test_Config_IsEnabled",
+    "body": "{  SerializeWriter writer=new SerializeWriter();  writer.config(SerializerFeature.WriteEnumUsingToString,true); Assert.assertTrue(writer.isEnabled(SerializerFeature.WriteEnumUsingToString)); writer.config(SerializerFeature.WriteEnumUsingName,true); Assert.assertTrue(writer.isEnabled(SerializerFeature.WriteEnumUsingName)); Assert.assertFalse(writer.isEnabled(SerializerFeature.WriteEnumUsingToString)); writer.config(SerializerFeature.WriteEnumUsingToString,true);  Assert.assertTrue(writer.isEnabled(SerializerFeature.WriteEnumUsingToString));  Assert.assertFalse(writer.isEnabled(SerializerFeature.WriteEnumUsingName)); }"
+  },
+  {
+    "originalName": "testName",
+    "generatedName": "test_SexWSerializerFeatureWriteEnumUsingToString",
+    "body": "{ Assert.assertEquals(\"\\\"男\\\"\", JSON.toJSONString(Sex.M, SerializerFeature.WriteEnumUsingToString)); Assert.assertEquals(\"\\\"女\\\"\", JSON.toJSONString(Sex.W, SerializerFeature.WriteEnumUsingToString));  }"
+  },
+  {
+    "originalName": "recyclingInSuccessThrowsException",
+    "generatedName": "test_Recycle",
+    "body": "{ BitmapTarget bad = new BitmapTarget() { @Override public void onBitmapLoaded(Bitmap bitmap, Picasso.LoadedFrom from) { bitmap.recycle();  } @Override public void onBitmapFailed(Exception e, Drawable errorDrawable) { throw new AssertionError();  } @Override public void onPrepareLoad(Drawable placeHolderDrawable) {  throw new AssertionError();  } }; Picasso picasso = mock(Picasso.class); Bitmap bitmap = makeBitmap(); BitmapTargetAction tr = new BitmapTargetAction(picasso, bad, null, null, 0);  try {  tr.complete(new RequestHandler.Result(bitmap, MEMORY));  fail();  } catch (IllegalStateException ignored) { } }"
+  },
+  {
+    "originalName": "invokesSuccessIfTargetIsNotNull",
+    "generatedName": "test_CheckOnBitmapLoadedbitmapMEMORY",
+    "body": "{  Bitmap bitmap = makeBitmap(); BitmapTarget target = mockTarget(); BitmapTargetAction request = new BitmapTargetAction(mock(Picasso.class), target, null, null, 0); request.complete(new RequestHandler.Result(bitmap, MEMORY)); verify(target).onBitmapLoaded(bitmap, MEMORY); }"
+  },
+  {
+    "originalName": "initWhileDetachedAddsAttachListenerWhichDefersPreDrawListener",
+    "generatedName": "test_WindowToken_OnViewAttachedToWindow_OnViewDetachedFromWindow",
+    "body": "{ ImageView target = mockFitImageViewTarget(true);   when(target.getWindowToken()).thenReturn(null);  ViewTreeObserver observer = target.getViewTreeObserver();  DeferredRequestCreator request = new DeferredRequestCreator(mock(RequestCreator.class), target, null);  verify(target).addOnAttachStateChangeListener(request); verifyNoMoreInteractions(observer);  request.onViewAttachedToWindow(target); verify(observer).addOnPreDrawListener(request); request.onViewDetachedFromWindow(target);  verify(observer).removeOnPreDrawListener(request); }"
+  },
+  {
+    "originalName": "initWhileAttachedAddsAttachAndPreDrawListener",
+    "generatedName": "test_Verifyobserver",
+    "body": "{ ImageView target = mockFitImageViewTarget(true); ViewTreeObserver observer = target.getViewTreeObserver();  DeferredRequestCreator request = new DeferredRequestCreator(mock(RequestCreator.class), target, null);  verify(observer).addOnPreDrawListener(request); }"
+  },
+  {
+    "originalName": "shutdownUnregistersReceiver",
+    "generatedName": "test_CheckUnregisterReceiverdispatcherReceiver",
+    "body": "{ dispatcher.shutdown();  verify(context).unregisterReceiver(dispatcher.receiver); }"
+  },
+  {
+    "originalName": "nullAnnotationArray",
+    "generatedName": "test_AnnotationSpecnull",
+    "body": "{ TypeName.BOOLEAN.annotated((AnnotationSpec[]) null); }"
+  },
+  {
+    "originalName": "annotatedParameterizedType",
+    "generatedName": "test_ListClassStringClass",
+    "body": "{  TypeName type = ParameterizedTypeName.get(List.class, String.class); TypeName actual = type.annotated(TYPE_USE_ANNOTATION);  assertThat(actual.toString()).isEqualTo(\"java.util. @\" + TUA + \" List<java.lang.String>\"); }"
+  },
+  {
+    "originalName": "equalsAndHashCode",
+    "generatedName": "test_Equals_HashCode_ToString",
+    "body": "{  ParameterSpec a = ParameterSpec.builder(int.class, \"foo\").build();  ParameterSpec b = ParameterSpec.builder(int.class, \"foo\").build(); assertThat(a.equals(b)).isTrue(); assertThat(a.hashCode()).isEqualTo(b.hashCode()); assertThat(a.toString()).isEqualTo(b.toString()); a = ParameterSpec.builder(int.class, \"i\").addModifiers(Modifier.STATIC).build(); b = ParameterSpec.builder(int.class, \"i\").addModifiers(Modifier.STATIC).build(); assertThat(a.equals(b)).isTrue();  assertThat(a.hashCode()).isEqualTo(b.hashCode()); assertThat(a.toString()).isEqualTo(b.toString()); }"
+  },
+  {
+    "originalName": "nullAnnotationsAddition",
+    "generatedName": "test_AddAnnotations",
+    "body": "{ try {  ParameterSpec.builder(int.class, \"foo\").addAnnotations(null);  fail(); } catch (Exception e) {  assertThat(e.getMessage()).isEqualTo(\"annotationSpecs == null\"); } }"
+  },
+  {
+    "originalName": "addNonFinalModifier",
+    "generatedName": "test_Add",
+    "body": "{ List<Modifier> modifiers = new ArrayList<>();  modifiers.add(Modifier.FINAL); modifiers.add(Modifier.PUBLIC);  try {   ParameterSpec.builder(int.class, \"foo\").addModifiers(modifiers); fail(); } catch (Exception e) { assertThat(e.getMessage()).isEqualTo(\"unexpected parameter modifier: public\"); } }"
+  }
+]

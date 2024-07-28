@@ -1,0 +1,47 @@
+Recipient0
+1 - provides_stubbings_of_mock
+2 - testJavaSerialization
+3 - shouldSayTooFewInvocationsInAtLeastMode
+4 - testTransform_ListenableFuture_genericsNull
+5 - testTransform_ListenableFuture_cancelPropagatesToAsyncOutput
+6 - test_int_error_2
+7 - buildMediaItem_testClear
+8 - testAsSetTailSet
+9 - testListenToResolved_misbehavingListener
+10 - testTryAcquire_noWaitAllowed
+11 - shouldReportTooFewActual
+12 - testSetFuture_misbehavingFutureThrows
+13 - testCreate_nonAsciiParameterValue
+14 - this_test_is_NOT_supposed_to_fail
+15 - test_5
+16 - testFixedLengthSplitNegativeChunkLen
+17 - edges_directedNetwork
+18 - testExhaustive
+19 - testGreatestOf_simple
+20 - testBuilderAddAllHashMultiset
+
+Recipient1
+1 - provides_stubbings_of_mock_in_declaration_order
+2 - testSerialization
+3 - shouldSayTooFewInvocationsInAtLeastMode
+4 - testTransform_ListenableFuture_genericsNull
+5 - testTransform_ListenableFuture_cancelPropagatesToAsyncOutput
+6 - test_int_error_2
+7 - buildAndClear_assertDefaultValues
+8 - testTailSet
+9 - testListenToResolved_misbehavingListener
+10 - testTryAcquire_noWaitAllowed
+11 - shouldReportTooFewActual
+12 - testSetFuture_misbehavingFuture
+13 - testCreate_nonAsciiSubtype
+14 - test
+15 - test_4
+16 - testFixedLengthSplitNegativeChunkLen
+17 - edges_directedNetwork
+18 - testExhaustive
+19 - testGreatestOf_simple
+20 - testBuilderAddAllHashMultiset
+
+Recipient 0 Choose 40.0% Old Names and 60.0% New Names.
+Recipient 1 Choose 40.0% Old Names and 60.0% New Names.
+Overall: 60.0% New Names are chosen.

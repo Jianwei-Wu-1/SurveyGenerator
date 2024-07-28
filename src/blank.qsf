@@ -1,0 +1,1131 @@
+{
+  "SurveyEntry": {
+    "SurveyID": "SV_0jobguuG3iWzrXn",
+    "SurveyName": "Test",
+    "SurveyDescription": null,
+    "SurveyOwnerID": "UR_02izUEzZbIoFAgZ",
+    "SurveyBrandID": "delaware",
+    "DivisionID": null,
+    "SurveyLanguage": "EN",
+    "SurveyActiveResponseSet": "RS_aXmf0fM9FZLZNZz",
+    "SurveyStatus": "Inactive",
+    "SurveyStartDate": "0000-00-00 00:00:00",
+    "SurveyExpirationDate": "0000-00-00 00:00:00",
+    "SurveyCreationDate": "2019-10-18 13:53:03",
+    "CreatorID": "UR_02izUEzZbIoFAgZ",
+    "LastModified": "2019-10-18 13:53:48",
+    "LastAccessed": "0000-00-00 00:00:00",
+    "LastActivated": "0000-00-00 00:00:00",
+    "Deleted": null
+  },
+  "SurveyElements": [
+    {
+      "SurveyID": "SV_0jobguuG3iWzrXn",
+      "Element": "BL",
+      "PrimaryAttribute": "Survey Blocks",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": [
+        {
+          "Type": "Default",
+          "Description": "Default Question Block",
+          "ID": "BL_6sPQTxTc1IRtCBv",
+          "BlockElements": [
+
+            {
+              "Type": "Question",
+              "QuestionID": "QID1"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID2"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID3"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID4"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID5"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID6"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID7"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID8"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID9"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID10"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID11"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID12"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID13"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID14"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID15"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID16"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID17"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID18"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID19"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID20"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID21"
+            }]
+        },
+        {
+          "Type": "Trash",
+          "Description": "Trash \/ Unused Questions",
+          "ID": "BL_8r0gRVlSqRH8dlX"
+        }
+      ]
+    },
+    {
+      "SurveyID": "SV_0jobguuG3iWzrXn",
+      "Element": "FL",
+      "PrimaryAttribute": "Survey Flow",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "Flow": [
+          {
+            "ID": "BL_6sPQTxTc1IRtCBv",
+            "Type": "Block",
+            "FlowID": "FL_2"
+          }
+        ],
+        "Properties": {
+          "Count": 2
+        },
+        "FlowID": "FL_1",
+        "Type": "Root"
+      }
+    },
+    {
+      "SurveyID": "SV_0jobguuG3iWzrXn",
+      "Element": "SO",
+      "PrimaryAttribute": "Survey Options",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "BackButton": "false",
+        "SaveAndContinue": "true",
+        "SurveyProtection": "PublicSurvey",
+        "BallotBoxStuffingPrevention": "false",
+        "NoIndex": "Yes",
+        "SecureResponseFiles": "true",
+        "SurveyExpiration": "None",
+        "SurveyTermination": "DefaultMessage",
+        "Header": "",
+        "Footer": "",
+        "ProgressBarDisplay": "None",
+        "PartialData": "+1 week",
+        "ValidationMessage": "",
+        "PreviousButton": " \u2190 ",
+        "NextButton": " \u2192 ",
+        "SkinLibrary": "delaware",
+        "SkinType": "MQ",
+        "Skin": "ud1",
+        "NewScoring": 1,
+        "QuestionsPerPage": "1"
+      }
+    },
+    {
+      "SurveyID": "SV_0jobguuG3iWzrXn",
+      "Element": "SCO",
+      "PrimaryAttribute": "Scoring",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "ScoringCategories": [
+        ],
+        "ScoringCategoryGroups": [
+        ],
+        "ScoringSummaryCategory": null,
+        "ScoringSummaryAfterQuestions": 0,
+        "ScoringSummaryAfterSurvey": 0,
+        "DefaultScoringCategory": null,
+        "AutoScoringCategory": null
+      }
+    },
+    {
+      "SurveyID": "SV_0jobguuG3iWzrXn",
+      "Element": "PROJ",
+      "PrimaryAttribute": "CORE",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": "1.1.0",
+      "Payload": {
+        "ProjectCategory": "CORE",
+        "SchemaVersion": "1.1.0"
+      }
+    },
+    {
+      "SurveyID": "SV_0jobguuG3iWzrXn",
+      "Element": "STAT",
+      "PrimaryAttribute": "Survey Statistics",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "MobileCompatible": true,
+        "ID": "Survey Statistics"
+      }
+    },
+    {
+      "SurveyID": "SV_0jobguuG3iWzrXn",
+      "Element": "QC",
+      "PrimaryAttribute": "Survey Question Count",
+      "SecondaryAttribute": "21",
+      "TertiaryAttribute": null,
+      "Payload": null
+    },
+    {
+      "SurveyID": "SV_0jobguuG3iWzrXn",
+      "Element": "RS",
+      "PrimaryAttribute": "RS_aXmf0fM9FZLZNZz",
+      "SecondaryAttribute": "Default Response Set",
+      "TertiaryAttribute": null,
+      "Payload": null
+    },
+    {
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID1",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Which name would you choose for the following test:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspList<Integer>&nbsplist&nbsp=&nbspArrays.asList(3,&nbsp4,&nbsp5,&nbsp-1);<br/>&nbsp&nbspList<Integer>&nbspresult&nbsp=&nbspnumberOrdering.leastOf(list,&nbsplist.size()&nbsp+&nbsp1);<br/>&nbsp&nbspassertTrue(result&nbspinstanceof&nbspRandomAccess);<br/>&nbsp&nbspassertListImmutable(result);<br/>&nbsp&nbspassertEquals(ImmutableList.of(-1,&nbsp3,&nbsp4,&nbsp5),&nbspresult);<br/>}</code><br/><br/>",
+        "DataExportTag":"Q1",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{
+          "1":{
+            "Display":"testLeastOf_simple_nPlusOne"
+          },
+          "2":{
+            "Display":"testLeastOfIterable_simple_nPlusOne"
+          }
+        },
+        "ChoiceOrder":[
+
+          "1",
+
+          "2"
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":3,
+        "NextAnswerId":1,
+        "QuestionID":"QID1"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID2",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Which name would you choose for the following test:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspUrlConnectionLoader.cache&nbsp=&nbspnull;<br/>&nbsp&nbspserver.enqueue(new&nbspMockResponse());<br/>&nbsp&nbsploader.load(/,&nbspfalse);<br/>&nbsp&nbspObject&nbspcache&nbsp=&nbspUrlConnectionLoader.cache;<br/>&nbsp&nbspassertThat(cache).isNull();<br/>}</code><br/><br/>",
+        "DataExportTag":"Q2",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{
+          "1":{
+            "Display":"cacheOnlyInstalledOnApi13"
+          },
+          "2":{
+            "Display":"cacheNotInstalledWhenUnavailable"
+          }
+        },
+        "ChoiceOrder":[
+
+          "1",
+
+          "2"
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":3,
+        "NextAnswerId":1,
+        "QuestionID":"QID2"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID3",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Which name would you choose for the following test:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspaddEdge(E11,&nbspN1,&nbspN1);<br/>&nbsp&nbsptry&nbsp{<br/>&nbsp&nbsp&nbsp&nbspaddEdge(EDGE_NOT_IN_GRAPH,&nbspN1,&nbspN1);<br/>&nbsp&nbsp&nbsp&nbspfail(Adding&nbspa&nbspparallel&nbspself-loop&nbspedge&nbspsucceeded);<br/>&nbsp&nbsp}&nbspcatch&nbsp(IllegalArgumentException&nbspe)&nbsp{<br/>&nbsp&nbsp&nbsp&nbspassertThat(e.getMessage()).contains(ERROR_PARALLEL_EDGE);<br/>&nbsp&nbsp}<br/>}</code><br/><br/>",
+        "DataExportTag":"Q3",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{
+          "1":{
+            "Display":"addEdge_parallelSelfLoopEdge"
+          },
+          "2":{
+            "Display":"addEdge_builder_parallelSelfLoopEdge"
+          }
+        },
+        "ChoiceOrder":[
+
+          "1",
+
+          "2"
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":3,
+        "NextAnswerId":1,
+        "QuestionID":"QID3"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID4",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Which name would you choose for the following test:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspsampleQueue.format(FORMAT_1);<br/>&nbsp&nbspassertReadFormat(false,&nbspFORMAT_1);<br/>&nbsp&nbspsampleQueue.format(FORMAT_1);<br/>&nbsp&nbspassertNoSamplesToRead(FORMAT_1);<br/>&nbsp&nbspsampleQueue.format(FORMAT_1_COPY);<br/>&nbsp&nbspassertNoSamplesToRead(FORMAT_1);<br/>}</code><br/><br/>",
+        "DataExportTag":"Q4",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{
+          "1":{
+            "Display":"testEqualFormatsDeduplicated"
+          },
+          "2":{
+            "Display":"testReadFormatDeduplicated"
+          }
+        },
+        "ChoiceOrder":[
+
+          "1",
+
+          "2"
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":3,
+        "NextAnswerId":1,
+        "QuestionID":"QID4"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID5",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Which name would you choose for the following test:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspDownloadRunner&nbsprunner&nbsp=&nbspnew&nbspDownloadRunner(uri1).postDownloadRequest();<br/>&nbsp&nbspTaskWrapper&nbsptask&nbsp=&nbsprunner.getTask();<br/>&nbsp&nbsptask.assertDownloading();<br/>&nbsp&nbsprunOnMainThread(()&nbsp->&nbspdownloadManager.setStopReason(task.taskId,&nbspAPP_STOP_REASON));<br/>&nbsp&nbsptask.assertStopped();<br/>&nbsp&nbsprunner.postRemoveRequest();<br/>&nbsp&nbsprunner.getDownloader(1).assertStarted().unblock();<br/>&nbsp&nbsptask.assertRemoved();<br/>&nbsp&nbspdownloadManagerListener.blockUntilTasksCompleteAndThrowAnyDownloadError();<br/>}</code><br/><br/>",
+        "DataExportTag":"Q5",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{
+          "1":{
+            "Display":"setSingleDownloadStopReasonThenRemove_removesDownload"
+          },
+          "2":{
+            "Display":"manuallyStoppedDownloadCanBeCancelled"
+          }
+        },
+        "ChoiceOrder":[
+
+          "1",
+
+          "2"
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":3,
+        "NextAnswerId":1,
+        "QuestionID":"QID5"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID6",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Which name would you choose for the following test:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspASSERT.that(Splitter.fixedLength(3).omitEmptyStrings().split()).isEmpty();<br/>}</code><br/><br/>",
+        "DataExportTag":"Q6",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{
+          "1":{
+            "Display":"testFixedLengthSplitEmptyStringWithOmitEmptyStrings"
+          },
+          "2":{
+            "Display":"testAtEachSplitEmptyStringWithOmitEmptyStrings"
+          }
+        },
+        "ChoiceOrder":[
+
+          "1",
+
+          "2"
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":3,
+        "NextAnswerId":1,
+        "QuestionID":"QID6"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID7",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Which name would you choose for the following test:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspString&nbspsimple&nbsp=&nbspabcdef;<br/>&nbsp&nbspIterable<String>&nbspletters&nbsp=&nbspSplitter.fixedLength(2).split(simple);<br/>&nbsp&nbspASSERT.that(letters).hasContentsInOrder(ab,&nbspcd,&nbspef);<br/>}</code><br/><br/>",
+        "DataExportTag":"Q7",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{
+          "1":{
+            "Display":"testFixedLengthSplitEqualChunkLength"
+          },
+          "2":{
+            "Display":"testAtEachSplitEqualChunkLength"
+          }
+        },
+        "ChoiceOrder":[
+
+          "1",
+
+          "2"
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":3,
+        "NextAnswerId":1,
+        "QuestionID":"QID7"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID8",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Which name would you choose for the following test:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspfor&nbsp(String&nbspinputName&nbsp&nbspSOMEWHERE_UNDER_PS)&nbsp{<br/>&nbsp&nbsp&nbsp&nbspInternetDomainName&nbspdomain&nbsp=&nbspInternetDomainName.from(inputName);<br/>&nbsp&nbsp&nbsp&nbspString&nbspexpectedName&nbsp=&nbspinputName.toLowerCase(Locale.ENGLISH);<br/>&nbsp&nbsp&nbsp&nbspexpectedName&nbsp=&nbspexpectedName.replaceAll([u3002uFF0EuFF61],&nbsp.);<br/>&nbsp&nbsp&nbsp&nbspif&nbsp(expectedName.endsWith(.))&nbsp{<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspexpectedName&nbsp=&nbspexpectedName.substring(0,&nbspexpectedName.length()&nbsp-&nbsp1);<br/>&nbsp&nbsp&nbsp&nbsp}<br/>&nbsp&nbsp&nbsp&nbspassertEquals(expectedName,&nbspdomain.name());<br/>&nbsp&nbsp}<br/>}</code><br/><br/>",
+        "DataExportTag":"Q8",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{
+          "1":{
+            "Display":"testToString"
+          },
+          "2":{
+            "Display":"testName"
+          }
+        },
+        "ChoiceOrder":[
+
+          "1",
+
+          "2"
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":3,
+        "NextAnswerId":1,
+        "QuestionID":"QID8"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID9",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Which name would you choose for the following test:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbsptestBytes(3,&nbspEXPECTED_THREE_BYTE_ROUNDTRIPPABLE_COUNT);<br/>}</code><br/><br/>",
+        "DataExportTag":"Q9",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{
+          "1":{
+            "Display":"testIsValidUtf8_3Bytes"
+          },
+          "2":{
+            "Display":"testIsWellFormed_3Bytes"
+          }
+        },
+        "ChoiceOrder":[
+
+          "1",
+
+          "2"
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":3,
+        "NextAnswerId":1,
+        "QuestionID":"QID9"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID10",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Which name would you choose for the following test:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspList<Integer>&nbsplist&nbsp=&nbspArrays.asList(3,&nbsp1,&nbsp3,&nbsp2,&nbsp4,&nbsp2,&nbsp4,&nbsp3);<br/>&nbsp&nbspassertEquals(Arrays.asList(4,&nbsp4,&nbsp3,&nbsp3),&nbspnumberOrdering.greatestOf(list,&nbsp4));<br/>}</code><br/><br/>",
+        "DataExportTag":"Q10",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{
+          "1":{
+            "Display":"testGreatestOf_simple"
+          },
+          "2":{
+            "Display":"testGreatestOfIterable_simple"
+          }
+        },
+        "ChoiceOrder":[
+
+          "1",
+
+          "2"
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":3,
+        "NextAnswerId":1,
+        "QuestionID":"QID10"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID11",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Which name would you choose for the following test:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspModule&nbspab&nbsp=<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspnew&nbspAbstractModule()&nbsp{<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp@Override<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspprotected&nbspvoid&nbspconfigure()&nbsp{<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspMultibinder<String>&nbspmultibinder&nbsp=&nbspMultibinder.newSetBinder(binder(),&nbspString.class);<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspmultibinder.addBinding().toInstance(A);<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspmultibinder.addBinding().toInstance(B);<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp};<br/>&nbsp&nbspassertEquals(<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspImmutableSet.of(A,&nbspB),&nbspGuice.createInjector(ab,&nbspab).getInstance(Key.get(setOfString)));<br/>&nbsp&nbspInjector&nbspinjector&nbsp=&nbspGuice.createInjector(ab,&nbspModules.override(ab).with(ab));<br/>&nbsp&nbspassertEquals(ImmutableSet.of(A,&nbspB),&nbspinjector.getInstance(Key.get(setOfString)));<br/>}</code><br/><br/>",
+        "DataExportTag":"Q11",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{
+          "1":{
+            "Display":"testModuleOverrideRepeatedInstallsAndMultibindings_toInstance"
+          },
+          "2":{
+            "Display":"testModuleOverrideRepeatedInstallsAndMultibindings"
+          }
+        },
+        "ChoiceOrder":[
+
+          "1",
+
+          "2"
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":3,
+        "NextAnswerId":1,
+        "QuestionID":"QID11"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID12",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Which name would you choose for the following test:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspaddEdge(E11,&nbspN1,&nbspN1);<br/>&nbsp&nbsptry&nbsp{<br/>&nbsp&nbsp&nbsp&nbspaddEdge(E11,&nbspN1,&nbspN2);<br/>&nbsp&nbsp&nbsp&nbspfail(Reusing&nbspan&nbspexisting&nbspself-loop&nbspedge&nbspto&nbspconnect&nbspdifferent&nbspnodes&nbspsucceeded);<br/>&nbsp&nbsp}&nbspcatch&nbsp(IllegalArgumentException&nbspe)&nbsp{<br/>&nbsp&nbsp&nbsp&nbspassertThat(e.getMessage()).contains(ERROR_REUSE_EDGE);<br/>&nbsp&nbsp}<br/>&nbsp&nbsptry&nbsp{<br/>&nbsp&nbsp&nbsp&nbspaddEdge(E11,&nbspN2,&nbspN2);<br/>&nbsp&nbsp&nbsp&nbspfail(Reusing&nbspan&nbspexisting&nbspself-loop&nbspedge&nbspto&nbspmake&nbspa&nbspdifferent&nbspself-loop&nbspedge&nbspsucceeded);<br/>&nbsp&nbsp}&nbspcatch&nbsp(IllegalArgumentException&nbspe)&nbsp{<br/>&nbsp&nbsp&nbsp&nbspassertThat(e.getMessage()).contains(ERROR_REUSE_EDGE);<br/>&nbsp&nbsp}<br/>&nbsp&nbspaddEdge(E12,&nbspN1,&nbspN2);<br/>&nbsp&nbsptry&nbsp{<br/>&nbsp&nbsp&nbsp&nbspaddEdge(E12,&nbspN1,&nbspN1);<br/>&nbsp&nbsp&nbsp&nbspfail(Reusing&nbspan&nbspexisting&nbspedge&nbspto&nbspadd&nbspa&nbspself-loop&nbspedge&nbspbetween&nbspdifferent&nbspnodes&nbspsucceeded);<br/>&nbsp&nbsp}&nbspcatch&nbsp(IllegalArgumentException&nbspe)&nbsp{<br/>&nbsp&nbsp&nbsp&nbspassertThat(e.getMessage()).contains(ERROR_REUSE_EDGE);<br/>&nbsp&nbsp}<br/>}</code><br/><br/>",
+        "DataExportTag":"Q12",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{
+          "1":{
+            "Display":"addEdge_builder_existingEdgeBetweenDifferentNodes_selfLoops"
+          },
+          "2":{
+            "Display":"addEdge_existingEdgeBetweenDifferentNodes_selfLoops"
+          }
+        },
+        "ChoiceOrder":[
+
+          "1",
+
+          "2"
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":3,
+        "NextAnswerId":1,
+        "QuestionID":"QID12"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID13",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Which name would you choose for the following test:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspassertNotNull(system);<br/>}</code><br/><br/>",
+        "DataExportTag":"Q13",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{
+          "1":{
+            "Display":"this_test_is_supposed_to_fail"
+          },
+          "2":{
+            "Display":"test"
+          }
+        },
+        "ChoiceOrder":[
+
+          "1",
+
+          "2"
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":3,
+        "NextAnswerId":1,
+        "QuestionID":"QID13"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID14",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Which name would you choose for the following test:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbsptry&nbsp{<br/>&nbsp&nbsp&nbsp&nbspaddEdge(E11,&nbspN1,&nbspN1);<br/>&nbsp&nbsp&nbsp&nbspfail(ERROR_ADDED_SELF_LOOP);<br/>&nbsp&nbsp}&nbspcatch&nbsp(IllegalArgumentException&nbspe)&nbsp{<br/>&nbsp&nbsp&nbsp&nbspassertThat(e.getMessage()).contains(ERROR_SELF_LOOP);<br/>&nbsp&nbsp}<br/>}</code><br/><br/>",
+        "DataExportTag":"Q14",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{
+          "1":{
+            "Display":"addEdge_selfLoop"
+          },
+          "2":{
+            "Display":"addEdge_builder_selfLoop"
+          }
+        },
+        "ChoiceOrder":[
+
+          "1",
+
+          "2"
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":3,
+        "NextAnswerId":1,
+        "QuestionID":"QID14"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID15",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Which name would you choose for the following test:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspassertEquals(,&nbsprv.returnValueFor(String.class));<br/>}</code><br/><br/>",
+        "DataExportTag":"Q15",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{
+          "1":{
+            "Display":"shouldReturnEmptyString"
+          },
+          "2":{
+            "Display":"should_return_empty_string"
+          }
+        },
+        "ChoiceOrder":[
+
+          "1",
+
+          "2"
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":3,
+        "NextAnswerId":1,
+        "QuestionID":"QID15"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID16",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Which name would you choose for the following test:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspList<V1>&nbsplist&nbsp=&nbspJSON.parseArray([{valuenull}],&nbspV1.class);<br/>&nbsp&nbspAssert.assertEquals(1,&nbsplist.size());<br/>&nbsp&nbspAssert.assertEquals(false,&nbsplist.get(0).value);<br/>}</code><br/><br/>",
+        "DataExportTag":"Q16",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{
+          "1":{
+            "Display":"test_for_issue_private"
+          },
+          "2":{
+            "Display":"test_for_issue_1"
+          }
+        },
+        "ChoiceOrder":[
+
+          "1",
+
+          "2"
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":3,
+        "NextAnswerId":1,
+        "QuestionID":"QID16"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID17",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Which name would you choose for the following test:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbsptry&nbsp{<br/>&nbsp&nbsp&nbsp&nbspnumberOrdering.leastOf(Arrays.asList(3,&nbsp4,&nbsp5,&nbsp-1),&nbsp-1);<br/>&nbsp&nbsp&nbsp&nbspfail();<br/>&nbsp&nbsp}&nbspcatch&nbsp(IllegalArgumentException&nbspexpected)&nbsp{<br/>&nbsp&nbsp}<br/>}</code><br/><br/>",
+        "DataExportTag":"Q17",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{
+          "1":{
+            "Display":"testLeastOf_simple_negativeOne"
+          },
+          "2":{
+            "Display":"testLeastOfIterable_simple_negativeOne"
+          }
+        },
+        "ChoiceOrder":[
+
+          "1",
+
+          "2"
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":3,
+        "NextAnswerId":1,
+        "QuestionID":"QID17"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID18",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Which name would you choose for the following test:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbsptry&nbsp{<br/>&nbsp&nbsp&nbsp&nbspSplitter.fixedLength(0);<br/>&nbsp&nbsp&nbsp&nbspfail();<br/>&nbsp&nbsp}&nbspcatch&nbsp(IllegalArgumentException&nbspexpected)&nbsp{<br/>&nbsp&nbsp}<br/>}</code><br/><br/>",
+        "DataExportTag":"Q18",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{
+          "1":{
+            "Display":"testAtEachSplitZeroChunkLen"
+          },
+          "2":{
+            "Display":"testFixedLengthSplitZeroChunkLen"
+          }
+        },
+        "ChoiceOrder":[
+
+          "1",
+
+          "2"
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":3,
+        "NextAnswerId":1,
+        "QuestionID":"QID18"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID19",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Which name would you choose for the following test:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspJSONReader&nbspreader&nbsp=&nbspnew&nbspJSONReader(new&nbspStringReader({value1001,value2-2001}));<br/>&nbsp&nbspModel&nbspmodel&nbsp=&nbspreader.readObject(Model.class);<br/>&nbsp&nbspAssert.assertEquals(1001,&nbspmodel.value);<br/>&nbsp&nbspAssert.assertEquals(-2001,&nbspmodel.value2);<br/>&nbsp&nbspreader.close();<br/>}</code><br/><br/>",
+        "DataExportTag":"Q19",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{
+          "1":{
+            "Display":"test_long_normal"
+          },
+          "2":{
+            "Display":"test_int_normal"
+          }
+        },
+        "ChoiceOrder":[
+
+          "1",
+
+          "2"
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":3,
+        "NextAnswerId":1,
+        "QuestionID":"QID19"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID20",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Which name would you choose for the following test:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspassertAssignable(new&nbspTypeToken<List<N11>>()&nbsp{},&nbspnew&nbspTypeToken<List<?&nbspextends&nbspN1>>()&nbsp{});<br/>&nbsp&nbspassertNotAssignable(new&nbspTypeToken<List<N1>>()&nbsp{},&nbspnew&nbspTypeToken<List<?&nbspextends&nbspN11>>()&nbsp{});<br/>&nbsp&nbspassertNotAssignable(new&nbspTypeToken<List<Number>>()&nbsp{},&nbspnew&nbspTypeToken<List<?&nbspextends&nbspN11>>()&nbsp{});<br/>&nbsp&nbspassertAssignable(new&nbspTypeToken<List<N1>>()&nbsp{},&nbspnew&nbspTypeToken<List<?&nbspextends&nbspNumber>>()&nbsp{});<br/>&nbsp&nbspassertAssignable(new&nbspTypeToken<ArrayList<N1>>()&nbsp{},&nbspnew&nbspTypeToken<List<?&nbspextends&nbspNumber>>()&nbsp{});<br/>&nbsp&nbspassertAssignable(<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspnew&nbspTypeToken<List<?&nbspextends&nbspN11>>()&nbsp{},&nbspnew&nbspTypeToken<List<?&nbspextends&nbspNumber>>()&nbsp{});<br/>}</code><br/><br/>",
+        "DataExportTag":"Q20",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{
+          "1":{
+            "Display":"testIsAssignableFrom_wildcardType_upperBoundMatch"
+          },
+          "2":{
+            "Display":"testisSupertypeOf_wildcardType_upperBoundMatch"
+          }
+        },
+        "ChoiceOrder":[
+
+          "1",
+
+          "2"
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":3,
+        "NextAnswerId":1,
+        "QuestionID":"QID20"
+      }
+    },{
+      "SurveyID":"SV_0jobguuG3iWzrXn",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID21",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"What was your general strategy for choosing which name to select?",
+        "DefaultChoices":false,
+        "DataExportTag":"Q21",
+        "QuestionType":"TE",
+        "Selector":"SL",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription":null,
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "GradingData":[
+
+        ],
+        "Language":[
+
+        ],
+        "NextChoiceId":4,
+        "NextAnswerId":1,
+        "SearchSource":{
+          "AllowFreeResponse":"true"
+        },
+        "QuestionID":"QID21"
+      }
+    }
+  ]
+}

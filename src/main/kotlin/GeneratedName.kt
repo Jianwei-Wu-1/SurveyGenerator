@@ -1,0 +1,1 @@
+data class GeneratedName(val originalName: String, val generatedName: String, val body: String)

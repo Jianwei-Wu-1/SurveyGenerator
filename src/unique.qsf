@@ -1,0 +1,3380 @@
+{
+  "SurveyEntry": {
+    "SurveyID": "SV_0jobguuG3iWzrXn",
+    "SurveyName": "Uniqueness Naming Survey - new",
+    "SurveyDescription": null,
+    "SurveyOwnerID": "UR_02izUEzZbIoFAgZ",
+    "SurveyBrandID": "delaware",
+    "DivisionID": null,
+    "SurveyLanguage": "EN",
+    "SurveyActiveResponseSet": "RS_aXmf0fM9FZLZNZz",
+    "SurveyStatus": "Inactive",
+    "SurveyStartDate": "0000-00-00 00:00:00",
+    "SurveyExpirationDate": "0000-00-00 00:00:00",
+    "SurveyCreationDate": "2019-10-18 13:53:03",
+    "CreatorID": "UR_02izUEzZbIoFAgZ",
+    "LastModified": "2019-10-18 13:53:48",
+    "LastAccessed": "0000-00-00 00:00:00",
+    "LastActivated": "0000-00-00 00:00:00",
+    "Deleted": null
+  },
+  "SurveyElements": [
+    {
+      "SurveyID": "SV_0jobguuG3iWzrXn",
+      "Element": "BL",
+      "PrimaryAttribute": "Survey Blocks",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": [
+        {
+          "Type": "Default",
+          "Description": "Default Question Block",
+          "ID": "BL_6sPQTxTc1IRtCBv",
+          "BlockElements": [
+
+            {
+              "Type": "Question",
+              "QuestionID": "QID1"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID2"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID3"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID4"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID5"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID6"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID7"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID8"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID9"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID10"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID11"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID12"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID13"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID14"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID15"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID16"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID17"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID18"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID19"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID20"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID21"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID22"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID23"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID24"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID25"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID26"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID27"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID28"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID29"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID30"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID31"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID32"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID33"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID34"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID35"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID36"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID37"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID38"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID39"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID40"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID41"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID42"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID43"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID44"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID45"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID46"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID47"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID48"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID49"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID50"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID51"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID52"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID53"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID54"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID55"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID56"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID57"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID58"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID59"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID60"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID61"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID62"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID63"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID64"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID65"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID66"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID67"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID68"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID69"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID70"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID71"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID72"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID73"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID74"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID75"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID76"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID77"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID78"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID79"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID80"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID81"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID82"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID83"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID84"
+            },
+            {
+              "Type": "Question",
+              "QuestionID": "QID85"
+            }]
+        },
+        {
+          "Type": "Trash",
+          "Description": "Trash \/ Unused Questions",
+          "ID": "BL_8r0gRVlSqRH8dlX"
+        }
+      ]
+    },
+    {
+      "SurveyID": "SV_0jobguuG3iWzrXn",
+      "Element": "FL",
+      "PrimaryAttribute": "Survey Flow",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "Flow": [
+          {
+            "ID": "BL_6sPQTxTc1IRtCBv",
+            "Type": "Block",
+            "FlowID": "FL_2"
+          }
+        ],
+        "Properties": {
+          "Count": 2
+        },
+        "FlowID": "FL_1",
+        "Type": "Root"
+      }
+    },
+    {
+      "SurveyID": "SV_0jobguuG3iWzrXn",
+      "Element": "SO",
+      "PrimaryAttribute": "Survey Options",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "BackButton": "false",
+        "SaveAndContinue": "true",
+        "SurveyProtection": "PublicSurvey",
+        "BallotBoxStuffingPrevention": "false",
+        "NoIndex": "Yes",
+        "SecureResponseFiles": "true",
+        "SurveyExpiration": "None",
+        "SurveyTermination": "DefaultMessage",
+        "Header": "",
+        "Footer": "",
+        "ProgressBarDisplay": "None",
+        "PartialData": "+1 week",
+        "ValidationMessage": "",
+        "PreviousButton": " \u2190 ",
+        "NextButton": " \u2192 ",
+        "SkinLibrary": "delaware",
+        "SkinType": "MQ",
+        "Skin": "ud1",
+        "NewScoring": 1,
+        "QuestionsPerPage": "1"
+      }
+    },
+    {
+      "SurveyID": "SV_0jobguuG3iWzrXn",
+      "Element": "SCO",
+      "PrimaryAttribute": "Scoring",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "ScoringCategories": [
+        ],
+        "ScoringCategoryGroups": [
+        ],
+        "ScoringSummaryCategory": null,
+        "ScoringSummaryAfterQuestions": 0,
+        "ScoringSummaryAfterSurvey": 0,
+        "DefaultScoringCategory": null,
+        "AutoScoringCategory": null
+      }
+    },
+    {
+      "SurveyID": "SV_0jobguuG3iWzrXn",
+      "Element": "PROJ",
+      "PrimaryAttribute": "CORE",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": "1.1.0",
+      "Payload": {
+        "ProjectCategory": "CORE",
+        "SchemaVersion": "1.1.0"
+      }
+    },
+    {
+      "SurveyID": "SV_0jobguuG3iWzrXn",
+      "Element": "STAT",
+      "PrimaryAttribute": "Survey Statistics",
+      "SecondaryAttribute": null,
+      "TertiaryAttribute": null,
+      "Payload": {
+        "MobileCompatible": true,
+        "ID": "Survey Statistics"
+      }
+    },
+    {
+      "SurveyID": "SV_0jobguuG3iWzrXn",
+      "Element": "QC",
+      "PrimaryAttribute": "Survey Question Count",
+      "SecondaryAttribute": "85",
+      "TertiaryAttribute": null,
+      "Payload": null
+    },
+    {
+      "SurveyID": "SV_0jobguuG3iWzrXn",
+      "Element": "RS",
+      "PrimaryAttribute": "RS_aXmf0fM9FZLZNZz",
+      "SecondaryAttribute": "Default Response Set",
+      "TertiaryAttribute": null,
+      "Payload": null
+    },
+    {
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID1",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspfinal&nbspRBlockingQueueReactive<Integer>&nbspqueue1&nbsp=&nbspredisson.getBlockingQueue(queuepollany);<br/>&nbsp&nbspExecutors.newSingleThreadScheduledExecutor()<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp.schedule(<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp()&nbsp->&nbsp{<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRBlockingQueueReactive<Integer>&nbspqueue2&nbsp=&nbspredisson.getBlockingQueue(queuepollany1);<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRBlockingQueueReactive<Integer>&nbspqueue3&nbsp=&nbspredisson.getBlockingQueue(queuepollany2);<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspsync(queue3.put(2));<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspsync(queue1.put(1));<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspsync(queue2.put(3));<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp},<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp3,<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspTimeUnit.SECONDS);<br/>&nbsp&nbsplong&nbsps&nbsp=&nbspSystem.currentTimeMillis();<br/>&nbsp&nbspint&nbspl&nbsp=&nbspsync(queue1.pollFromAny(4,&nbspTimeUnit.SECONDS,&nbspqueuepollany1,&nbspqueuepollany2));<br/>&nbsp&nbspAssert.assertEquals(2,&nbspl);<br/>&nbsp&nbspAssert.assertTrue(System.currentTimeMillis()&nbsp-&nbsps&nbsp>&nbsp2000);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_PollFromAny",
+        "DataExportTag":"Q1",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID1"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID2",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspImageView&nbsptarget&nbsp=&nbspmockFitImageViewTarget(true);<br/>&nbsp&nbspViewTreeObserver&nbspobserver&nbsp=&nbsptarget.getViewTreeObserver();<br/>&nbsp&nbspDeferredRequestCreator&nbsprequest&nbsp=<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspnew&nbspDeferredRequestCreator(mock(RequestCreator.class),&nbsptarget,&nbspnull);<br/>&nbsp&nbspverify(observer).addOnPreDrawListener(request);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_Verifyobserver",
+        "DataExportTag":"Q2",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID2"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID3",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspfinal&nbspString&nbspexpected&nbsp=<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspGET&https%3A%2F%2Fexample.com%2Ftest&oauth_callback%3Dhttp%253A%252F%252Fexample<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp+&nbsp%252Fcallback%26oauth_consumer_key%3DAS%2523%2524%255E%252A%2540%2526%26oauth_signature<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp+&nbsp%3DOAuth-Signature%26oauth_timestamp%3D123456;<br/>&nbsp&nbspfinal&nbspString&nbspbaseString&nbsp=&nbspextractor.extract(requestPort443v2);<br/>&nbsp&nbspassertEquals(expected,&nbspbaseString);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_RequestPort443v2",
+        "DataExportTag":"Q3",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID3"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID4",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspint&nbsptimes&nbsp=&nbsp5000000;<br/>&nbsp&nbspDuplicateRemover&nbspduplicateRemover&nbsp=&nbspnew&nbspBloomFilterDuplicateRemover(times,&nbsp0.01);<br/>&nbsp&nbspint&nbspright&nbsp=&nbsp0;<br/>&nbsp&nbspint&nbspwrong&nbsp=&nbsp0;<br/>&nbsp&nbspint&nbspmissCheck&nbsp=&nbsp0;<br/>&nbsp&nbspfor&nbsp(int&nbspi&nbsp=&nbsp0;&nbspi&nbsp<&nbsptimes;&nbspi++)&nbsp{<br/>&nbsp&nbsp&nbsp&nbspboolean&nbspduplicate&nbsp=&nbspduplicateRemover.isDuplicate(new&nbspRequest(String.valueOf(i)),&nbspnull);<br/>&nbsp&nbsp&nbsp&nbspif&nbsp(duplicate)&nbsp{<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspwrong++;<br/>&nbsp&nbsp&nbsp&nbsp}&nbspelse&nbsp{<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspright++;<br/>&nbsp&nbsp&nbsp&nbsp}<br/>&nbsp&nbsp&nbsp&nbspduplicate&nbsp=&nbspduplicateRemover.isDuplicate(new&nbspRequest(String.valueOf(i)),&nbspnull);<br/>&nbsp&nbsp&nbsp&nbspif&nbsp(!duplicate)&nbsp{<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspmissCheck++;<br/>&nbsp&nbsp&nbsp&nbsp}<br/>&nbsp&nbsp}<br/>&nbsp&nbspSystem.out.println(<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRight&nbspcount&nbsp&nbsp+&nbspright&nbsp+&nbsp&nbspWrong&nbspcount&nbsp&nbsp+&nbspwrong&nbsp+&nbsp&nbspMiss&nbspcheck&nbsp&nbsp+&nbspmissCheck);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_Runtime_CurrentTimeMillis_FreeMemory_Gc",
+        "DataExportTag":"Q4",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID4"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID5",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspmockOne.simpleMethod(50);<br/>&nbsp&nbspwhen(mockOne.simpleMethod(100)).thenReturn(100);<br/>&nbsp&nbspwhen(mockOne.simpleMethod(200)).thenReturn(200);<br/>&nbsp&nbspwhen(mockTwo.simpleMethod(300)).thenReturn(300);<br/>&nbsp&nbspList<Stubbing>&nbspstubbings&nbsp=<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspnew&nbspArrayList<Stubbing>(findStubbings(asList(mockOne,&nbspmockOne,&nbspmockTwo)));<br/>&nbsp&nbspassertEquals(3,&nbspstubbings.size());<br/>&nbsp&nbspassertArgumentEquals(100,&nbspstubbings.get(0).getInvocation());<br/>&nbsp&nbspassertArgumentEquals(200,&nbspstubbings.get(1).getInvocation());<br/>&nbsp&nbspassertArgumentEquals(300,&nbspstubbings.get(2).getInvocation());<br/>}</code><br/><br/>Generated Name:<br/><br/>test_Invocation_When",
+        "DataExportTag":"Q5",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID5"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID6",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspInvocationMatcher&nbspunstubbedInvocation&nbsp=<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspnew&nbspInvocationBuilder().differentMethod().toInvocationMatcher();<br/>&nbsp&nbspWarningsFinder&nbspfinder&nbsp=<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspnew&nbspWarningsFinder(<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspArrays.<Invocation>asList(),&nbspArrays.<InvocationMatcher>asList(unstubbedInvocation));<br/>&nbsp&nbspfinder.find(listener);<br/>&nbsp&nbspverify(listener,&nbsponly()).foundUnstubbed(unstubbedInvocation);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_DifferentMethod",
+        "DataExportTag":"Q6",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID6"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID7",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspfinal&nbspString&nbspexpected&nbsp=<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspGET&https%3A%2F%2Fexample.com&oauth_callback%3Dhttp%253A%252F%252Fexample%252Fcallback<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp+&nbsp%26oauth_consumer_key%3DAS%2523%2524%255E%252A%2540%2526%26oauth_signature%3DOAuth-Signature<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp+&nbsp%26oauth_timestamp%3D123456;<br/>&nbsp&nbspfinal&nbspString&nbspbaseString&nbsp=&nbspextractor.extract(requestPort443);<br/>&nbsp&nbspassertEquals(expected,&nbspbaseString);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_RequestPort443",
+        "DataExportTag":"Q7",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID7"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID8",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspDownloadRunner&nbsprunner&nbsp=&nbspnew&nbspDownloadRunner(uri1);<br/>&nbsp&nbsprunner.postDownloadRequest();<br/>&nbsp&nbspFakeDownloader&nbspdownloader&nbsp=&nbsprunner.getDownloader(0);<br/>&nbsp&nbspfor&nbsp(int&nbspi&nbsp=&nbsp0;&nbspi&nbsp<=&nbspMIN_RETRY_COUNT;&nbspi++)&nbsp{<br/>&nbsp&nbsp&nbsp&nbspdownloader.assertStarted(MAX_RETRY_DELAY).fail();<br/>&nbsp&nbsp}<br/>&nbsp&nbspdownloader.assertReleased().assertStartCount(MIN_RETRY_COUNT&nbsp+&nbsp1);<br/>&nbsp&nbsprunner.getTask().assertFailed();<br/>&nbsp&nbspdownloadManagerListener.blockUntilTasksComplete();<br/>&nbsp&nbspassertThat(downloadManager.getCurrentDownloads()).isEmpty();<br/>}</code><br/><br/>Generated Name:<br/><br/>test_IfAssertFailed",
+        "DataExportTag":"Q8",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID8"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID9",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspType&nbsptype&nbsp=&nbspnew&nbspTypeCapture<T>()&nbsp{}.capture();<br/>&nbsp&nbspassertVisited(type);<br/>&nbsp&nbspnew&nbspBaseTypeVisitor()&nbsp{<br/>&nbsp&nbsp&nbsp&nbsp@Override<br/>&nbsp&nbsp&nbsp&nbspvoid&nbspvisitTypeVariable(TypeVariable<?>&nbspt)&nbsp{}<br/>&nbsp&nbsp}.visit(type);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_NewBaseTypeVisitor_Override_VisitTypeVariable_TypeVariable_Visittype",
+        "DataExportTag":"Q9",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID9"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID10",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspEmptyBlock&nbspb1&nbsp=&nbspnew&nbspEmptyBlock(1.0,&nbsp2.0);<br/>&nbsp&nbspEmptyBlock&nbspb2&nbsp=&nbspTestUtils.serialised(b1);<br/>&nbsp&nbspassertEquals(b1,&nbspb2);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_Serialised",
+        "DataExportTag":"Q10",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID10"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID11",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspBackoff&nbspb&nbsp=&nbspnew&nbspBackoff();<br/>&nbsp&nbspassertTrue(100&nbsp==&nbspb.duration());<br/>&nbsp&nbspassertTrue(200&nbsp==&nbspb.duration());<br/>&nbsp&nbspassertTrue(400&nbsp==&nbspb.duration());<br/>&nbsp&nbspassertTrue(800&nbsp==&nbspb.duration());<br/>&nbsp&nbspb.reset();<br/>&nbsp&nbspassertTrue(100&nbsp==&nbspb.duration());<br/>&nbsp&nbspassertTrue(200&nbsp==&nbspb.duration());<br/>}</code><br/><br/>Generated Name:<br/><br/>test_Reset",
+        "DataExportTag":"Q11",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID11"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID12",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspInjector&nbspinjector&nbsp=<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspGuice.createInjector(<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspnew&nbspAbstractModule()&nbsp{<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspprotected&nbspvoid&nbspconfigure()&nbsp{<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspbind(String.class).toInstance(foo);<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspbind(int.class).toInstance(5);<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp});<br/>&nbsp&nbspPrivate&nbspp&nbsp=&nbspinjector.getInstance(Private.class);<br/>&nbsp&nbspassertEquals(foo,&nbspp.fromConstructor);<br/>&nbsp&nbspassertEquals(5,&nbspp.fromMethod);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_PrivateClass",
+        "DataExportTag":"Q12",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID12"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID13",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspString&nbspgetValue&nbsp=&nbspkeep&nbspWINTER&nbspIS&nbspCOMING&nbspsafe;<br/>&nbsp&nbspCheckedProvider<String>&nbspprovider&nbsp=&nbspCheckedProviders.of(StringCheckedProvider.class,&nbspgetValue);<br/>&nbsp&nbspString&nbspmessage&nbsp=&nbspString.format(expected&nbspto&nbspthrownbut&nbspprovided&nbsp%s,&nbspgetValue);<br/>&nbsp&nbspexpectWhenTesting().that(provider).thrownException();<br/>&nbsp&nbspassertThat(expect.getFailure()).hasMessageThat().isEqualTo(message);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_StringCheckedProviderClassGetValue_ExpectedtothrownbutprovidedsGetValue",
+        "DataExportTag":"Q13",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID13"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID14",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspDateFormatter&nbspdateFormatter&nbsp=&nbspnew&nbspDateFormatter();<br/>&nbsp&nbspString&nbsppattern&nbsp=&nbspyyyy-MM-dd&nbspHHmm;<br/>&nbsp&nbspDate&nbspdate&nbsp=&nbspDateUtils.parseDate(2013-09-10&nbsp2211,&nbspnew&nbspString[]&nbsp{pattern});<br/>&nbsp&nbspdateFormatter.initParam(new&nbspString[]&nbsp{pattern});<br/>&nbsp&nbspDate&nbspformat&nbsp=&nbspdateFormatter.format(DateFormatUtils.format(date,&nbsppattern));<br/>&nbsp&nbspassertThat(format).isEqualTo(date);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_Format_InitParam",
+        "DataExportTag":"Q14",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID14"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID15",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspKey<List<String>>&nbspa&nbsp=&nbspnew&nbspKey<List<String>>(Foo.class)&nbsp{};<br/>&nbsp&nbspKey<List<String>>&nbspb&nbsp=&nbspKey.get(new&nbspTypeLiteral<List<String>>()&nbsp{},&nbspFoo.class);<br/>&nbsp&nbspassertEqualsBothWays(a,&nbspb);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_NewTypeLiteral_FooClass",
+        "DataExportTag":"Q15",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID15"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID16",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspfinal&nbspToken&nbspactual&nbsp=<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspnew&nbspOAuth1AccessToken(<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspacccess,&nbspsecret,&nbspuser_id=3107154759&screen_name=someuser&empty=&=);<br/>&nbsp&nbspassertEquals(someuser,&nbspactual.getParameter(screen_name));<br/>&nbsp&nbspassertEquals(3107154759,&nbspactual.getParameter(user_id));<br/>&nbsp&nbspassertEquals(null,&nbspactual.getParameter(empty));<br/>&nbsp&nbspassertEquals(null,&nbspactual.getParameter(null));<br/>}</code><br/><br/>Generated Name:<br/><br/>test_Parameter",
+        "DataExportTag":"Q16",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID16"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID17",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspAssert.assertEquals(,&nbspEagleEyeCoreUtils.checkNotNull(,&nbspbar));<br/>&nbsp&nbspAssert.assertEquals(&nbsp,&nbspEagleEyeCoreUtils.checkNotNull(&nbsp,&nbspbar));<br/>&nbsp&nbspAssert.assertEquals(foo,&nbspEagleEyeCoreUtils.checkNotNull(foo,&nbspbar));<br/>}</code><br/><br/>Generated Name:<br/><br/>test_CheckEagleEyeCoreUtilsCheckNotNullBar_CheckEagleEyeCoreUtilsCheckNotNullfooBar",
+        "DataExportTag":"Q17",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID17"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID18",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspRedisProcess&nbsprunner&nbsp=&nbspnew&nbspRedisRunner().nosave().randomDir().port(6311).run();<br/>&nbsp&nbspURL&nbspconfigUrl&nbsp=&nbspgetClass().getResource(redisson-jcache.json);<br/>&nbsp&nbspConfig&nbspcfg&nbsp=&nbspConfig.fromJSON(configUrl);<br/>&nbsp&nbspConfiguration<String,&nbspString>&nbspconfig&nbsp=&nbspRedissonConfiguration.fromConfig(cfg);<br/>&nbsp&nbspCache<String,&nbspString>&nbspcache&nbsp=<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCaching.getCachingProvider().getCacheManager().createCache(test,&nbspconfig);<br/>&nbsp&nbspCacheAsync<String,&nbspString>&nbspasync&nbsp=&nbspcache.unwrap(CacheAsync.class);<br/>&nbsp&nbspasync.putAsync(1,&nbsp2).get();<br/>&nbsp&nbspassertThat(async.getAsync(1).get()).isEqualTo(2);<br/>&nbsp&nbspcache.close();<br/>&nbsp&nbsprunner.stop();<br/>}</code><br/><br/>Generated Name:<br/><br/>test_Async_PutAsync",
+        "DataExportTag":"Q18",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID18"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID19",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbsplong&nbspclientIdInitial&nbsp=&nbspclient.clientId();<br/>&nbsp&nbspclient.disconnect();<br/>&nbsp&nbspclient.connect();<br/>&nbsp&nbsplong&nbspclientIdAfterReconnect&nbsp=&nbspclient.clientId();<br/>&nbsp&nbspassertTrue(clientIdInitial&nbsp<&nbspclientIdAfterReconnect);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_Connect_Disconnect",
+        "DataExportTag":"Q19",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID19"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID20",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspList<Modifier>&nbspmodifiers&nbsp=&nbspnew&nbspArrayList<>();<br/>&nbsp&nbspmodifiers.add(Modifier.FINAL);<br/>&nbsp&nbspmodifiers.add(Modifier.PUBLIC);<br/>&nbsp&nbsptry&nbsp{<br/>&nbsp&nbsp&nbsp&nbspParameterSpec.builder(int.class,&nbspfoo).addModifiers(modifiers);<br/>&nbsp&nbsp&nbsp&nbspfail();<br/>&nbsp&nbsp}&nbspcatch&nbsp(Exception&nbspe)&nbsp{<br/>&nbsp&nbsp&nbsp&nbspassertThat(e.getMessage()).isEqualTo(unexpected&nbspparameter&nbspmodifier&nbsppublic);<br/>&nbsp&nbsp}<br/>}</code><br/><br/>Generated Name:<br/><br/>test_Add",
+        "DataExportTag":"Q20",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID20"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID21",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspString&nbspin&nbsp=&nbsphello;<br/>&nbsp&nbspString&nbspencode&nbsp=&nbspBase64.encode(in);<br/>&nbsp&nbspString&nbspdecode&nbsp=&nbspBase64.decode(encode);<br/>&nbsp&nbspAssert.assertTrue(in.equals(decode));<br/>}</code><br/><br/>Generated Name:<br/><br/>test_Decode",
+        "DataExportTag":"Q21",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID21"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID22",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspexec(io.socket.client.executions.ConnectionFailure);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_IoSocketClientExecutionsConnectionFailure",
+        "DataExportTag":"Q22",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID22"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID23",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspfinal&nbspString&nbspcontextName&nbsp=&nbspcontextA;<br/>&nbsp&nbspfinal&nbspString&nbsporigin&nbsp=&nbsporiginA;<br/>&nbsp&nbspContextUtil.enter(contextName,&nbsporigin);<br/>&nbsp&nbspContext&nbspcontextB&nbsp=&nbspContext.newAsyncContext(null,&nbspcontextB).setOrigin(originA);<br/>&nbsp&nbspContext&nbspcontextA&nbsp=&nbspContextUtil.replaceContext(contextB);<br/>&nbsp&nbspassertEquals(contextName,&nbspcontextA.getName());<br/>&nbsp&nbspassertEquals(origin,&nbspcontextA.getOrigin());<br/>&nbsp&nbspassertFalse(contextA.isAsync());<br/>&nbsp&nbspContext&nbspcurContextAfterReplace&nbsp=&nbspContextUtil.getContext();<br/>&nbsp&nbspassertEquals(contextB.getName(),&nbspcurContextAfterReplace.getName());<br/>&nbsp&nbspassertEquals(contextB.getOrigin(),&nbspcurContextAfterReplace.getOrigin());<br/>&nbsp&nbspassertTrue(curContextAfterReplace.isAsync());<br/>&nbsp&nbspContextUtil.replaceContext(null);<br/>&nbsp&nbspassertNull(ContextUtil.getContext());<br/>}</code><br/><br/>Generated Name:<br/><br/>test_ReplaceContext",
+        "DataExportTag":"Q23",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID23"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID24",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspfinal&nbspString&nbspfinalBody&nbsp=&nbspHello&nbspworld!;<br/>&nbsp&nbspresponse.body(finalBody);<br/>&nbsp&nbspString&nbspreturnBody&nbsp=&nbspWhitebox.getInternalState(response,&nbspbody);<br/>&nbsp&nbspassertEquals(Should&nbspreturn&nbspbody&nbspspecified,&nbspfinalBody,&nbspreturnBody);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_FinalBody",
+        "DataExportTag":"Q24",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID24"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID25",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspProjection&nbspprojection&nbsp=<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspProjection.createEquirectangular(<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspRADIUS,<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspLATITUDES,<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspLONGITUDES,<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspVERTICAL_FOV_DEGREES,<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspHORIZONTAL_FOV_DEGREES,<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspC.STEREO_MODE_MONO);<br/>&nbsp&nbspProjection.SubMesh&nbspsubMesh&nbsp=&nbspprojection.leftMesh.getSubMesh(0);<br/>&nbsp&nbspassertThat(subMesh.getVertexCount()).isGreaterThan(LATITUDES&nbsp*&nbspLONGITUDES);<br/>&nbsp&nbspfloat[]&nbspdata&nbsp=&nbspsubMesh.vertices;<br/>&nbsp&nbspfor&nbsp(int&nbspi&nbsp=&nbsp0;&nbspi&nbsp<&nbspdata.length;&nbsp)&nbsp{<br/>&nbsp&nbsp&nbsp&nbspfloat&nbspx&nbsp=&nbspdata[i++];<br/>&nbsp&nbsp&nbsp&nbspfloat&nbspy&nbsp=&nbspdata[i++];<br/>&nbsp&nbsp&nbsp&nbspfloat&nbspz&nbsp=&nbspdata[i++];<br/>&nbsp&nbsp&nbsp&nbspassertEquals(RADIUS,&nbspMath.sqrt(x&nbsp*&nbspx&nbsp+&nbspy&nbsp*&nbspy&nbsp+&nbspz&nbsp*&nbspz),&nbspEPSILON);<br/>&nbsp&nbsp}<br/>}</code><br/><br/>Generated Name:<br/><br/>test_SubMesh_VertexCount_CreateEquirectangular_IsGreaterThan_Sqrt",
+        "DataExportTag":"Q25",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID25"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID26",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspfinal&nbspint&nbspfinalStatusCode&nbsp=&nbspHttpServletResponse.SC_OK;<br/>&nbsp&nbspresponse.status(finalStatusCode);<br/>&nbsp&nbspverify(httpServletResponse).setStatus(finalStatusCode);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_FinalStatusCode",
+        "DataExportTag":"Q26",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID26"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID27",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspContext&nbspcontext&nbsp=&nbspnew&nbspNullContext();<br/>&nbsp&nbspCtEntry&nbspentry&nbsp=<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspnew&nbspCtEntry(new&nbspStringResourceWrapper(testGetLastNode,&nbspEntryType.IN),&nbspnull,&nbspcontext);<br/>&nbsp&nbspassertNull(entry.parent);<br/>&nbsp&nbspassertNull(entry.getLastNode());<br/>&nbsp&nbspEntry&nbspparentEntry&nbsp=&nbspmock(Entry.class);<br/>&nbsp&nbspNode&nbspnode&nbsp=&nbspmock(Node.class);<br/>&nbsp&nbspwhen(parentEntry.getCurNode()).thenReturn(node);<br/>&nbsp&nbspentry.parent&nbsp=&nbspparentEntry;<br/>&nbsp&nbspassertSame(node,&nbspentry.getLastNode());<br/>}</code><br/><br/>Generated Name:<br/><br/>test_CurNode_LastNode",
+        "DataExportTag":"Q27",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID27"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID28",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspreq.setParameters(params);<br/>&nbsp&nbspservlet.doGet(req,&nbspres);<br/>&nbsp&nbspassertTrue(servlet.getBarcode()&nbspinstanceof&nbspCode128Barcode);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_CheckServletBarcodeinstanceofCodeOneTwoEightBarcode",
+        "DataExportTag":"Q28",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID28"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID29",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspasync.runAfter(10,&nbspcallMock(c));<br/>&nbsp&nbspasync.runAfter(50,&nbspcallMock(c));<br/>&nbsp&nbspverify(mock,&nbsptimeout(200).atLeast(2)).oneArg(c);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_VerifymockTimeout200AtLeast2",
+        "DataExportTag":"Q29",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID29"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID30",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspAssert.assertFalse(EagleEyeCoreUtils.isNotBlank());<br/>&nbsp&nbspAssert.assertFalse(EagleEyeCoreUtils.isNotBlank(&nbsp));<br/>&nbsp&nbspAssert.assertFalse(EagleEyeCoreUtils.isNotBlank(null));<br/>&nbsp&nbspAssert.assertTrue(EagleEyeCoreUtils.isNotBlank(foo));<br/>}</code><br/><br/>Generated Name:<br/><br/>test_IsNotBlank",
+        "DataExportTag":"Q30",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID30"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID31",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspString&nbspexpected&nbsp=&nbspkeep&nbspSummer&nbspsafe;<br/>&nbsp&nbspCheckedProvider<String>&nbspprovider&nbsp=&nbspCheckedProviders.of(StringCheckedProvider.class,&nbspexpected);<br/>&nbsp&nbspassertThat(provider).providedValue().isEqualTo(expected);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_StringCheckedProviderClassExpected",
+        "DataExportTag":"Q31",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID31"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID32",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspfinal&nbspString&nbspexpected&nbsp=<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspGET&http%3A%2F%2Fexample.com%3A8080&oauth_callback%3Dhttp%253A%252F%252Fexample<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp+&nbsp%252Fcallback%26oauth_consumer_key%3DAS%2523%2524%255E%252A%2540%2526%26oauth_signature<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp+&nbsp%3DOAuth-Signature%26oauth_timestamp%3D123456;<br/>&nbsp&nbspfinal&nbspString&nbspbaseString&nbsp=&nbspextractor.extract(requestPort8080);<br/>&nbsp&nbspassertEquals(expected,&nbspbaseString);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_RequestPort8080",
+        "DataExportTag":"Q32",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID32"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID33",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspDownloadRequest&nbspdownloadRequest&nbsp=&nbspcreateDownloadRequest();<br/>&nbsp&nbspDownloadBuilder&nbspdownloadBuilder&nbsp=<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspnew&nbspDownloadBuilder(downloadRequest)<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp.setState(Download.STATE_FAILED)<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp.setFailureReason(Download.FAILURE_REASON_UNKNOWN);<br/>&nbsp&nbspDownload&nbspdownload&nbsp=&nbspdownloadBuilder.build();<br/>&nbsp&nbspDownload&nbspmergedDownload&nbsp=<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspDownloadManager.mergeRequest(download,&nbspdownloadRequest,&nbspdownload.stopReason,&nbspNOW_MS);<br/>&nbsp&nbspDownload&nbspexpectedDownload&nbsp=<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspdownloadBuilder<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp.setStartTimeMs(NOW_MS)<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp.setState(Download.STATE_QUEUED)<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp.setFailureReason(Download.FAILURE_REASON_NONE)<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp.build();<br/>&nbsp&nbspassertEqualIgnoringUpdateTime(mergedDownload,&nbspexpectedDownload);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_FailureReason",
+        "DataExportTag":"Q33",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID33"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID34",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspParameterSpec&nbspa&nbsp=&nbspParameterSpec.builder(int.class,&nbspfoo).build();<br/>&nbsp&nbspParameterSpec&nbspb&nbsp=&nbspParameterSpec.builder(int.class,&nbspfoo).build();<br/>&nbsp&nbspassertThat(a.equals(b)).isTrue();<br/>&nbsp&nbspassertThat(a.hashCode()).isEqualTo(b.hashCode());<br/>&nbsp&nbspassertThat(a.toString()).isEqualTo(b.toString());<br/>&nbsp&nbspa&nbsp=&nbspParameterSpec.builder(int.class,&nbspi).addModifiers(Modifier.STATIC).build();<br/>&nbsp&nbspb&nbsp=&nbspParameterSpec.builder(int.class,&nbspi).addModifiers(Modifier.STATIC).build();<br/>&nbsp&nbspassertThat(a.equals(b)).isTrue();<br/>&nbsp&nbspassertThat(a.hashCode()).isEqualTo(b.hashCode());<br/>&nbsp&nbspassertThat(a.toString()).isEqualTo(b.toString());<br/>}</code><br/><br/>Generated Name:<br/><br/>test_Equals_HashCode_ToString",
+        "DataExportTag":"Q34",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID34"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID35",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspCombinedRangeXYPlot&nbspplot&nbsp=&nbspnew&nbspCombinedRangeXYPlot();<br/>&nbsp&nbspXYPlot<String>&nbspplot1&nbsp=&nbspnew&nbspXYPlot<>();<br/>&nbsp&nbspXYPlot<String>&nbspplot2&nbsp=&nbspnew&nbspXYPlot<>();<br/>&nbsp&nbspplot.add(plot1);<br/>&nbsp&nbspplot.add(plot2);<br/>&nbsp&nbspplot.remove(plot2);<br/>&nbsp&nbspList<XYPlot>&nbspplots&nbsp=&nbspplot.getSubplots();<br/>&nbsp&nbspassertTrue(plots.get(0)&nbsp==&nbspplot1);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_Add_Remove",
+        "DataExportTag":"Q35",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID35"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID36",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspbookId&nbsp=&nbspcreateBookViaPOST().body.trim();<br/>&nbsp&nbspUrlResponse&nbspresponse&nbsp=&nbspdoMethod(GET,&nbsp/books/&nbsp+&nbspbookId,&nbspnull);<br/>&nbsp&nbspString&nbspresult&nbsp=&nbspresponse.body;<br/>&nbsp&nbspassertNotNull(response);<br/>&nbsp&nbspassertNotNull(response.body);<br/>&nbsp&nbspassertEquals(200,&nbspresponse.status);<br/>&nbsp&nbspassertTrue(result.contains(AUTHOR));<br/>&nbsp&nbspassertTrue(result.contains(TITLE));<br/>&nbsp&nbspassertTrue(beforeFilterIsSet(response));<br/>&nbsp&nbspassertTrue(afterFilterIsSet(response));<br/>}</code><br/><br/>Generated Name:<br/><br/>test_AfterFilterIs_BeforeFilterIs",
+        "DataExportTag":"Q36",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID36"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID37",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspProxy&nbsporiginProxy1&nbsp=&nbspnew&nbspProxy(127.0.0.1,&nbsp1087);<br/>&nbsp&nbspProxy&nbsporiginProxy2&nbsp=&nbspnew&nbspProxy(127.0.0.1,&nbsp1088);<br/>&nbsp&nbspSimpleProxyProvider&nbspproxyProvider&nbsp=&nbspSimpleProxyProvider.from(originProxy1,&nbsporiginProxy2);<br/>&nbsp&nbspProxy&nbspproxy&nbsp=&nbspproxyProvider.getProxy(TASK);<br/>&nbsp&nbspassertThat(proxy).isEqualTo(originProxy1);<br/>&nbsp&nbspproxy&nbsp=&nbspproxyProvider.getProxy(TASK);<br/>&nbsp&nbspassertThat(proxy).isEqualTo(originProxy2);<br/>&nbsp&nbspproxy&nbsp=&nbspproxyProvider.getProxy(TASK);<br/>&nbsp&nbspassertThat(proxy).isEqualTo(originProxy1);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_Proxy_From",
+        "DataExportTag":"Q37",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID37"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID38",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspString&nbspargument&nbsp=&nbspmessage;<br/>&nbsp&nbspassertEquals(argument,&nbspjedis.ping(argument));<br/>&nbsp&nbspassertArrayEquals(bfoobar,&nbspjedis.ping(bfoobar));<br/>}</code><br/><br/>Generated Name:<br/><br/>test_Argument_Bfoobar",
+        "DataExportTag":"Q38",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID38"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID39",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspBackoff&nbspb&nbsp=&nbspnew&nbspBackoff();<br/>&nbsp&nbspb.setMin(100);<br/>&nbsp&nbspb.setMax(10000);<br/>&nbsp&nbspb.setJitter(0.5);<br/>&nbsp&nbspfor&nbsp(int&nbspj&nbsp=&nbsp0;&nbspj&nbsp<&nbsp100;&nbspj++)&nbsp;<br/>&nbsp&nbspBigInteger&nbspms&nbsp=&nbspBigInteger.valueOf(100).multiply(BigInteger.valueOf(2).pow(j));<br/>&nbsp&nbspBigInteger&nbspdeviation&nbsp=&nbspnew&nbspBigDecimal(ms).multiply(BigDecimal.valueOf(0.5)).toBigInteger();<br/>&nbsp&nbspBigInteger&nbspduration&nbsp=&nbspBigInteger.valueOf(b.duration());<br/>&nbsp&nbspBigInteger&nbspmin&nbsp=&nbspms.subtract(deviation).min(BigInteger.valueOf(10000));<br/>&nbsp&nbspBigInteger&nbspmax&nbsp=&nbspms.add(deviation).min(BigInteger.valueOf(10001));<br/>&nbsp&nbspassertTrue(<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspmin&nbsp+&nbsp&nbsp<=&nbsp&nbsp+&nbspduration&nbsp+&nbsp&nbsp<&nbsp&nbsp+&nbspmax,<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspmin.compareTo(duration)&nbsp<=&nbsp0&nbsp&&&nbspmax.compareTo(duration)&nbsp==&nbsp1);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_Jitter_Max_Min",
+        "DataExportTag":"Q39",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID39"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID40",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspFakeMappingTrackSelector&nbsptrackSelector&nbsp=&nbspnew&nbspFakeMappingTrackSelector();<br/>&nbsp&nbspRendererCapabilities[]&nbspreverseOrderRendererCapabilities&nbsp=<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspnew&nbspRendererCapabilities[]&nbsp{AUDIO_CAPABILITIES,&nbspVIDEO_CAPABILITIES};<br/>&nbsp&nbsptrackSelector.selectTracks(reverseOrderRendererCapabilities,&nbspTRACK_GROUPS,&nbspperiodId,&nbspTIMELINE);<br/>&nbsp&nbsptrackSelector.assertMappedTrackGroups(0,&nbspAUDIO_TRACK_GROUP);<br/>&nbsp&nbsptrackSelector.assertMappedTrackGroups(1,&nbspVIDEO_TRACK_GROUP);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_ReverseOrderRendererCapabilitiesTRACKGROUPSPeriodIdTIMELINE",
+        "DataExportTag":"Q40",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID40"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID41",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspEnvironmentFactory.setNonAWTMode(68);<br/>&nbsp&nbspassertTrue(EnvironmentFactory.getEnvironment()&nbspinstanceof&nbspNonAWTEnvironment);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_CheckEnvironmentFactoryEnvironmentinstanceofNonAWTEnvironment",
+        "DataExportTag":"Q41",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID41"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID42",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspMember&nbspmethod&nbsp=&nbspObj.class.getDeclaredMethod(method,&nbspString.class);<br/>&nbsp&nbspassertEquals(#method(...),&nbspnameFactory.getMemberName(method));<br/>}</code><br/><br/>Generated Name:<br/><br/>test_CheckNameFactoryMemberNamemethod",
+        "DataExportTag":"Q42",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID42"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID43",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspDefaultCategoryDataset<String,&nbspString>&nbspd&nbsp=&nbspnew&nbspDefaultCategoryDataset<>();<br/>&nbsp&nbspassertTrue(d&nbspinstanceof&nbspPublicCloneable);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_CheckDinstanceofPublicCloneable",
+        "DataExportTag":"Q43",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID43"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID44",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspservlet.doGet(req,&nbspres);<br/>&nbsp&nbspassertEquals(image/png,&nbspres.getContentType());<br/>&nbsp&nbspassertTrue(res.hasOutput());<br/>}</code><br/><br/>Generated Name:<br/><br/>test_getContentType_HasOutput_DoGet",
+        "DataExportTag":"Q44",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID44"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID45",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbsptry&nbsp{<br/>&nbsp&nbsp&nbsp&nbspParameterSpec.builder(int.class,&nbspfoo).addAnnotations(null);<br/>&nbsp&nbsp&nbsp&nbspfail();<br/>&nbsp&nbsp}&nbspcatch&nbsp(Exception&nbspe)&nbsp{<br/>&nbsp&nbsp&nbsp&nbspassertThat(e.getMessage()).isEqualTo(annotationSpecs&nbsp==&nbspnull);<br/>&nbsp&nbsp}<br/>}</code><br/><br/>Generated Name:<br/><br/>test_AddAnnotations",
+        "DataExportTag":"Q45",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID45"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID46",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspRequest&nbsprequestA&nbsp=&nbspnew&nbspRequest(http//www.google.com/);<br/>&nbsp&nbspRequest&nbsprequestB&nbsp=&nbspnew&nbspRequest(http//www.google.com/);<br/>&nbsp&nbspassertThat(requestA.hashCode()).isEqualTo(requestB.hashCode());<br/>&nbsp&nbspassertThat(requestA).isEqualTo(requestB);<br/>&nbsp&nbsprequestA.setMethod(HttpConstant.Method.GET);<br/>&nbsp&nbsprequestA.setMethod(HttpConstant.Method.POST);<br/>&nbsp&nbspassertThat(requestA).isNotEqualTo(requestB);<br/>&nbsp&nbspassertThat(requestA.hashCode()).isNotEqualTo(requestB.hashCode());<br/>}</code><br/><br/>Generated Name:<br/><br/>test_Method_HashCode",
+        "DataExportTag":"Q46",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID46"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID47",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspBiMap<Integer,&nbspString>&nbspbimap&nbsp=<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspnew&nbspAbstractBiMap<Integer,&nbspString>(<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspnew&nbspIdentityHashMap<Integer,&nbspString>(),&nbspnew&nbspIdentityHashMap<String,&nbspInteger>())&nbsp{};<br/>&nbsp&nbspbimap.put(1,&nbspone);<br/>&nbsp&nbspbimap.put(2,&nbsptwo);<br/>&nbsp&nbspbimap.put(3,&nbspthree);<br/>&nbsp&nbspIterator<Entry<Integer,&nbspString>>&nbspiterator&nbsp=&nbspbimap.entrySet().iterator();<br/>&nbsp&nbspiterator.next();<br/>&nbsp&nbspiterator.next();<br/>&nbsp&nbspiterator.remove();<br/>&nbsp&nbspiterator.next();<br/>&nbsp&nbspiterator.remove();<br/>&nbsp&nbspassertEquals(1,&nbspbimap.size());<br/>&nbsp&nbspassertEquals(1,&nbspbimap.inverse().size());<br/>}</code><br/><br/>Generated Name:<br/><br/>test_EntrySet",
+        "DataExportTag":"Q47",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID47"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID48",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspdispatcher.shutdown();<br/>&nbsp&nbspverify(context).unregisterReceiver(dispatcher.receiver);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_CheckUnregisterReceiverdispatcherReceiver",
+        "DataExportTag":"Q48",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID48"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID49",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspRBlockingQueueReactive<Integer>&nbspqueue&nbsp=&nbspredisson.getBlockingQueue(test);<br/>&nbsp&nbspList<Integer>&nbspelements&nbsp=&nbspnew&nbspArrayList<>();<br/>&nbsp&nbspqueue<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp.takeElements()<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp.subscribe(<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspnew&nbspSubscriber<Integer>()&nbsp{<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp@Override<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsppublic&nbspvoid&nbsponSubscribe(Subscription&nbsps)&nbsp{<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsps.request(4);<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}<br/><br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp@Override<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsppublic&nbspvoid&nbsponNext(Integer&nbspt)&nbsp{<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspelements.add(t);<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}<br/><br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp@Override<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsppublic&nbspvoid&nbsponError(Throwable&nbspt)&nbsp{}<br/><br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp@Override<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsppublic&nbspvoid&nbsponComplete()&nbsp{}<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp});<br/>&nbsp&nbspfor&nbsp(int&nbspi&nbsp=&nbsp0;&nbspi&nbsp<&nbsp10;&nbspi++)&nbsp{<br/>&nbsp&nbsp&nbsp&nbspsync(queue.add(i));<br/>&nbsp&nbsp}<br/>&nbsp&nbspassertThat(elements).containsExactly(0,&nbsp1,&nbsp2,&nbsp3);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_TakeElements",
+        "DataExportTag":"Q49",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID49"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID50",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspcheckIllegalArgumentException(0,&nbsp1,&nbsp1,&nbsp1,&nbsp1);<br/>&nbsp&nbspcheckIllegalArgumentException(1,&nbsp0,&nbsp1,&nbsp1,&nbsp1);<br/>&nbsp&nbspcheckIllegalArgumentException(1,&nbsp1,&nbsp0,&nbsp1,&nbsp1);<br/>&nbsp&nbspcheckIllegalArgumentException(1,&nbsp1,&nbsp1,&nbsp0,&nbsp1);<br/>&nbsp&nbspcheckIllegalArgumentException(1,&nbsp1,&nbsp1,&nbsp181,&nbsp1);<br/>&nbsp&nbspcheckIllegalArgumentException(1,&nbsp1,&nbsp1,&nbsp1,&nbsp0);<br/>&nbsp&nbspcheckIllegalArgumentException(1,&nbsp1,&nbsp1,&nbsp1,&nbsp361);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_CheckIllegalArgumentException",
+        "DataExportTag":"Q50",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID50"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID51",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspModel&nbspmodel&nbsp=&nbspnew&nbspModel();<br/>&nbsp&nbspmodel.id&nbsp=&nbsp1001;<br/>&nbsp&nbspmodel.name&nbsp=&nbsp中文名称;<br/>&nbsp&nbspByteArrayOutputStream&nbspos&nbsp=&nbspnew&nbspByteArrayOutputStream();<br/>&nbsp&nbspJSON.writeJSONString(os,&nbspmodel);<br/>&nbsp&nbspos.close();<br/>&nbsp&nbspbyte[]&nbspbytes&nbsp=&nbspos.toByteArray();<br/>&nbsp&nbspString&nbsptext&nbsp=&nbspnew&nbspString(bytes,&nbspUTF-8);<br/>&nbsp&nbspAssert.assertEquals({id1001,name中文名称},&nbsptext);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_WriteJSONString",
+        "DataExportTag":"Q51",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID51"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID52",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspAfterFilter&nbspfilter&nbsp=<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspnew&nbspAfterFilter()&nbsp{<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp@Override<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsppublic&nbspvoid&nbspwriteAfter(Object&nbspobject)&nbsp{<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspthis.writeKeyValue(id,&nbsp123);<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspthis.writeKeyValue(name,&nbspwenshao);<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp};<br/>&nbsp&nbspAssert.assertEquals({id123,namewenshao},&nbspJSON.toJSONString(new&nbspVO(),&nbspfilter));<br/>}</code><br/><br/>Generated Name:<br/><br/>test_NameWenshao",
+        "DataExportTag":"Q52",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID52"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID53",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspMagicConstructor&nbspfromJson&nbsp=&nbspfromJson(MagicConstructor.class,&nbsp{a8});<br/>&nbsp&nbspassertThat(fromJson.a).isEqualTo(8);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_MagicConstructorClassA8",
+        "DataExportTag":"Q53",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID53"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID54",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspWildcardType&nbsptype&nbsp=&nbspTypes.subtypeOf(String.class);<br/>&nbsp&nbspassertVisited(type);<br/>&nbsp&nbspnew&nbspBaseTypeVisitor()&nbsp{<br/>&nbsp&nbsp&nbsp&nbsp@Override<br/>&nbsp&nbsp&nbsp&nbspvoid&nbspvisitWildcardType(WildcardType&nbspt)&nbsp{}<br/>&nbsp&nbsp}.visit(type);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_TypesSubtypeOf_StringClass",
+        "DataExportTag":"Q54",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID54"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID55",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspBitmapTarget&nbspbad&nbsp=<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspnew&nbspBitmapTarget()&nbsp{<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp@Override<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsppublic&nbspvoid&nbsponBitmapLoaded(Bitmap&nbspbitmap,&nbspPicasso.LoadedFrom&nbspfrom)&nbsp{<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspbitmap.recycle();<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}<br/><br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp@Override<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsppublic&nbspvoid&nbsponBitmapFailed(Exception&nbspe,&nbspDrawable&nbsperrorDrawable)&nbsp{<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspthrow&nbspnew&nbspAssertionError();<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}<br/><br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp@Override<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsppublic&nbspvoid&nbsponPrepareLoad(Drawable&nbspplaceHolderDrawable)&nbsp{<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspthrow&nbspnew&nbspAssertionError();<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp};<br/>&nbsp&nbspPicasso&nbsppicasso&nbsp=&nbspmock(Picasso.class);<br/>&nbsp&nbspBitmap&nbspbitmap&nbsp=&nbspmakeBitmap();<br/>&nbsp&nbspBitmapTargetAction&nbsptr&nbsp=&nbspnew&nbspBitmapTargetAction(picasso,&nbspbad,&nbspnull,&nbspnull,&nbsp0);<br/>&nbsp&nbsptry&nbsp{<br/>&nbsp&nbsp&nbsp&nbsptr.complete(new&nbspRequestHandler.Result(bitmap,&nbspMEMORY));<br/>&nbsp&nbsp&nbsp&nbspfail();<br/>&nbsp&nbsp}&nbspcatch&nbsp(IllegalStateException&nbspignored)&nbsp{<br/>&nbsp&nbsp}<br/>}</code><br/><br/>Generated Name:<br/><br/>test_Recycle",
+        "DataExportTag":"Q55",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID55"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID56",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspMoshi&nbspmoshi&nbsp=&nbspnew&nbspMoshi.Builder().add(new&nbspPointWriterAndReaderJsonAdapter()).build();<br/>&nbsp&nbspJsonAdapter<Point>&nbsppointAdapter&nbsp=&nbspmoshi.adapter(Point.class);<br/>&nbsp&nbspassertThat(pointAdapter.toJson(new&nbspPoint(5,&nbsp8))).isEqualTo([5,8]);<br/>&nbsp&nbspassertThat(pointAdapter.fromJson([5,8])).isEqualTo(new&nbspPoint(5,&nbsp8));<br/>}</code><br/><br/>Generated Name:<br/><br/>test_NewMoshiBuilderAddnewPointWriterAndReaderJsonAdapterBuild",
+        "DataExportTag":"Q56",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID56"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID57",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspConfig&nbspconfig&nbsp=&nbspcreateConfig();<br/>&nbsp&nbspconfig.useSingleServer().setConnectionMinimumIdleSize(1).setConnectionPoolSize(1);<br/>&nbsp&nbspRedissonClient&nbspredisson&nbsp=&nbspRedisson.create(config);<br/>&nbsp&nbsptry&nbsp{<br/>&nbsp&nbsp&nbsp&nbspbatchOptions.skipResult().syncSlaves(2,&nbsp1,&nbspTimeUnit.SECONDS);<br/>&nbsp&nbsp&nbsp&nbspRBatch&nbspbatch&nbsp=&nbspredisson.createBatch(batchOptions);<br/>&nbsp&nbsp&nbsp&nbspRBucketAsync<Integer>&nbspbucket&nbsp=&nbspbatch.getBucket(1);<br/>&nbsp&nbsp&nbsp&nbspbucket.setAsync(1);<br/>&nbsp&nbsp&nbsp&nbspbatch.execute();<br/>&nbsp&nbsp&nbsp&nbspString[]&nbspt&nbsp=&nbspredisson.getKeys().getKeysStreamByPattern(*).toArray(String[]new);<br/>&nbsp&nbsp}&nbspcatch&nbsp(Exception&nbspex)&nbsp{<br/>&nbsp&nbsp&nbsp&nbspex.printStackTrace();<br/>&nbsp&nbsp}<br/>}</code><br/><br/>Generated Name:<br/><br/>test_KeysStreamByPattern_ToArray",
+        "DataExportTag":"Q57",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID57"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID58",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspSerializeWriter&nbspwriter&nbsp=&nbspnew&nbspSerializeWriter();<br/>&nbsp&nbspwriter.config(SerializerFeature.WriteEnumUsingToString,&nbsptrue);<br/>&nbsp&nbspAssert.assertTrue(writer.isEnabled(SerializerFeature.WriteEnumUsingToString));<br/>&nbsp&nbspwriter.config(SerializerFeature.WriteEnumUsingName,&nbsptrue);<br/>&nbsp&nbspAssert.assertTrue(writer.isEnabled(SerializerFeature.WriteEnumUsingName));<br/>&nbsp&nbspAssert.assertFalse(writer.isEnabled(SerializerFeature.WriteEnumUsingToString));<br/>&nbsp&nbspwriter.config(SerializerFeature.WriteEnumUsingToString,&nbsptrue);<br/>&nbsp&nbspAssert.assertTrue(writer.isEnabled(SerializerFeature.WriteEnumUsingToString));<br/>&nbsp&nbspAssert.assertFalse(writer.isEnabled(SerializerFeature.WriteEnumUsingName));<br/>}</code><br/><br/>Generated Name:<br/><br/>test_Config_IsEnabled",
+        "DataExportTag":"Q58",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID58"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID59",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspString&nbspstatus&nbsp=&nbspjedis.aclSetUser(USER_ZZZ);<br/>&nbsp&nbspassertEquals(OK,&nbspstatus);<br/>&nbsp&nbspassertEquals(2,&nbspjedis.aclList().size());<br/>&nbsp&nbspassertEquals(2,&nbspjedis.aclListBinary().size());<br/>&nbsp&nbspjedis.aclDelUser(USER_ZZZ);<br/>&nbsp&nbspassertEquals(1,&nbspjedis.aclList().size());<br/>&nbsp&nbspassertEquals(1,&nbspjedis.aclListBinary().size());<br/>}</code><br/><br/>Generated Name:<br/><br/>test_CheckTwoJedisAclListBinarySize",
+        "DataExportTag":"Q59",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID59"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID60",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspMockitoAnnotations.initMocks(<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspnew&nbspObject()&nbsp{<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp@InjectMocks&nbsp@Captor&nbspArgumentCaptor<?>&nbspcaptor;<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp});<br/>}</code><br/><br/>Generated Name:<br/><br/>test_NewObjectInjectMocksCaptorArgumentCaptorcaptor",
+        "DataExportTag":"Q60",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID60"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID61",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspmod.draw(getTestDrawingEnvironment(),&nbsp0,&nbsp0,&nbsp0,&nbsp0);<br/>&nbsp&nbspassertTrue(m1.wasDrawn());<br/>&nbsp&nbspassertTrue(m2.wasDrawn());<br/>&nbsp&nbspassertTrue(m3.wasDrawn());<br/>}</code><br/><br/>Generated Name:<br/><br/>test_WasDrawn",
+        "DataExportTag":"Q61",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID61"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID62",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspCategoryPlot&nbspplot&nbsp=&nbsp(CategoryPlot)&nbspthis.chart.getPlot();<br/>&nbsp&nbspCategoryItemRenderer&nbsprenderer&nbsp=&nbspplot.getRenderer();<br/>&nbsp&nbspStandardCategoryURLGenerator&nbspurl1&nbsp=&nbspnew&nbspStandardCategoryURLGenerator();<br/>&nbsp&nbsprenderer.setSeriesItemURLGenerator(0,&nbspurl1);<br/>&nbsp&nbspCategoryURLGenerator&nbspurl2&nbsp=&nbsprenderer.getItemURLGenerator(0,&nbsp0);<br/>&nbsp&nbspassertSame(url2,&nbspurl1);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_ItemURLGenerator_SeriesItemURLGenerator",
+        "DataExportTag":"Q62",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID62"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID63",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspCategoryPlot&nbspplot&nbsp=&nbsp(CategoryPlot)&nbspthis.chart.getPlot();<br/>&nbsp&nbspCategoryItemRenderer&nbsprenderer&nbsp=&nbspplot.getRenderer();<br/>&nbsp&nbspStandardCategoryToolTipGenerator&nbsptt&nbsp=&nbspnew&nbspStandardCategoryToolTipGenerator();<br/>&nbsp&nbsprenderer.setSeriesToolTipGenerator(0,&nbsptt);<br/>&nbsp&nbspCategoryToolTipGenerator&nbsptt2&nbsp=&nbsprenderer.getToolTipGenerator(0,&nbsp0);<br/>&nbsp&nbspassertSame(tt2,&nbsptt);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_SeriesToolTipGenerator_ToolTipGenerator",
+        "DataExportTag":"Q63",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID63"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID64",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspTransientFields&nbspvalue&nbsp=&nbspnew&nbspTransientFields();<br/>&nbsp&nbspvalue.a&nbsp=&nbsp11;<br/>&nbsp&nbspvalue.b&nbsp=&nbsp12;<br/>&nbsp&nbspString&nbsptoJson&nbsp=&nbsptoJson(TransientFields.class,&nbspvalue);<br/>&nbsp&nbspassertThat(toJson).isEqualTo({b12});<br/>&nbsp&nbspTransientFields&nbspfromJson&nbsp=&nbspfromJson(TransientFields.class,&nbsp{a13,b12});<br/>&nbsp&nbspassertThat(fromJson.a).isEqualTo(0);<br/>&nbsp&nbspassertThat(fromJson.b).isEqualTo(12);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_TransientFieldsClassA13B12_TransientFieldsClassValue",
+        "DataExportTag":"Q64",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID64"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID65",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspmockOne.simpleMethod(100);<br/>&nbsp&nbspmockTwo.simpleMethod(200);<br/>&nbsp&nbspmockOne.simpleMethod(300);<br/>&nbsp&nbspList<Invocation>&nbspinvocations&nbsp=&nbspfind(asList(mockOne,&nbspmockTwo));<br/>&nbsp&nbspassertEquals(3,&nbspinvocations.size());<br/>&nbsp&nbspassertArgumentEquals(100,&nbspinvocations.get(0));<br/>&nbsp&nbspassertArgumentEquals(200,&nbspinvocations.get(1));<br/>&nbsp&nbspassertArgumentEquals(300,&nbspinvocations.get(2));<br/>}</code><br/><br/>Generated Name:<br/><br/>test_CheckInvocationsZero_CheckInvocationsOne_CheckInvocationsTwo",
+        "DataExportTag":"Q65",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID65"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID66",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspexec(io.socket.client.executions.Connection);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_IoSocketClientExecutionsConnection",
+        "DataExportTag":"Q66",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID66"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID67",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspassertEquals(3,&nbsp(int)&nbspmod.draw(getTestDrawingEnvironment(),&nbsp0,&nbsp0,&nbsp1,&nbsp1));<br/>}</code><br/><br/>Generated Name:<br/><br/>test_GetTestDrawingEnvironment",
+        "DataExportTag":"Q67",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID67"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID68",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspJedisPool&nbsppool0&nbsp=<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspnew&nbspJedisPool(new&nbspJedisPoolConfig(),&nbsphnp.getHost(),&nbsphnp.getPort(),&nbsp2000,&nbspfoobared);<br/>&nbsp&nbspJedis&nbspjedis0&nbsp=&nbsppool0.getResource();<br/>&nbsp&nbspjedis0.set(foo,&nbspbar);<br/>&nbsp&nbspassertEquals(bar,&nbspjedis0.get(foo));<br/>&nbsp&nbspjedis0.close();<br/>&nbsp&nbsppool0.destroy();<br/>&nbsp&nbspassertTrue(pool0.isClosed());<br/>&nbsp&nbspJedisPool&nbsppool1&nbsp=<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspnew&nbspJedisPool(new&nbspJedisPoolConfig(),&nbsphnp.getHost(),&nbsphnp.getPort(),&nbsp2000,&nbspfoobared,&nbsp1);<br/>&nbsp&nbspJedis&nbspjedis1&nbsp=&nbsppool1.getResource();<br/>&nbsp&nbspassertNull(jedis1.get(foo));<br/>&nbsp&nbspjedis1.close();<br/>&nbsp&nbsppool1.destroy();<br/>&nbsp&nbspassertTrue(pool1.isClosed());<br/>}</code><br/><br/>Generated Name:<br/><br/>test_CheckJedisZeroFoo_CheckJedisOneFoo_CheckPoolOneIsClosed",
+        "DataExportTag":"Q68",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID68"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID69",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspBitmap&nbspbitmap&nbsp=&nbspmakeBitmap();<br/>&nbsp&nbspBitmapTarget&nbsptarget&nbsp=&nbspmockTarget();<br/>&nbsp&nbspBitmapTargetAction&nbsprequest&nbsp=&nbspnew&nbspBitmapTargetAction(mock(Picasso.class),&nbsptarget,&nbspnull,&nbspnull,&nbsp0);<br/>&nbsp&nbsprequest.complete(new&nbspRequestHandler.Result(bitmap,&nbspMEMORY));<br/>&nbsp&nbspverify(target).onBitmapLoaded(bitmap,&nbspMEMORY);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_CheckOnBitmapLoadedbitmapMEMORY",
+        "DataExportTag":"Q69",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID69"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID70",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspTypeName.BOOLEAN.annotated((AnnotationSpec[])&nbspnull);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_AnnotationSpecnull",
+        "DataExportTag":"Q70",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID70"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID71",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspfinal&nbspToken&nbspexpected&nbsp=&nbspnew&nbspOAuth1AccessToken(access,&nbspsecret,&nbspresponse);<br/>&nbsp&nbspassertNotSame(expected,&nbspnull);<br/>&nbsp&nbspassertNotSame(expected,&nbspnew&nbspObject());<br/>}</code><br/><br/>Generated Name:<br/><br/>test_CheckNewObject_CheckNull",
+        "DataExportTag":"Q71",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID71"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID72",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspAfterFilter&nbspfilter&nbsp=<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspnew&nbspAfterFilter()&nbsp{<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp@Override<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsppublic&nbspvoid&nbspwriteAfter(Object&nbspobject)&nbsp{<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspthis.writeKeyValue(id,&nbsp123);<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp}<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp};<br/>&nbsp&nbspAssert.assertEquals({id123},&nbspJSON.toJSONString(new&nbspVO(),&nbspfilter));<br/>}</code><br/><br/>Generated Name:<br/><br/>test_CheckIdOneTwoThree",
+        "DataExportTag":"Q72",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID72"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID73",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspBiMap<Integer,&nbspString>&nbspbimap&nbsp=<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspnew&nbspAbstractBiMap<Integer,&nbspString>(<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspnew&nbspIdentityHashMap<Integer,&nbspString>(),&nbspnew&nbspIdentityHashMap<String,&nbspInteger>())&nbsp{};<br/>&nbsp&nbspbimap.put(1,&nbspone);<br/>&nbsp&nbspbimap.put(2,&nbsptwo);<br/>&nbsp&nbspbimap.put(3,&nbspthree);<br/>&nbsp&nbspIterator<Integer>&nbspiterator&nbsp=&nbspbimap.keySet().iterator();<br/>&nbsp&nbspiterator.next();<br/>&nbsp&nbspiterator.next();<br/>&nbsp&nbspiterator.remove();<br/>&nbsp&nbspiterator.next();<br/>&nbsp&nbspiterator.remove();<br/>&nbsp&nbspassertEquals(1,&nbspbimap.size());<br/>&nbsp&nbspassertEquals(1,&nbspbimap.inverse().size());<br/>}</code><br/><br/>Generated Name:<br/><br/>test_KeySet",
+        "DataExportTag":"Q73",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID73"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID74",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspexec(io.socket.client.executions.ImmediateClose);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_IoSocketClientExecutionsImmediateClose",
+        "DataExportTag":"Q74",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID74"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID75",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspNoArgConstructorWithDefaultField&nbspfromJson&nbsp=<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspfromJson(NoArgConstructorWithDefaultField.class,&nbsp{b8});<br/>&nbsp&nbspassertThat(fromJson.a).isEqualTo(5);<br/>&nbsp&nbspassertThat(fromJson.b).isEqualTo(8);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_NoArgConstructorWithDefaultFieldClassB8",
+        "DataExportTag":"Q75",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID75"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID76",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspAssert.assertEquals(<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp男,&nbspJSON.toJSONString(Sex.M,&nbspSerializerFeature.WriteEnumUsingToString));<br/>&nbsp&nbspAssert.assertEquals(<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp女,&nbspJSON.toJSONString(Sex.W,&nbspSerializerFeature.WriteEnumUsingToString));<br/>}</code><br/><br/>Generated Name:<br/><br/>test_SexWSerializerFeatureWriteEnumUsingToString",
+        "DataExportTag":"Q76",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID76"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID77",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspSparkTestUtil.UrlResponse&nbspresponse&nbsp=&nbspfirstClient.doMethod(GET,&nbsp/css/style.css,&nbspnull);<br/>&nbsp&nbspAssert.assertEquals(404,&nbspresponse.status);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_FirstClientDoMethodGETCssstyleCssNull",
+        "DataExportTag":"Q77",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID77"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID78",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspConverter<String,&nbspLong>&nbspconverter&nbsp=&nbspSTR_TO_LONG;<br/>&nbsp&nbspassertEquals(converter,&nbspconverter.reverse().reverse());<br/>}</code><br/><br/>Generated Name:<br/><br/>test_CheckConverterReverseReverse",
+        "DataExportTag":"Q78",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID78"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID79",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspImageView&nbsptarget&nbsp=&nbspmockFitImageViewTarget(true);<br/>&nbsp&nbspwhen(target.getWindowToken()).thenReturn(null);<br/>&nbsp&nbspViewTreeObserver&nbspobserver&nbsp=&nbsptarget.getViewTreeObserver();<br/>&nbsp&nbspDeferredRequestCreator&nbsprequest&nbsp=<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspnew&nbspDeferredRequestCreator(mock(RequestCreator.class),&nbsptarget,&nbspnull);<br/>&nbsp&nbspverify(target).addOnAttachStateChangeListener(request);<br/>&nbsp&nbspverifyNoMoreInteractions(observer);<br/>&nbsp&nbsprequest.onViewAttachedToWindow(target);<br/>&nbsp&nbspverify(observer).addOnPreDrawListener(request);<br/>&nbsp&nbsprequest.onViewDetachedFromWindow(target);<br/>&nbsp&nbspverify(observer).removeOnPreDrawListener(request);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_WindowToken_OnViewAttachedToWindow_OnViewDetachedFromWindow",
+        "DataExportTag":"Q79",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID79"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID80",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspString&nbspstatus&nbsp=&nbspjedis.set(foo1,&nbspbar1);<br/>&nbsp&nbspassertEquals(OK,&nbspstatus);<br/>&nbsp&nbspstatus&nbsp=&nbspjedis.set(foo2,&nbspbar2);<br/>&nbsp&nbspassertEquals(OK,&nbspstatus);<br/>&nbsp&nbsplong&nbspreply&nbsp=&nbspjedis.exists(foo1,&nbspfoo2);<br/>&nbsp&nbspassertEquals(2,&nbspreply);<br/>&nbsp&nbsplong&nbsplreply&nbsp=&nbspjedis.del(foo1);<br/>&nbsp&nbspassertEquals(1,&nbsplreply);<br/>&nbsp&nbspreply&nbsp=&nbspjedis.exists(foo1,&nbspfoo2);<br/>&nbsp&nbspassertEquals(1,&nbspreply);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_CheckTwoReply",
+        "DataExportTag":"Q80",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID80"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID81",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspRequest&nbsprequest&nbsp=&nbspnew&nbspRequest(a);<br/>&nbsp&nbsprequest.setPriority(100);<br/>&nbsp&nbsppriorityScheduler.push(request,&nbsptask);<br/>&nbsp&nbsprequest&nbsp=&nbspnew&nbspRequest(b);<br/>&nbsp&nbsprequest.setPriority(900);<br/>&nbsp&nbsppriorityScheduler.push(request,&nbsptask);<br/>&nbsp&nbsprequest&nbsp=&nbspnew&nbspRequest(c);<br/>&nbsp&nbsppriorityScheduler.push(request,&nbsptask);<br/>&nbsp&nbsprequest&nbsp=&nbspnew&nbspRequest(d);<br/>&nbsp&nbsprequest.setPriority(-900);<br/>&nbsp&nbsppriorityScheduler.push(request,&nbsptask);<br/>&nbsp&nbspRequest&nbsppoll&nbsp=&nbsppriorityScheduler.poll(task);<br/>&nbsp&nbspAssert.assertEquals(b,&nbsppoll.getUrl());<br/>&nbsp&nbsppoll&nbsp=&nbsppriorityScheduler.poll(task);<br/>&nbsp&nbspAssert.assertEquals(a,&nbsppoll.getUrl());<br/>&nbsp&nbsppoll&nbsp=&nbsppriorityScheduler.poll(task);<br/>&nbsp&nbspAssert.assertEquals(c,&nbsppoll.getUrl());<br/>&nbsp&nbsppoll&nbsp=&nbsppriorityScheduler.poll(task);<br/>&nbsp&nbspAssert.assertEquals(d,&nbsppoll.getUrl());<br/>}</code><br/><br/>Generated Name:<br/><br/>test_SetPriority",
+        "DataExportTag":"Q81",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID81"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID82",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspTypeName&nbsptype&nbsp=&nbspParameterizedTypeName.get(List.class,&nbspString.class);<br/>&nbsp&nbspTypeName&nbspactual&nbsp=&nbsptype.annotated(TYPE_USE_ANNOTATION);<br/>&nbsp&nbspassertThat(actual.toString()).isEqualTo(java.util.&nbsp@&nbsp+&nbspTUA&nbsp+&nbsp&nbspList<java.lang.String>);<br/>}</code><br/><br/>Generated Name:<br/><br/>test_ListClassStringClass",
+        "DataExportTag":"Q82",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID82"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID83",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspRedisProcess&nbsprunner&nbsp=&nbspnew&nbspRedisRunner().nosave().randomDir().port(6311).run();<br/>&nbsp&nbspURL&nbspconfigUrl&nbsp=&nbspgetClass().getResource(redisson-jcache.json);<br/>&nbsp&nbspConfig&nbspcfg&nbsp=&nbspConfig.fromJSON(configUrl);<br/>&nbsp&nbspConfiguration<String,&nbspString>&nbspconfig&nbsp=&nbspRedissonConfiguration.fromConfig(cfg);<br/>&nbsp&nbspCache<String,&nbspString>&nbspcache&nbsp=<br/>&nbsp&nbsp&nbsp&nbsp&nbsp&nbspCaching.getCachingProvider().getCacheManager().createCache(test,&nbspconfig);<br/>&nbsp&nbspcache.put(1,&nbsp2);<br/>&nbsp&nbspcache.clear();<br/>&nbsp&nbspassertThat(cache.get(1)).isNull();<br/>&nbsp&nbspcache.close();<br/>&nbsp&nbsprunner.stop();<br/>}</code><br/><br/>Generated Name:<br/><br/>test_Clear",
+        "DataExportTag":"Q83",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID83"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID84",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspAuthorityRule&nbspruleA&nbsp=&nbspnew&nbspAuthorityRule();<br/>&nbsp&nbspAuthorityRule&nbspruleB&nbsp=&nbspnull;<br/>&nbsp&nbspAuthorityRule&nbspruleC&nbsp=&nbspnew&nbspAuthorityRule();<br/>&nbsp&nbspruleC.setResource(abc);<br/>&nbsp&nbspAuthorityRule&nbspruleD&nbsp=&nbspnew&nbspAuthorityRule();<br/>&nbsp&nbspruleD.setResource(bcd).setLimitApp(abc);<br/>&nbsp&nbspassertFalse(AuthorityRuleManager.isValidRule(ruleA));<br/>&nbsp&nbspassertFalse(AuthorityRuleManager.isValidRule(ruleB));<br/>&nbsp&nbspassertFalse(AuthorityRuleManager.isValidRule(ruleC));<br/>&nbsp&nbspassertTrue(AuthorityRuleManager.isValidRule(ruleD));<br/>}</code><br/><br/>Generated Name:<br/><br/>test_IsValidRule",
+        "DataExportTag":"Q84",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID84"
+      }
+    },{
+      "SurveyID":"SV_a95XOKDdAB76HVX",
+      "Element":"SQ",
+      "PrimaryAttribute":"QID85",
+      "SecondaryAttribute":null,
+      "TertiaryAttribute":null,
+      "Payload":{
+        "QuestionText":"Do you think the generated name is good? if good, at which category?:<br/><br/><code>public&nbspvoid&nbspXXX()&nbsp{<br/>&nbsp&nbspMoshi&nbspmoshi&nbsp=&nbspnew&nbspMoshi.Builder().add(new&nbspPointAsListOfIntegersJsonAdapter()).build();<br/>&nbsp&nbspJsonAdapter<Point>&nbsppointAdapter&nbsp=&nbspmoshi.adapter(Point.class);<br/>&nbsp&nbspassertThat(pointAdapter.toJson(new&nbspPoint(5,&nbsp8))).isEqualTo([5,8]);<br/>&nbsp&nbspassertThat(pointAdapter.fromJson([5,8])).isEqualTo(new&nbspPoint(5,&nbsp8));<br/>}<br/><br/>static&nbspclass&nbspPointAsListOfIntegersJsonAdapter&nbsp{<br/>&nbsp&nbsp@ToJson<br/>&nbsp&nbspList<Integer>&nbsppointToJson(Point&nbsppoint)&nbsp{<br/>&nbsp&nbsp&nbsp&nbspreturn&nbspArrays.asList(point.x,&nbsppoint.y);<br/>&nbsp&nbsp}<br/><br/>&nbsp&nbsp@FromJson<br/>&nbsp&nbspPoint&nbsppointFromJson(List<Integer>&nbspo)&nbspthrows&nbspException&nbsp{<br/>&nbsp&nbsp&nbsp&nbspif&nbsp(o.size()&nbsp!=&nbsp2)&nbspthrow&nbspnew&nbspException(Expected&nbsp2&nbspelements&nbspbut&nbspwas&nbsp&nbsp+&nbspo);<br/>&nbsp&nbsp&nbsp&nbspreturn&nbspnew&nbspPoint(o.get(0),&nbspo.get(1));<br/>&nbsp&nbsp}<br/>}</code><br/><br/>Generated Name:<br/><br/>test_NewPointAsListOfIntegersJsonAdapter",
+        "DataExportTag":"Q85",
+        "QuestionType":"MC",
+        "Selector":"SAVR",
+        "SubSelector":"TX",
+        "Configuration":{
+          "QuestionDescriptionOption":"UseText"
+        },
+        "QuestionDescription": null,
+        "Choices":{"1":{"Display":"Not Good"},"2":{"Display":"Good and Complete"},"3":{"Display":"Good at being descriptive about action"},"4":{"Display":"Good at being descriptive about predicate"},"5":{"Display":"Good at being descriptive about scenario"}
+        },
+        "ChoiceOrder":[
+          1,2,3,4,5
+        ],
+        "Validation":{
+          "Settings":{
+            "ForceResponse":"OFF",
+            "ForceResponseType":"ON",
+            "Type":"None"
+          }
+        },
+        "Language":[
+        ],
+        "NextChoiceId":1,
+        "NextAnswerId":1,
+        "QuestionID":"QID85"
+      }
+    }    ]
+}
